@@ -8,10 +8,9 @@ Tested up to: 3.4
 License: GPLv2
 Completely Disable new WordPress 3.3+ and 3.4+ (only) ToolBar Frontend, Backend, related User Profile Settings, without loosing logout functionality! Thanks to olyma.
 == Description ==
-Completely Disable new WordPress 3.3+ and 3.4+ (only) ToolBar Frontend, Backend, related User Profile Settings, without loosing logout functionality!
+Completely Disable new WordPress 3.3+ and 3.4+ (only) ToolBar Frontend, Backend, related User Profile Settings, without loosing logout functionality! Completely <code>Remove Code</code> for minimal memory load, with new approach.
 
 Thanks to [olyma](http://wordpress.org/extend/plugins/one-click-logout-barless/)
-
 * Try also:
  * [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/)
  * [WP Missed Schedule](http://wordpress.org/extend/plugins/wp-missed-schedule/)
@@ -20,7 +19,6 @@ Thanks to [olyma](http://wordpress.org/extend/plugins/one-click-logout-barless/)
  * [Noindex (login) WordPress Deindexing](http://wordpress.org/extend/plugins/wp-login-deindexing/)
  * [Noindex (total) WordPress Deindexing](http://wordpress.org/extend/plugins/wp-total-deindexing/)
  * [IE Enhancer and Modernizer](http://wordpress.org/extend/plugins/wp-ie-enhancer-and-modernizer/)
-
 Work under [GPLv2](http://www.gnu.org/licenses/gpl-2.0.html) License.
 
-Author URL sLa is moved to [sLaNGjI](http://wordpress.org/extend/plugins/profile/slangji). Please update your bookmarks!
+Author URL [sLa](http://wordpress.org/extend/plugins/profile/sla) is moved to [sLaNGjI](http://wordpress.org/extend/plugins/profile/slangji). Please update your bookmarks!
