@@ -34,8 +34,8 @@ the latest build always! This plugin work under GPLv2 license.`
 * Release Candidate [STABLE] Full WordPress 3.3+ Compatible.
  * Please update as soon possible!
  * Maximun Free Memory Optimized
- * Preemptive support WP 3.4-alpha-20175
+ * Preemptive support WP 3.4-alpha-20192
  * Bump Version 2012 Build 0314 Revision 1252
 == Upgrade Notice ==
 = 2012.0314.1152 =
-* Release Candidate [STABLE] Full WordPress 3.3+ Compatible. Preemptive support WP 3.4-alpha-20175
+* Release Candidate [STABLE] Full WordPress 3.3+ Compatible. Preemptive support WP 3.4-alpha-20192
