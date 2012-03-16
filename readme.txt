@@ -2,7 +2,7 @@
 Contributors: sLaNGjI
 Donate link: http://lcsn.net/donate/
 Tags: sLa,sLaNGji
-Stable tag: 2012.0314.1252
+Stable tag: 2012.0314.1152
 Requires at least: 3.3
 Tested up to: 3.4
 License: GPLv2
@@ -30,12 +30,12 @@ and no longer supported on this project: is very suggested upgrade to
 the latest build always! This plugin work under GPLv2 license.`
 = Development Release =
 [Version 2012.0315-BUGFIX.0000-DEVELOPMENTAL](http://downloads.wordpress.org/plugin/wp-toolbar-removal.zip)
-= 2012.0314.1252 =
+= 2012.0314.1152 =
 * Release Candidate [STABLE] Full WordPress 3.3+ Compatible.
  * Please update as soon possible!
  * Maximun Free Memory Optimized
  * Preemptive support WP 3.4-alpha-20175
  * Bump Version 2012 Build 0314 Revision 1252
 == Upgrade Notice ==
-= 2012.0314.1252 =
+= 2012.0314.1152 =
 * Release Candidate [STABLE] Full WordPress 3.3+ Compatible. Preemptive support WP 3.4-alpha-20175
