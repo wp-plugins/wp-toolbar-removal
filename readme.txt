@@ -1,0 +1,26 @@
+=== ToolBar Removal (3.3+ / 3.4+ only) RC ===
+Contributors: sLaNGjI
+Donate link: http://lcsn.net/donate/
+Tags: sLa,sLaNGji
+Stable tag: 2012.0314.1252
+Requires at least: 3.3
+Tested up to: 3.4
+License: GPLv2
+Completely Disable new WordPress 3.3+ and 3.4+ (only) ToolBar Frontend, Backend, related User Profile Settings, without loosing logout functionality! Thanks to olyma.
+== Description ==
+Completely Disable new WordPress 3.3+ and 3.4+ (only) ToolBar Frontend, Backend, related User Profile Settings, without loosing logout functionality!
+
+Thanks to [olyma](http://wordpress.org/extend/plugins/one-click-logout-barless/)
+
+* Try also:
+ * [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/)
+ * [WP Missed Schedule](http://wordpress.org/extend/plugins/wp-missed-schedule/)
+ * [WP Admin Bar Removal](http://wordpress.org/extend/plugins/wp-admin-bar-removal/)
+ * [WP Toolbar Node Removal](http://wordpress.org/extend/plugins/wp-toolbar-node-removal/)
+ * [Noindex (login) WordPress Deindexing](http://wordpress.org/extend/plugins/wp-login-deindexing/)
+ * [Noindex (total) WordPress Deindexing](http://wordpress.org/extend/plugins/wp-total-deindexing/)
+ * [IE Enhancer and Modernizer](http://wordpress.org/extend/plugins/wp-ie-enhancer-and-modernizer/)
+
+Work under [GPLv2](http://www.gnu.org/licenses/gpl-2.0.html) License.
+
+Author URL sLa is moved to [sLaNGjI](http://wordpress.org/extend/plugins/profile/slangji). Please update your bookmarks!
