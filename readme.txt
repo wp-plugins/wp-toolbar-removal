@@ -36,6 +36,7 @@ This plugin work under GPLv2 license.`
  * Please update as soon possible!
  * Maximun Free Memory Optimized
  * Preemptive support WP 3.4-alpha-20192
+ * Work under GPLv2 license
  * Bump Version 2012 Build 0314 Revision 1152
 == Upgrade Notice ==
 = 2012.0314.1152 =
