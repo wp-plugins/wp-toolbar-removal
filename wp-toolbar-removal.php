@@ -36,7 +36,7 @@ License: GPLv2
  * according to the terms of the GNU General Public License version 2 (or later)
  *
  * Copyright © 2011 olyma (rackofpower.com)
- * Copyright © 2010-2012 [sLaNGjI](http://wordpress.org/extend/plugins/profile/slangji) (slangji [at] gmail [dot] com)
+ * Copyright © 2010-2012 [sLa](http://wordpress.org/extend/plugins/profile/slangji) (slangji [at] gmail [dot] com)
  */
 /**
  * @package ToolBar Removal
