@@ -28,6 +28,8 @@ License: GPLv2
  *  along with this program; if not, write to the Free Software
  *  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  *
+ *  The license for this software can be found @ www.gnu.org/licenses/gpl-2.0.html
+ *
  * This uses code derived from
  * one-click-logout-barless.php by olyma <rackofpower.com> 
  * wp-admin-bar-removal.php by sLa <slangji [at] gmail [dot] com>
