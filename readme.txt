@@ -25,9 +25,10 @@ Work under [GPLv2](http://www.gnu.org/licenses/gpl-2.0.html) License.
 
 Author URL [sLa](http://wordpress.org/extend/plugins/profile/sla) is moved to [sLaNGjI](http://wordpress.org/extend/plugins/profile/slangji). Please update your bookmarks!
 == Changelog ==
-`All previous release, prior of latest stable, are on fact deprecated,
-and no longer supported on this project: is very suggested upgrade to
-the latest build always! This plugin work under GPLv2 license.`
+`All previous release, prior of latest stable, are on fact
+deprecated, and no longer supported on this project:
+is very suggested upgrade to the latest build always!
+This plugin work under GPLv2 license.`
 = Development Release =
 [Version 2012.0315-BUGFIX.0000-DEVELOPMENTAL](http://downloads.wordpress.org/plugin/wp-toolbar-removal.zip)
 = 2012.0314.1152 =
@@ -35,7 +36,7 @@ the latest build always! This plugin work under GPLv2 license.`
  * Please update as soon possible!
  * Maximun Free Memory Optimized
  * Preemptive support WP 3.4-alpha-20192
- * Bump Version 2012 Build 0314 Revision 1252
+ * Bump Version 2012 Build 0314 Revision 1152
 == Upgrade Notice ==
 = 2012.0314.1152 =
 * Release Candidate [STABLE] Full WordPress 3.3+ Compatible. Preemptive support WP 3.4-alpha-20192
