@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: ToolBar Removal (3.3+ / 3.4+ only) RC
-Plugin URI: slangji.wordpress.com/wp-toolbar-removal/
+Plugin URI: http://slangji.wordpress.com/wp-toolbar-removal/
 Description: Completely <code>Disable</code> new WordPress 3.3+ and 3.4+ (only) <code>ToolBar</code> Frontend, Backend, related User Profile Settings, without loosing logout functionality! Completely <code>Remove Code</code> for minimal memory load, with new approach. Work under GPLv2 License. (RELEASE CANDIDATE VERSION) Thanks to [olyma](http://wordpress.org/extend/plugins/one-click-logout-barless/) | <a href="http://lcsn.net/donate/" title="Free Donation">Donate</a> | <a href="http://wordpress.org/extend/plugins/wp-overview-lite/" title="Show Dashboard Overview and Memory Load Usage on Footer">WP Overview?</a> | <a href="http://wordpress.org/extend/plugins/wp-missed-schedule/" title="Fix Missed Scheduled Future Posts Cron Job">WP Missed Schedule?</a> | <a href="http://wordpress.org/extend/plugins/wp-admin-bar-removal/" title="Remove Admin Bar Frontend Backend User and Code">Admin Bar Removal?</a> | <a href="http://wordpress.org/extend/plugins/wp-login-deindexing/" title="Total DeIndexing WordPress LogIn from all Search Engines">LogIn DeIndexing?</a> | <a href="http://wordpress.org/extend/plugins/wp-total-deindexing/" title="Total DeIndexing WordPress from all Search Engines">WP DeIndexing?</a> | <a href="http://wordpress.org/extend/plugins/wp-ie-enhancer-and-modernizer/" title="Enhancer and Modernizer IE Surfing Expirience">Enhancer IE Surfing?</a>
 Version: 2012.0314.1152
 Author: sLa
-Author URI: slangji.wordpress.com
+Author URI: http://slangji.wordpress.com/
 Requires at least: 3.3
 Tested up to: 3.4
 License: GPLv2
