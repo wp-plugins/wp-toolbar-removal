@@ -30,13 +30,15 @@ License: GPLv2
  *
  *  The license for this software can be found @ www.gnu.org/licenses/gpl-2.0.html
  *
+ *  The license for this software can be found @ http://www.gnu.org/licenses/gpl-2.0.html
+ *
  * This uses code derived from
- * one-click-logout-barless.php by olyma <rackofpower.com> 
- * wp-admin-bar-removal.php by sLa <slangji [at] gmail [dot] com>
+ * one-click-logout-barless.php by olyma <rackofpower.com>
+ * wp-admin-bar-removal.php by sLa <slangji[at]gmail[dot]com>
  * according to the terms of the GNU General Public License version 2 (or later)
  *
  * Copyright © 2011 olyma (rackofpower.com)
- * Copyright © 2010-2012 [sLa](http://wordpress.org/extend/plugins/profile/slangji) (slangji [at] gmail [dot] com)
+ * Copyright © 2010-2012 [sLa](http://wordpress.org/extend/plugins/profile/slangji) (slangji[at]gmail[dot]com)
  */
 /**
  * @package ToolBar Removal
