@@ -1,7 +1,7 @@
-=== ToolBar Removal (3.3+ / 3.4+ only) RC ===
+=== ToolBar Removal 3.3+ / 3.4+ (only) RC ===
 Contributors: sLaNGjI
 Donate link: http://lcsn.net/donate/
-Tags: sLa, sLaNGji
+Tags: sLa, sLaNGjI
 Stable tag: 2012.0314.1152
 Requires at least: 3.3
 Tested up to: 3.4
