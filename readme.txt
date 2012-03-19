@@ -1,4 +1,4 @@
-=== ToolBar Removal Completely Disable ===
+=== ToolBar Removal completely disable ===
 Contributors: sLaNGjI
 Donate link: http://lcsn.net/donate/
 Tags: sLa, sLaNGjI
