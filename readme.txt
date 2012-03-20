@@ -61,7 +61,7 @@ This plugin work under GPLv2 license.`
  * Nothing is written into your space disk
  * Nothing is written into your wp_option table
  * Work with single and multisite installation of WordPress
- * Work with Shared and VPS Hosting
+ * Work with Shared, VPS and Dedicated Hosting
  * Work under GPLv2 license
  * Bump Version 2012 Build 0319 Revision 2012
 = 2012.0314.1152 =
