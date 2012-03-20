@@ -1,7 +1,7 @@
 === ToolBar Removal completely disable ===
 Contributors: sLaNGjI
 Donate link: http://lcsn.net/donate/
-Tags: sLa, sLaNGjI
+Tags: sLa, sLaNGjI, toolbar, admin, bar, removal, hide, disable, remove, frontend, backend, code
 Stable tag: 2012.0319.2012
 Requires at least: 3.3
 Tested up to: 3.4
@@ -10,7 +10,9 @@ Completely Disable new WordPress 3.3+ and 3.4+ (only) ToolBar Frontend, Backend,
 == Description ==
 Completely Disable new WordPress 3.3+ and 3.4+ (only) ToolBar Frontend, Backend, related User Profile Settings, without loosing logout functionality! Completely <code>Remove Code</code> for minimal memory load, with new approach.
 
-The first, and only, Plugin (for now) that really work on WordPress 3.4+ and 3.3+ linked and reviewed at [softpedia.com](http://webscripts.softpedia.com/script/Modules/WordPress-Plugins/ToolBar-Removal-completely-disable-73548.html)
+The first, and only, Plugin (for now) that really work on WordPress 3.4+ and 3.3+
+
+Linked and reviewed at [softpedia.com](http://webscripts.softpedia.com/script/Modules/WordPress-Plugins/ToolBar-Removal-completely-disable-73548.html)
 
 Thanks to [olyma](http://wordpress.org/extend/plugins/one-click-logout-barless/)
 
