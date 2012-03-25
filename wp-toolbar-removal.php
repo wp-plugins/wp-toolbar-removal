@@ -10,7 +10,7 @@ Requires at least: 3.3
 Tested up to: 3.4
 License: GPLv2
  *
- * Development Release: Version 2012 Build 0320-BUGFIX Revision 0000-DEVELOPMENTAL
+ * Development Release: 2012.0325-BUGFIX.0144-DEVELOPMENTAL
  *
  * [ToolBar Removal](http://wordpress.org/extend/plugins/wp-toolbar-removal/) WordPress PlugIn
  *
