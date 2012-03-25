@@ -40,7 +40,7 @@ deprecated, and no longer supported on this project:
 is very suggested upgrade to the latest build always!
 This plugin work under GPLv2 license.`
 = Development Release =
-[Version 2012.0320-BUGFIX.0000-DEVELOPMENTAL](http://downloads.wordpress.org/plugin/wp-toolbar-removal.zip)
+[Version 2012.0325-BUGFIX.0144-DEVELOPMENTAL](http://downloads.wordpress.org/plugin/wp-toolbar-removal.zip)
 = 2012.0319.2012 =
 * Major Update [CERTIFIED] WP 3.3+ / 3.4+ [Admin Bar Removal](http://wordpress.org/extend/plugins/wp-admin-bar-removal/) Enhancement!
  * Please update as soon possible!
