@@ -1,10 +1,10 @@
 === ToolBar Removal completely disable ===
 Contributors: sLaNGjI
-Donate link: http://lcsn.net/donate/
+Donate link: http://slangji.wordpress.com/donate/
 Tags: sLa, sLaNGjI, toolbar, admin, bar, removal, hide, disable, remove, frontend, backend, code
 Stable tag: 2012.0319.2012
 Requires at least: 3.3
-Tested up to: 3.4
+Tested up to: 3.4.1
 License: GPLv2
 Completely Disable new WordPress 3.3+ and 3.4+ (only) ToolBar Frontend, Backend, related User Profile Settings, without loosing logout functionality! Thanks to olyma.
 == Description ==
