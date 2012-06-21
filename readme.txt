@@ -40,7 +40,7 @@ deprecated, and no longer supported on this project:
 is very suggested upgrade to the latest build always!
 This plugin work under GPLv2 license.`
 = Development Release =
-[Version 2012 Build 0621-BUGFIX Revision 0108-DEVELOPMENTAL](http://downloads.wordpress.org/plugin/wp-toolbar-removal.zip)
+[Version 2012 Build 0621-BUGFIX Revision 0108-DEVELOPMENT](http://downloads.wordpress.org/plugin/wp-toolbar-removal.zip)
 = 2012.0314.1152 =
 * Release Candidate 1 [STABLE] Full WP 3.3+ Compatible. Supported on WP 3.4-alpha
  * Please update as soon possible!
