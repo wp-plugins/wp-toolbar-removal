@@ -4,7 +4,7 @@ Donate link: http://slangji.wordpress.com/donate/
 Tags: sLa, sLaNGjI, toolbar, admin, bar, removal, hide, disable, remove, frontend, backend, code
 Stable tag: 2012.0319.2012
 Requires at least: 3.3
-Tested up to: 3.4.1
+Tested up to: 3.3.3
 License: GPLv2
 Completely Disable new WordPress 3.3+ and 3.4+ (only) ToolBar Frontend, Backend, related User Profile Settings, without loosing logout functionality! Thanks to olyma.
 == Description ==
@@ -40,40 +40,29 @@ deprecated, and no longer supported on this project:
 is very suggested upgrade to the latest build always!
 This plugin work under GPLv2 license.`
 = Development Release =
-[Version 2012.0325-BUGFIX.0144-DEVELOPMENTAL](http://downloads.wordpress.org/plugin/wp-toolbar-removal.zip)
+[Version 2012 Build 0621-BUGFIX Revision 0108-DEVELOPMENTAL](http://downloads.wordpress.org/plugin/wp-toolbar-removal.zip)
 = 2012.0319.2012 =
-* Major Update [CERTIFIED] WP 3.3+ / 3.4+ [Admin Bar Removal](http://wordpress.org/extend/plugins/wp-admin-bar-removal/) Enhancement!
+* Release Candidate 2 [STABLE] Full WP 3.3+ Compatible. Supported on WP 3.4-beta
  * Please update as soon possible!
- * First 2012 Major Release Certified
+ * Preemptive support WP 3.4-beta
  * Enhancement of [Admin Bar Removal](http://wordpress.org/extend/plugins/wp-admin-bar-removal/)
+ * Derived from [Admin Bar Node Removal](http://wordpress.org/extend/plugins/wp-admin-bar-node-removal/)
  * Derived from [ToolBar Node Removal](http://wordpress.org/extend/plugins/wp-toolbar-node-removal/)
  * Thanks to [olyma](http://wordpress.org/extend/plugins/one-click-logout-barless/)
- * All in One Removal (ToolBar Node Frontend Backend Profile Personal Options Code)
- * State of the Art Plugin?
- * NEW Logout functionality is not removed
- * NEW Faster Dasboard Speedup
- * NEW Maximun Free Memory
- * Full WordPress 3.3+ Support
- * Full WordPress 3.4+ Support
- * DEPRECATED all pre 3.3 WordPress Versions
- * Full Strict Security Rules Applied
- * Code Cleanup for faster loading
- * Only one unique php plugin file
- * Less Plugin Memory Consumption (1KB or no more)
- * Nothing is written into your space disk
- * Nothing is written into your wp_option table
- * Work with single and multisite installation of WordPress
- * Work with Shared, VPS and Dedicated Hosting
  * Work under GPLv2 license
  * Bump Version 2012 Build 0319 Revision 2012
 = 2012.0314.1152 =
-* Release Candidate [STABLE] Full WordPress 3.3+ Compatible.
+* Release Candidate 1 [STABLE] Full WP 3.3+ Compatible. Supported on WP 3.4-alpha
  * Please update as soon possible!
- * NEW Preemptive support WP 3.4-alpha
+ * Preemptive support WP 3.4-alpha
+ * Enhancement of [Admin Bar Removal](http://wordpress.org/extend/plugins/wp-admin-bar-removal/)
+ * Derived from [Admin Bar Node Removal](http://wordpress.org/extend/plugins/wp-admin-bar-node-removal/)
+ * Derived from [ToolBar Node Removal](http://wordpress.org/extend/plugins/wp-toolbar-node-removal/)
+ * Thanks to [olyma](http://wordpress.org/extend/plugins/one-click-logout-barless/)
  * Work under GPLv2 license
  * Bump Version 2012 Build 0314 Revision 1152
 == Upgrade Notice ==
 = 2012.0319.2012 =
-* Major Update [CERTIFIED] Full WP 3.3+ / 3.4+ Compatible. [Admin Bar Removal](http://wordpress.org/extend/plugins/wp-admin-bar-removal/) Enhancement!
+* Release Candidate 2 [STABLE] Full WP 3.3+ Compatible. Supported on WP 3.4-beta [Admin Bar Removal](http://wordpress.org/extend/plugins/wp-admin-bar-removal/) Enhancement!
 = 2012.0314.1152 =
-* Release Candidate [STABLE] Full WordPress 3.3+ Compatible. Preemptive support WP 3.4-alpha
+* Release Candidate 1 [STABLE] Full WP 3.3+ Compatible. Supported on WP 3.4-alpha [Admin Bar Removal](http://wordpress.org/extend/plugins/wp-admin-bar-removal/) Enhancement!
