@@ -14,14 +14,14 @@ All in One Removal: ToolBar - Node - Frontend - Backend - Profile Personal Optio
 
 The first and only Plugin (for now) that really work on WordPress 3.4+ / 3.3+ and supported on WordPress 3.5-alpha
 
-ToolBar Removal is [Admin Bar Removal](http://wordpress.org/extend/plugins/wp-admin-bar-removal/) Enhancement based on:
+* ToolBar Removal is [Admin Bar Removal](http://wordpress.org/extend/plugins/wp-admin-bar-removal/) Enhancement based on:
  * [Admin Bar Node Removal](http://wordpress.org/extend/plugins/wp-admin-bar-node-removal/)
  * [ToolBar Node Removal](http://wordpress.org/extend/plugins/wp-toolbar-node-removal/)
- * [One Click Logout Barless](http://wordpress.org/extend/plugins/one-click-logout-barless/)
+ * [One Click Logout Barless](http://wordpress.org/extend/plugins/one-click-logout-barless/) Thanks to [olyma](http://wordpress.org/extend/plugins/profile/olyma)!
 
 Linked and reviewed at [softpedia.com](http://webscripts.softpedia.com/script/Modules/WordPress-Plugins/ToolBar-Removal-completely-disable-73548.html)
 
-Thanks to [olyma](http://wordpress.org/extend/plugins/one-click-logout-barless/)
+Work under [GPLv2](http://www.gnu.org/licenses/gpl-2.0.html) License.
 
 * Try also:
  * [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/)
@@ -33,8 +33,6 @@ Thanks to [olyma](http://wordpress.org/extend/plugins/one-click-logout-barless/)
  * [Noindex (login) WordPress Deindexing](http://wordpress.org/extend/plugins/wp-login-deindexing/)
  * [Noindex (total) WordPress Deindexing](http://wordpress.org/extend/plugins/wp-total-deindexing/)
  * [IE Enhancer and Modernizer](http://wordpress.org/extend/plugins/wp-ie-enhancer-and-modernizer/) Linked and reviewed at [softpedia.com](http://webscripts.softpedia.com/script/Modules/WordPress-Plugins/IE-Enhancer-and-Modernizer-73546.html)
-
-Work under [GPLv2](http://www.gnu.org/licenses/gpl-2.0.html) License.
 
 Author URL [sLa](http://wordpress.org/extend/plugins/profile/sla) is moved to [sLaNGjI](http://wordpress.org/extend/plugins/profile/slangji). Please update your bookmarks!
 == Changelog ==
@@ -55,7 +53,7 @@ This plugin work under GPLv2 license.`
  * Enhancement of [Admin Bar Removal](http://wordpress.org/extend/plugins/wp-admin-bar-removal/)
  * Derived from [Admin Bar Node Removal](http://wordpress.org/extend/plugins/wp-admin-bar-node-removal/)
  * Derived from [ToolBar Node Removal](http://wordpress.org/extend/plugins/wp-toolbar-node-removal/)
- * Thanks to [olyma](http://wordpress.org/extend/plugins/one-click-logout-barless/)
+ * Derived from [One Click Logout Barless](http://wordpress.org/extend/plugins/one-click-logout-barless/)
  * Work under GPLv2 license
  * Bump Version 2012 Build 0621 Revision 0341
 = 2012.0319.2012 =
@@ -65,7 +63,7 @@ This plugin work under GPLv2 license.`
  * Enhancement of [Admin Bar Removal](http://wordpress.org/extend/plugins/wp-admin-bar-removal/)
  * Derived from [Admin Bar Node Removal](http://wordpress.org/extend/plugins/wp-admin-bar-node-removal/)
  * Derived from [ToolBar Node Removal](http://wordpress.org/extend/plugins/wp-toolbar-node-removal/)
- * Thanks to [olyma](http://wordpress.org/extend/plugins/one-click-logout-barless/)
+ * Derived from [One Click Logout Barless](http://wordpress.org/extend/plugins/one-click-logout-barless/)
  * Work under GPLv2 license
  * Bump Version 2012 Build 0319 Revision 2012
 = 2012.0314.1152 =
@@ -75,7 +73,7 @@ This plugin work under GPLv2 license.`
  * Enhancement of [Admin Bar Removal](http://wordpress.org/extend/plugins/wp-admin-bar-removal/)
  * Derived from [Admin Bar Node Removal](http://wordpress.org/extend/plugins/wp-admin-bar-node-removal/)
  * Derived from [ToolBar Node Removal](http://wordpress.org/extend/plugins/wp-toolbar-node-removal/)
- * Thanks to [olyma](http://wordpress.org/extend/plugins/one-click-logout-barless/)
+ * Derived from [One Click Logout Barless](http://wordpress.org/extend/plugins/one-click-logout-barless/)
  * Work under GPLv2 license
  * Bump Version 2012 Build 0314 Revision 1152
 == Upgrade Notice ==
