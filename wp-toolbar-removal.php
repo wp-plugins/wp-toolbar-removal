@@ -52,14 +52,23 @@ License: GPLv2 or later
  *
  * Completely Disable ToolBar Frontend, Backend, related User Profile Settings, without loosing logout functionality, and Remove Code for minimal memory load with new approach.
  */
+if(!function_exists('add_action')){header('HTTP/1.0 403 Forbidden');header('HTTP/1.1 403 Forbidden');exit();}
+
+//add_filter('init','wptbr_init');
 
 $wp_scripts = new WP_Scripts();
 wp_deregister_script( 'admin-bar' );
 $wp_styles = new WP_Styles();
 wp_deregister_style( 'admin-bar' );
 
-if(!function_exists('add_action')){header('HTTP/1.0 403 Forbidden');header('HTTP/1.1 403 Forbidden');exit();}add_filter('init','wptbr_init');//header('Status 403 Forbidden');
 function wptbr_rsb(){echo'<style type="text/css">html.wp-toolbar,html.wp-toolbar #wpcontent,html.wp-toolbar #adminmenu,html.wp-toolbar #wpadminbar,body.admin-bar,body.admin-bar #wpcontent,body.admin-bar #adminmenu,body.admin-bar #wpadminbar{padding-top:0px !important}</style>';}add_action('admin_print_styles','wptbr_rsb',21);
+
+function wptbr_rbcb() { 
+	if ( has_filter( 'wp_head', '_admin_bar_bump_cb' ) ) { 
+	remove_filter( 'wp_head', '_admin_bar_bump_cb' );
+	}
+}
+add_filter( 'wp_head', 'wptbr_rbcb', 1 );
 
 function wptbr_ngr( $wp_toolbar ) {
 
@@ -148,7 +157,7 @@ function wptbr_ngr( $wp_toolbar ) {
 	}
 	add_action( 'admin_bar_menu', 'wptbr_ngr', 999 );
 
-function wptbr_abngr () { global $wp_admin_bar;
+function wptbr_ab_ngr () { global $wp_admin_bar;
 
 	$wp_admin_bar->remove_menu( 'root-default' );
 
@@ -156,7 +165,7 @@ function wptbr_abngr () { global $wp_admin_bar;
 	$wp_admin_bar->remove_menu( 'delete-cache' );
 
 	}
-	add_action( 'wp_before_admin_bar_render', 'wptbr_abngr', 999 );
+	add_action( 'wp_before_admin_bar_render', 'wptbr_ab_ngr', 999 );
 
 function wptbr_hdr(){?><style type="text/css">table#wptbr td#wptbr_ttl a:link,table#wptbr td#wptbr_ttl a:visited{text-decoration:none}table#wptbr td#wptbr_lgt,table#wptbr td#wptbr_lgt a{text-decoration:none}</style><table style="margin-left:6px;float:left;z-index:100;position:relative;left:0px;top:0px;background:none;padding:0px;border:0px;border-bottom:1px solid #DFDFDF" id="wptbr" border=0 cols=4 width="97%" height="33"><tr><td align=left valign=center id="wptbr_ttl"><?php echo'<a href="'.home_url().'">'.__(get_bloginfo()).'</a>'?></td><td align=right valign=center id="wptbr_lgt"><div style="padding-top:2px"><?php wp_get_current_user();$current_user=wp_get_current_user();if(!($current_user instanceof WP_User))return;echo''.$current_user->display_name.''?><?php if(is_multisite()&&is_super_admin()){if(!is_network_admin()){echo' | <a href="'.network_admin_url(). '">'. __('Network Admin'). '</a>';}else{echo' | <a href="' .get_dashboard_url(get_current_user_id()). '">'.__('Site Admin') . '</a>';}}?> | <?php echo'<a href="' .wp_logout_url(home_url()). '">'.__('Log Out'). '</a>'?></div></td><td width="8"></td></tr></table><?php }add_action('in_admin_header','wptbr_hdr');
 
