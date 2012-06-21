@@ -8,16 +8,16 @@ Tested up to: 3.4.1
 License: GPLv2 or later
 Completely Disable new WordPress 3.3+ and 3.4+ (only) ToolBar Frontend, Backend, related User Profile Settings, without loosing logout functionality! Thanks to olyma.
 == Description ==
-Completely Disable new WordPress 3.3+ and 3.4+ (only) ToolBar Frontend, Backend, related User Profile Settings, without loosing logout functionality! Completely <code>Remove Code</code> for minimal memory load, with new approach.
+Completely Disable new WordPress 3.3+ and 3.4+ (only) ToolBar Frontend, Backend, related User Profile Settings, without loosing logout functionality! Completely <code>Remove Code</code> for minimal memory load, with new approach. Supported on WordPress 3.5-alpha
 
 All in One Removal: ToolBar - Node - Frontend - Backend - Profile Personal Options - Code.
 
 The first and only Plugin (for now) that really work on WordPress 3.4+ / 3.3+ and supported on WordPress 3.5-alpha
 
 ToolBar Removal is [Admin Bar Removal](http://wordpress.org/extend/plugins/wp-admin-bar-removal/) Enhancement based on:
-[Admin Bar Node Removal](http://wordpress.org/extend/plugins/wp-admin-bar-node-removal/)
-[ToolBar Node Removal](http://wordpress.org/extend/plugins/wp-toolbar-node-removal/)
-[One Click Logout Barless](http://wordpress.org/extend/plugins/one-click-logout-barless/)
+ * [Admin Bar Node Removal](http://wordpress.org/extend/plugins/wp-admin-bar-node-removal/)
+ * [ToolBar Node Removal](http://wordpress.org/extend/plugins/wp-toolbar-node-removal/)
+ * [One Click Logout Barless](http://wordpress.org/extend/plugins/one-click-logout-barless/)
 
 Linked and reviewed at [softpedia.com](http://webscripts.softpedia.com/script/Modules/WordPress-Plugins/ToolBar-Removal-completely-disable-73548.html)
 
