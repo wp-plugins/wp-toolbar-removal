@@ -8,9 +8,9 @@ Author: sLa
 Author URI: http://slangji.wordpress.com/
 Requires at least: 3.3
 Tested up to: 3.3.3
-License: GPLv2
+License: GPLv2 or later
  *
- * Development Release: Version 2012 Build 0621-BUGFIX Revision 0108-DEVELOPMENT - DEV
+ * Development Release: Version 2012 Build 0621-BUGFIX Revision 0433-DEVELOPMENT - DEV
  *
  * [ToolBar Removal](http://wordpress.org/extend/plugins/wp-toolbar-removal/) WordPress PlugIn
  *
@@ -48,7 +48,7 @@ License: GPLv2
  * @since 3.3.0
  * @version 2012.0314.1152
  * @author sLa
- * @license GPLv2
+ * @license GPLv2 or later
  *
  * Completely Disable ToolBar Frontend, Backend, related User Profile Settings, without loosing logout functionality, and Remove Code for minimal memory load with new approach.
  */
