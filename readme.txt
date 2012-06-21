@@ -45,7 +45,7 @@ This plugin work under GPLv2 license.`
 = Development Release =
 [Version 2012 Build 0621-BUGFIX Revision 0433-DEVELOPMENT](http://downloads.wordpress.org/plugin/wp-toolbar-removal.zip)
 = 2012.0621.0341 =
-* Release Candidate [STABLE] Full WP 3.4+ / 3.3+ Compatible. Supported on WP 3.5-alpha
+* Release Candidate [STABLE] Full WP 3.4+ Compatible. Supported on WP 3.5-alpha
  * Please update as soon possible!
  * FIXED - Blank Space Alone on Admin Backend
  * FIXED - Node Group Text Links Alone on Admin Backend and User Frontend
