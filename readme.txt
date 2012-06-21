@@ -14,7 +14,10 @@ All in One Removal: ToolBar - Node - Frontend - Backend - Profile Personal Optio
 
 The first and only Plugin (for now) that really work on WordPress 3.4+ / 3.3+
 
-ToolBar Removal is [Admin Bar Removal](http://wordpress.org/extend/plugins/wp-admin-bar-removal/) Enhancement based on [ToolBar Node Removal](http://wordpress.org/extend/plugins/wp-toolbar-node-removal/) and [One Click Logout Barless](http://wordpress.org/extend/plugins/one-click-logout-barless/)
+ToolBar Removal is [Admin Bar Removal](http://wordpress.org/extend/plugins/wp-admin-bar-removal/) Enhancement based on:
+[Admin Bar Node Removal](http://wordpress.org/extend/plugins/wp-admin-bar-node-removal/)
+[ToolBar Node Removal](http://wordpress.org/extend/plugins/wp-toolbar-node-removal/)
+[One Click Logout Barless](http://wordpress.org/extend/plugins/one-click-logout-barless/)
 
 Linked and reviewed at [softpedia.com](http://webscripts.softpedia.com/script/Modules/WordPress-Plugins/ToolBar-Removal-completely-disable-73548.html)
 
