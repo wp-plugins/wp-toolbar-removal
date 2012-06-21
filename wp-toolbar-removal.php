@@ -1,16 +1,16 @@
 <?php
 /*
-Plugin Name: ToolBar Removal DEV
+Plugin Name: ToolBar Removal - DEV
 Plugin URI: http://slangji.wordpress.com/wp-toolbar-removal/
-Description: Completely <code>Disable</code> new WordPress 3.3+ and 3.4+ (only) <code>ToolBar</code> Frontend, Backend, related User Profile Settings, without loosing logout functionality! Completely <code>Remove Code</code> for minimal memory load, with new approach. Developmental Code in Becoming. Work under GPLv2 License. (DEVELOPMENTAL VERSION) Thanks to olyma! | <a href="http://slangji.wordpress.com/donate/" title="Free Donation">Donate</a> | <a href="http://wordpress.org/extend/plugins/wp-overview-lite/" title="Show Dashboard Overview and Footer Memory Load Usage">WP Overview?</a> | <a href="http://wordpress.org/extend/plugins/wp-missed-schedule/" title="Fix Missed Scheduled Future Posts Cron Job">WP Missed Schedule?</a> | <a href="http://wordpress.org/extend/plugins/wp-admin-bar-removal/" title="Remove Admin Bar Frontend Backend User Profile and Code">Admin Bar Removal?</a> | <a href="http://wordpress.org/extend/plugins/wp-admin-bar-node-removal/" title="Remove Admin Bar Frontend and Backend Node">Admin Bar Node Removal?</a> | <a href="http://wordpress.org/extend/plugins/wp-toolbar-removal/" title="Remove ToolBar Frontend Backend User Profile and Code">ToolBar Removal?</a> | <a href="http://wordpress.org/extend/plugins/wp-toolbar-node-removal/" title="Remove ToolBar Frontend and Backend Node">ToolBar Node Removal?</a> | <a href="http://wordpress.org/extend/plugins/wp-login-deindexing/" title="Total DeIndexing WordPress LogIn from all Search Engines">LogIn DeIndexing?</a> | <a href="http://wordpress.org/extend/plugins/wp-total-deindexing/" title="Total DeIndexing WordPress from all Search Engines">WP DeIndexing?</a> | <a href="http://wordpress.org/extend/plugins/wp-ie-enhancer-and-modernizer/" title="Enhancer and Modernizer IE Surfing Expirience">Enhancer IE Surfing?</a>
-Version: 2012.0621-BUGFIX.0108-DEVELOPMENTAL
+Description: Completely <code>Disable</code> new WordPress 3.3+ and 3.4+ (only) <code>ToolBar</code> Frontend, Backend, related User Profile Settings, without loosing logout functionality! Completely <code>Remove Code</code> for minimal memory load, with new approach. Development Code in Becoming. Work under GPLv2 License. (DEVELOPMENT VERSION) Thanks to olyma! | <a href="http://slangji.wordpress.com/donate/" title="Free Donation">Donate</a> | <a href="http://wordpress.org/extend/plugins/wp-overview-lite/" title="Show Dashboard Overview and Footer Memory Load Usage">WP Overview?</a> | <a href="http://wordpress.org/extend/plugins/wp-missed-schedule/" title="Fix Missed Scheduled Future Posts Cron Job">WP Missed Schedule?</a> | <a href="http://wordpress.org/extend/plugins/wp-admin-bar-removal/" title="Remove Admin Bar Frontend Backend User Profile and Code">Admin Bar Removal?</a> | <a href="http://wordpress.org/extend/plugins/wp-admin-bar-node-removal/" title="Remove Admin Bar Frontend and Backend Node">Admin Bar Node Removal?</a> | <a href="http://wordpress.org/extend/plugins/wp-toolbar-removal/" title="Remove ToolBar Frontend Backend User Profile and Code">ToolBar Removal?</a> | <a href="http://wordpress.org/extend/plugins/wp-toolbar-node-removal/" title="Remove ToolBar Frontend and Backend Node">ToolBar Node Removal?</a> | <a href="http://wordpress.org/extend/plugins/wp-login-deindexing/" title="Total DeIndexing WordPress LogIn from all Search Engines">LogIn DeIndexing?</a> | <a href="http://wordpress.org/extend/plugins/wp-total-deindexing/" title="Total DeIndexing WordPress from all Search Engines">WP DeIndexing?</a> | <a href="http://wordpress.org/extend/plugins/wp-ie-enhancer-and-modernizer/" title="Enhancer and Modernizer IE Surfing Expirience">Enhancer IE Surfing?</a>
+Version: 2012-VERSION.0621-BUGFIX.0108-DEVELOPMENT
 Author: sLa
 Author URI: http://slangji.wordpress.com/
 Requires at least: 3.3
 Tested up to: 3.4.1
 License: GPLv2
  *
- * Stable Release: Version 2012 Build 0319 Revision 2012
+ * Stable Release: Version 2012 Build 0319 Revision 2012 - RC2
  *
  * [ToolBar Removal](http://wordpress.org/extend/plugins/wp-toolbar-removal/) WordPress PlugIn
  *
@@ -46,7 +46,7 @@ License: GPLv2
  * @package ToolBar Removal
  * @subpackage WordPress PlugIn
  * @since 3.3.0
- * @version 2012.0621-BUGFIX.0108-DEVELOPMENTAL
+ * @version 2012-VERSION.0621-BUGFIX.0108-DEVELOPMENT
  * @author sLa
  * @license GPLv2
  *
@@ -175,5 +175,5 @@ function wptbr_ruppoabpc(){echo'<style type="text/css">.show-admin-bar{display:n
 
 remove_action('admin_head','nacin_promote_network_admin_in_toolbar',25);remove_action('admin_head','admin_bar_menu');remove_filter('wp_head','wp_admin_bar_wp_menu');remove_filter('wp_head','wp_admin_bar_add_secondary_groups');remove_filter('wp_head','wp_admin_bar');remove_filter('wp_footer','wp_admin_bar');remove_filter('admin_head','wp_admin_bar');remove_filter('admin_footer','wp_admin_bar');remove_filter('wp_head','wp_admin_bar_class');remove_filter('wp_footer','wp_admin_bar_class');remove_filter('admin_head','wp_admin_bar_class');remove_filter('admin_footer','wp_admin_bar_class');remove_action('wp_head','wp_admin_bar_render',1000);remove_filter('wp_head','wp_admin_bar_render',1000);remove_action('wp_footer','wp_admin_bar_render',1000);remove_filter('wp_footer','wp_admin_bar_render',1000);remove_action('admin_head','wp_admin_bar_render',1000);remove_filter('admin_head','wp_admin_bar_render',1000);remove_action('admin_footer','wp_admin_bar_render',1000);remove_filter('admin_footer','wp_admin_bar_render',1000);remove_action('init','wp_admin_bar_init');remove_filter('init','wp_admin_bar_init');remove_action('wp_head','wp_admin_bar_css');remove_action('wp_head','wp_admin_bar_dev_css');remove_action('wp_head','wp_admin_bar_rtl_css');remove_action('wp_head','wp_admin_bar_rtl_dev_css');remove_action('admin_head','wp_admin_bar_css');remove_action('admin_head','wp_admin_bar_dev_css');remove_action('admin_head','wp_admin_bar_rtl_css');remove_action('admin_head','wp_admin_bar_rtl_dev_css');remove_action('wp_footer','wp_admin_bar_js');remove_action('wp_footer','wp_admin_bar_dev_js');remove_action('admin_footer','wp_admin_bar_js');remove_action('admin_footer','wp_admin_bar_dev_js');remove_action('wp_ajax_adminbar_render','wp_admin_bar_ajax_render');remove_filter('wp_ajax_adminbar_render','wp_admin_bar_ajax_render');remove_action('admin_bar_menu','nacin_promote_network_admin_in_toolbar',25);remove_filter('admin_bar_menu','nacin_promote_network_admin_in_toolbar',25);remove_action('personal_options','_admin_bar_pref');remove_filter('personal_options','_admin_bar_pref');remove_action('personal_options','_get_admin_bar_pref');remove_filter('personal_options','_get_admin_bar_pref');remove_filter('locale','wp_admin_bar_lang');remove_filter('admin_footer','wp_admin_bar_render');
 
-function wptbr_nfo(){echo"\n<!--Plugin ToolBar Removal 2012.0621-BUGFIX.0108-DEVELOPMENTAL Active-->";}add_action('wp_head','wptbr_nfo');add_action('wp_footer','wptbr_nfo');
+function wptbr_nfo(){echo"\n<!--Plugin ToolBar Removal 2012-VERSION.0621-BUGFIX.0108-DEVELOPMENT Active-->";}add_action('wp_head','wptbr_nfo');add_action('wp_footer','wptbr_nfo');
 ?>
