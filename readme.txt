@@ -1,4 +1,4 @@
-=== ToolBar Removal - Completely Disable - Admin Bar ===
+=== ToolBar Removal - Completely Disable - Admin ===
 Contributors: sLaNGjI
 Donate link: http://slangji.wordpress.com/donate/
 Tags: sLa, sLaNGjI, toolbar, admin, bar, removal, hide, disable, remove, frontend, backend, code
@@ -6,11 +6,11 @@ Stable tag: 2012.0621.0341
 Requires at least: 3.3
 Tested up to: 3.4.1
 License: GPLv2 or later
-Completely Disable new WordPress 3.3+ and 3.4+ (only) ToolBar Frontend, Backend, related User Profile Settings, without loosing logout functionality! Thanks to olyma.
+Completely Disable new WordPress 3.3+ 3.4+ Admin ToolBar Frontend, Backend, Node, User Profile Settings, without loosing logout functionality! Thanks to olyma.
 == Description ==
-Completely Disable new WordPress 3.3+ and 3.4+ (only) ToolBar Frontend, Backend, related User Profile Settings, without loosing logout functionality! Completely <code>Remove Code</code> for minimal memory load, with new approach. Supported on WordPress 3.5-alpha
+Completely Disable new WordPress 3.3+ and 3.4+ (only) Admin ToolBar Frontend, Backend, Node Goup Link, related User Profile Settings, without loosing logout and network functionality! Completely <code>Remove Code</code> for minimal memory load, with new approach. Supported on WordPress 3.5-alpha work with single and multisite installation.
 
-All in One Removal: ToolBar - Node - Frontend - Backend - Profile Personal Options - Code.
+All in One Removal: ToolBar - Node - Frontend - Backend - Profile - Network - Code.
 
 The first and only Plugin (for now) that really work on WordPress 3.4+ / 3.3+ and supported on WordPress 3.5-alpha
 
