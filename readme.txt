@@ -1,4 +1,4 @@
-=== ToolBar Removal - Completely Disable ===
+=== ToolBar Removal - Completely Disable - Admin Bar ===
 Contributors: sLaNGjI
 Donate link: http://slangji.wordpress.com/donate/
 Tags: sLa, sLaNGjI, toolbar, admin, bar, removal, hide, disable, remove, frontend, backend, code
