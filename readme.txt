@@ -6,13 +6,13 @@ Stable tag: 2012.0621.0341
 Requires at least: 3.3
 Tested up to: 3.4.1
 License: GPLv2 or later
-Completely Disable new WordPress 3.3+ 3.4+ Admin ToolBar Frontend, Backend, Node, User Profile Settings, without loosing logout functionality! Thanks to olyma.
+Completely Disable new WordPress 3.3+ 3.4+ 3.5+ Admin ToolBar Frontend, Backend, Node, User Profile, without loosing logout and network functionality! Thanks to olyma.
 == Description ==
 Completely Disable new WordPress 3.3+ and 3.4+ (only) Admin ToolBar Frontend, Backend, Node Goup Link, related User Profile Settings, without loosing logout and network functionality! Completely <code>Remove Code</code> for minimal memory load, with new approach. Supported on WordPress 3.5-alpha work with single and multisite installation.
 
 All in One Removal: ToolBar - Node - Frontend - Backend - Profile - Network - Code.
 
-The first and only Plugin (for now) that really work on WordPress 3.4+ / 3.3+ and supported on WordPress 3.5-alpha
+The first and only Plugin (for now) that really work on WordPress 3.4+ / 3.3+ and supported on WordPress 3.5-alpha work with single and multisite installation.
 
 * ToolBar Removal is [Admin Bar Removal](http://wordpress.org/extend/plugins/wp-admin-bar-removal/) Enhancement based on:
  * [Admin Bar Node Removal](http://wordpress.org/extend/plugins/wp-admin-bar-node-removal/)
