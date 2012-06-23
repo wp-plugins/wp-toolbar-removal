@@ -42,11 +42,15 @@ is very suggested upgrade to the latest build always!
 This plugin work under GPLv2 license.`
 = Development Release =
 [Version 2012 Build 0621-BUGFIX Revision 0433-DEVELOPMENT](http://downloads.wordpress.org/plugin/wp-toolbar-removal.zip)
+= Warning Notice =
+Version 2012.0621.0341 was silently updated on 23-06-2012.
+Please re-download and re-install as soon possible! Enjoy :)
 = 2012.0621.0341 =
 * Release Candidate [STABLE] Full WP 3.4+ Compatible. Supported on WP 3.5-alpha
  * Please update as soon possible!
  * FIXED - Blank Space Alone on Admin Backend
  * FIXED - Node Group Text Links Alone on Admin Backend and User Frontend
+ * FIXED - Network Multisite Text Links Alone on Admin Backend and User Frontend
  * FIXED - Deprecated Debug Notices
  * NEW - Introduced ToolBar Nodes Removal Support for Popular Third Party Plugins
  * Preemptive support WP 3.5-alpha
