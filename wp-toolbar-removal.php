@@ -7,7 +7,7 @@ Version: 2012-VERSION.0623-BUGFIX.1124-DEVELOPMENT
 Author: sLa
 Author URI: http://slangji.wordpress.com/
 Requires at least: 3.3
-Tested up to: 3.5
+Tested up to: 3.5-alpha
 License: GPLv2 or later
  *
  * Stable Release: Version 2012 Build 0621 Revision 0341 - RC
