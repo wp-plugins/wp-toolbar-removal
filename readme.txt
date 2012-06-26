@@ -6,7 +6,7 @@ Stable tag: 2012.0621.0341
 Requires at least: 3.3
 Tested up to: 3.4.1
 License: GPLv2 or later
-Completely Disable new WordPress 3.3+ 3.4+ Admin ToolBar Frontend, Backend, Node, Pointer, Shadow, User Profile, without loosing Logout and Network functionality! Thanks to olyma.
+Completely Disable WordPress 3.3+ 3.4+ Admin ToolBar, Frontend, Backend, Node, Pointer, Shadow, Profile, without loosing Logout and Network functionality!
 == Description ==
 Completely Disable new WordPress 3.3+ and 3.4+ (only) Admin ToolBar Frontend, Backend, Node Groups, Bar Pointer, Menu Shadow, User Profile,, without loosing Logout and Network functionality! Completely <code>Remove Code</code> for Minimal Memory Load, and Dasboard Speedup, with new approach. Supported on WordPress 3.5-alpha-21103 work with single and Multisite installation.
 
