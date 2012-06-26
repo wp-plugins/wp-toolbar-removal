@@ -1,18 +1,18 @@
 === ToolBar Removal - Completely Disable - Admin ===
 Contributors: sLaNGjI
 Donate link: http://slangji.wordpress.com/donate/
-Tags: sLa, sLaNGjI, toolbar, admin, bar, removal, hide, disable, remove, frontend, backend, code
+Tags: toolbar, admin, bar, node, remove, hide, disable, frontend, backend, pointer, shadow, code
 Stable tag: 2012.0621.0341
 Requires at least: 3.3
 Tested up to: 3.4.1
 License: GPLv2 or later
-Completely Disable new WordPress 3.3+ 3.4+ 3.5+ Admin ToolBar Frontend, Backend, Node, User Profile, without loosing logout and network functionality! Thanks to olyma.
+Completely Disable new WordPress 3.3+ 3.4+ Admin ToolBar Frontend, Backend, Node, Pointer, Shadow, User Profile, without loosing Logout and Network functionality! Thanks to olyma.
 == Description ==
-Completely Disable new WordPress 3.3+ and 3.4+ (only) Admin ToolBar Frontend, Backend, Node Goup Link, related User Profile Settings, without loosing logout and network functionality! Completely <code>Remove Code</code> for minimal memory load, with new approach. Supported on WordPress 3.5-alpha work with single and multisite installation.
+Completely Disable new WordPress 3.3+ and 3.4+ (only) Admin ToolBar Frontend, Backend, Node Groups, Bar Pointer, Menu Shadow, User Profile,, without loosing Logout and Network functionality! Completely <code>Remove Code</code> for Minimal Memory Load, and Dasboard Speedup, with new approach. Supported on WordPress 3.5-alpha-21103 work with single and Multisite installation.
 
-All in One Removal: ToolBar - Node - Frontend - Backend - Profile - Network - Code.
+All in One Removal: ToolBar - Node - Pointer - Code - Frontend - Backend - Shadow - Profile.
 
-The first and only Plugin (for now) that really work on WordPress 3.4+ / 3.3+ and supported on WordPress 3.5-alpha work with single and multisite installation.
+The first and only Plugin (for now) that really work on WordPress 3.4+ and 3.3+ also supported on WordPress 3.5-alpha-21103 that work with single and Multisite installation.
 
 * ToolBar Removal is [Admin Bar Removal](http://wordpress.org/extend/plugins/wp-admin-bar-removal/) Enhancement based on:
  * [Admin Bar Node Removal](http://wordpress.org/extend/plugins/wp-admin-bar-node-removal/)
@@ -41,19 +41,19 @@ deprecated, and no longer supported on this project:
 is very suggested upgrade to the latest build always!
 This plugin work under GPLv2 license.`
 = Development Release =
-[Version 2012 Build 0621-BUGFIX Revision 0433-DEVELOPMENT](http://downloads.wordpress.org/plugin/wp-toolbar-removal.zip)
+[Version 2012 Build 0626-BUGFIX Revision 0431-DEVELOPMENT](http://downloads.wordpress.org/plugin/wp-toolbar-removal.zip)
 = Warning Notice =
-Version 2012.0621.0341 was silently updated on 2012-06-23.
+Version 2012.0621.0341 was silently updated on 2012-06-26.
 Please re-download and re-install as soon possible! Enjoy :)
 = 2012.0621.0341 =
-* Release Candidate [STABLE] Full WP 3.4+ Compatible. Supported on WP 3.5-alpha
+* Release Candidate [STABLE] Full WP 3.4+ Compatible. Supported on WP 3.5-alpha-21103
  * Please update as soon possible!
  * FIXED - Blank Space Alone on Admin Backend
  * FIXED - Node Group Text Links Alone on Admin Backend and User Frontend
  * FIXED - Network Multisite Text Links Alone on Admin Backend and User Frontend
  * FIXED - Deprecated Debug Notices
  * NEW - Introduced ToolBar Nodes Removal Support for Popular Third Party Plugins
- * Preemptive support WP 3.5-alpha
+ * Preemptive support WP 3.5-alpha-21103
  * Enhancement of [Admin Bar Removal](http://wordpress.org/extend/plugins/wp-admin-bar-removal/)
  * Derived from [Admin Bar Node Removal](http://wordpress.org/extend/plugins/wp-admin-bar-node-removal/)
  * Derived from [ToolBar Node Removal](http://wordpress.org/extend/plugins/wp-toolbar-node-removal/)
@@ -84,7 +84,7 @@ Please re-download and re-install as soon possible! Enjoy :)
 ToolBar Node Removal, is the first add-on of ToolBar Removal, to make easly Node/Group removal, for specific Third Party Plugins on future, without modify master code. To Removal of all "Text Links Alone" on Dasboard Backend and User Frontend, for any Plugin that put it on "Admin ToolBar", is simple  necessary, download install and activate only ToolBar Node Removal, and not ToolBar Removal, without loosing cache improvements on complex, and busy, WordPress installations. You can put ToolBar Node Removal, via ftp, to directory /mu-plugins/ and you activate automatically without any action, or needed refresh! Is also possible put ToolBar Removal, to directory /mu-plugins/ since first setup, and removal it is active, by default, before and after first installation of WordPress.
 == Upgrade Notice ==
 = 2012.0621.0341 =
-* Release Candidate [STABLE] Full WP 3.4+ / 3.3+ Compatible. Supported on WP 3.5-alpha [Admin Bar Removal](http://wordpress.org/extend/plugins/wp-admin-bar-removal/) Enhancement!
+* Release Candidate [STABLE] Full WP 3.4+ / 3.3+ Compatible. Supported on WP 3.5-alpha-21103 [Admin Bar Removal](http://wordpress.org/extend/plugins/wp-admin-bar-removal/) Enhancement!
 = 2012.0319.2012 =
 * Release Candidate 2 [STABLE] Full WP 3.3+ Compatible. Supported on WP 3.4-beta [Admin Bar Removal](http://wordpress.org/extend/plugins/wp-admin-bar-removal/) Enhancement!
 = 2012.0314.1152 =
