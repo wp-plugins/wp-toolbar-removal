@@ -4,15 +4,15 @@ Donate link: http://slangji.wordpress.com/donate/
 Tags: toolbar, admin, bar, node, remove, hide, disable, frontend, backend, pointer, shadow, code
 Stable tag: 2012.0621.0341
 Requires at least: 3.3
-Tested up to: 3.5-alpha-21103
+Tested up to: 3.4.1
 License: GPLv2 or later
-Completely Disable new WordPress 3.3+ 3.4+ 3.5-alpha-21103 Admin ToolBar Frontend, Backend, Node, Pointer, Shadow, User Profile, without loosing Logout and Network functionality! Thanks to olyma.
+Completely Disable WP 3.4+ / 3.3+ Admin ToolBar, Frontend, Backend, Node, Pointer, Shadow, Profile, without loosing Logout and Network functionality!
 == Description ==
-Completely Disable new WordPress 3.3+ 3.4+ 3.5-alpha-21103 (only) Admin ToolBar Frontend, Backend, Node Groups, Bar Pointer, Menu Shadow, User Profile,, without loosing Logout and Network functionality! Completely <code>Remove Code</code> for Minimal Memory Load, and Dasboard Speedup, with new approach. Supported on WordPress 3.5-alpha-21103 work with single and Multisite installation.
+Completely Disable new WordPress 3.4+ and 3.3+ (only) Admin ToolBar, Frontend, Backend, Node Groups, Bar Pointer, Menu Shadow, User Profile,, without loosing Logout and Network functionality! Completely <code>Remove Code</code> for Minimal Memory Load, and Dasboard Speedup, with new approach. Supported on WordPress 3.5-alpha-21103 work with single and Multisite installation.
 
-All in One Removal: ToolBar - Node - Pointer - Code - Frontend - Backend - Shadow - Profile.
+All in One Removal: ToolBar, Node, Pointer, Code, Frontend, Backend, Shadow, Profile.
 
-The first and only Plugin (for now) that really work on WordPress 3.5-alpha-21103 3.4+ 3.3+ and also supported on WordPress 3.5-alpha-21103 that work with single and Multisite installation.
+The first and only Plugin (for now) that really work on WordPress 3.4+ and 3.3+ also supported on WordPress 3.5-alpha-21103 that work with single and Multisite installation.
 
 * ToolBar Removal is [Admin Bar Removal](http://wordpress.org/extend/plugins/wp-admin-bar-removal/) Enhancement based on:
  * [Admin Bar Node Removal](http://wordpress.org/extend/plugins/wp-admin-bar-node-removal/)
