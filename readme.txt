@@ -1,10 +1,10 @@
-=== ToolBar Removal - Completely Disable - Admin Bar ===
+=== ToolBar Removal - Disable - Admin Bar ===
 Contributors: sLaNGjI
 Donate link: http://slangji.wordpress.com/donate/
 Tags: toolbar, admin, bar, node, remove, hide, disable, frontend, backend, pointer, shadow, code
 Stable tag: 2012.0816.0342
 Requires at least: 3.3
-Tested up to: 3.4.2
+Tested up to: 3.4.3
 License: GPLv2 or later
 Completely Disable WP 3.5+ / 3.4+ / 3.3+ Admin ToolBar, Frontend, Backend, Node, Pointer, Shadow, Profile, without loosing Logout and Network functionality!
 == Description ==
