@@ -2,7 +2,7 @@
 Contributors: sLaNGjI
 Donate link: http://slangji.wordpress.com/donate/
 Tags: toolbar, admin, bar, node, remove, hide, disable, frontend, backend, pointer, shadow, code
-Stable tag: 2012.0816.0342
+Stable tag: 2012.1121.0343
 Requires at least: 3.3
 Tested up to: 3.4.3
 License: GPLv2 or later
