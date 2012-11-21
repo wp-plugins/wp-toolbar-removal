@@ -43,7 +43,7 @@ This plugin work under GPLv2 license.`
 = Development Release =
 [Version 2012 Build 1205-BUGFIX Revision 0500-DEVELOPMENT](http://downloads.wordpress.org/plugin/wp-toolbar-removal.zip)
 = 2012.1121.0343 =
-* Release Final [REVISED] Full WP 3.5+ / 3.4+ / 3.3+ Compatible. Supported on WP 3.5 Beta 3
+* Release [REVISED] WP 3.5+ / 3.4+ / 3.3+ Compatible. Supported on WP 3.5 Beta 3
  * Please update as soon possible!
  * REVISED - User Profile ToolBar Misconfiguration
  * Compatible with WordPress 3.4.3
