@@ -18,6 +18,8 @@ The first and only Plugin (for now) that really work on WordPress 3.5+ / 3.4+ / 
  * [Admin Bar Node Removal](http://wordpress.org/extend/plugins/wp-admin-bar-node-removal/)
  * [One Click Logout Barless](http://wordpress.org/extend/plugins/one-click-logout-barless/) Thanks to [olyma](http://wordpress.org/extend/plugins/profile/olyma)!
 
+Add-On
+
 * ToolBar Removal Support and Work on Conjunction with New:
  * [WP Toolbar Node Removal](http://wordpress.org/extend/plugins/wp-toolbar-node-removal/) for Popular Third Party Plugins Node Removal
 
@@ -43,13 +45,13 @@ deprecated, and no longer supported on this project:
 is very suggested upgrade to the latest build always!
 This plugin work under GPLv2 license.`
 = Development Release =
-[Version 2012 Build 1205-BUGFIX Revision 0500-DEVELOPMENT](http://downloads.wordpress.org/plugin/wp-toolbar-removal.zip) WP 3.5 Ready!
+[Version 2012 Build 1205-BUGFIX Revision 0500-DEVELOPMENT](http://downloads.wordpress.org/plugin/wp-toolbar-removal.zip)
 = 2012.1121.0343 =
-* Release [REVISED] Full WP 3.4+ / 3.3+ Compatible. Supported on WP 3.5 Beta 3
+* Release [REVISED] WP 3.4+ / 3.3+ Compatible. Supported on 3.5 RC1
  * Please update as soon possible!
  * REVISED - User Profile ToolBar Functionality
  * Compatible with WordPress 3.4.3
- * Preemptive support WP 3.5 Beta 3
+ * Preemptive support WP 3.5 RC1
  * Enhancement of [Admin Bar Removal](http://wordpress.org/extend/plugins/wp-admin-bar-removal/)
  * Support [WP Toolbar Node Removal](http://wordpress.org/extend/plugins/wp-toolbar-node-removal/) for Third Party Plugins Node Removal
  * Derived from [Admin Bar Node Removal](http://wordpress.org/extend/plugins/wp-admin-bar-node-removal/)
@@ -57,7 +59,7 @@ This plugin work under GPLv2 license.`
  * Work under GPLv2 license
  * Bump Version 2012 Build 1121 Revision 0343
 = 2012.0816.0342 =
-* Release Preview [SECURITY] WP 3.4+ / 3.3+ Compatible. Supported on WP 3.5 Beta 2
+* Release Preview [SECURITY] WP 3.4+ / 3.3+ Compatible. Supported on 3.5 Beta 2
  * Please update as soon possible!
  * SECURITY - Patched Footer Script Code Removal
  * Compatible with WordPress 3.4.2
@@ -69,13 +71,13 @@ This plugin work under GPLv2 license.`
  * Work under GPLv2 license
  * Bump Version 2012 Build 0816 Revision 0342
 = 2012.0621.0341 =
-* Release Candidate [FIXED] WP 3.4+ / 3.3+ Compatible. Supported on WP 3.5 Beta 1
+* Release Candidate [FIXED] WP 3.4+ / 3.3+ Compatible. Supported on 3.5 Beta 1
  * Please update as soon possible!
  * FIXED - Blank Space Alone on Admin Backend
  * FIXED - Node Group Text Links Alone on Admin Backend and User Frontend
  * FIXED - Network Multisite Text Links Alone on Admin Backend and User Frontend
  * FIXED - Deprecated Debug Notices
- * NEW - Introduced [WP Toolbar Node Removal](http://wordpress.org/extend/plugins/wp-toolbar-node-removal/) Support for Third Party Plugins Node Removal
+ * NEW - Introduced [WP Toolbar Node Removal](http://wordpress.org/extend/plugins/wp-toolbar-node-removal/) for Third Party Plugins Node Removal
  * Compatible with WordPress 3.4.1
  * Preemptive support WP 3.5 Beta 1
  * Enhancement of [Admin Bar Removal](http://wordpress.org/extend/plugins/wp-admin-bar-removal/)
@@ -85,7 +87,7 @@ This plugin work under GPLv2 license.`
  * Work under GPLv2 license
  * Bump Version 2012 Build 0621 Revision 0341
 = 2012.0319.2012 =
-* Release Beta 2 [STABLE] Full WP 3.3+ Compatible. Supported on WP 3.4-beta
+* Release Beta 2 [STABLE] WP 3.3+ Compatible. Supported on 3.4-beta
  * Please update as soon possible!
  * Preemptive support WP 3.4-beta
  * Enhancement of [Admin Bar Removal](http://wordpress.org/extend/plugins/wp-admin-bar-removal/)
@@ -95,7 +97,7 @@ This plugin work under GPLv2 license.`
  * Work under GPLv2 license
  * Bump Version 2012 Build 0319 Revision 2012
 = 2012.0314.1152 =
-* Release Beta 1 [STABLE] Full WP 3.3+ Compatible. Supported on WP 3.4-alpha
+* Release Beta 1 [STABLE] WP 3.3+ Compatible. Supported on 3.4-alpha
  * Please update as soon possible!
  * Preemptive support WP 3.4-alpha
  * Enhancement of [Admin Bar Removal](http://wordpress.org/extend/plugins/wp-admin-bar-removal/)
@@ -108,7 +110,7 @@ This plugin work under GPLv2 license.`
 ToolBar Node Removal, is the first add-on of ToolBar Removal, to make easly Node/Group removal, for specific Third Party Plugins Node Group, on future, without modify master code. To Removal of all "Text Links Alone" on Dasboard Backend and User Frontend, for any Plugin that put it on "Admin ToolBar", is simple  necessary, download install and activate only ToolBar Node Removal, and not ToolBar Removal, without loosing cache improvements on complex, and busy, WordPress installations. You can put ToolBar Node Removal, via ftp, to directory /mu-plugins/ and you activate automatically without any action, or needed refresh! Is also possible put ToolBar Removal, to directory /mu-plugins/ since first setup, and removal it is active, by default, before and after first installation of WordPress.
 == Upgrade Notice ==
 = 2012.1121.0343 =
-* Release [REVISED] User Profile ToolBar. Supported on WP 3.3+ / 3.4.3 / 3.5 Beta 3 [Admin Bar Removal](http://wordpress.org/extend/plugins/wp-admin-bar-removal/) Enhancement! Work under GPLv2 license.
+* Release [REVISED] User Profile ToolBar. Supported on WP 3.3+ / 3.4.3 / 3.5 RC1 [Admin Bar Removal](http://wordpress.org/extend/plugins/wp-admin-bar-removal/) Enhancement! Work under GPLv2 license.
 = 2012.0816.0342 =
 * Release Preview [SECURITY] Patched Footer Script Code Removal. Supported on WP 3.3+ / 3.4.2 / 3.5 Beta 2 [Admin Bar Removal](http://wordpress.org/extend/plugins/wp-admin-bar-removal/) Enhancement! Work under GPLv2 license.
 = 2012.0621.0341 =
