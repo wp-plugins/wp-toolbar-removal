@@ -8,6 +8,8 @@ Tested up to: 3.5
 License: GPLv2 or later
 Completely Disable WP 3.5+ 3.4+ 3.3+ Admin ToolBar, Frontend, Backend, Node, Pointer, Shadow, Without Loosing Logout, Profile, Network functionality!
 == Description ==
+Website: [slangji.wordpress.com](http://slangji.wordpress.com/)
+
 Completely Disable new WordPress 3.5+ / 3.4+ / 3.3+ (only) Admin ToolBar, Frontend, Backend, Node Groups, Bar Pointer, Menu Shadow, User Profile, Third Party Plugins Node Group Removal, Without Loosing Logout, Profile and Network MultiSite functionality! Completely <code>Remove Code</code> for Minimal Memory Load, and Dasboard SpeedUP, with new approach. Work with Single and Multisite Installation.
 
 All in One Removal: ToolBar, Node, Pointer, Code, Frontend, Backend, Shadow, Profile.
