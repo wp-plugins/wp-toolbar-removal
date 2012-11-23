@@ -7,10 +7,10 @@ Version: 2012.1205.0350
 Author: sLa
 Author URI: http://slangji.wordpress.com/
 Requires at least: 3.3
-Tested up to: 3.5.0
+Tested up to: 3.5
 License: GPLv2 or later
  *
- * Development Release: Version 2012 Build 1205-BUGFIX Revision 0350-DEVELOPMENT - DEV
+ * Stable Release: Version 2012 Build 1121 Revision 0343
  *
  * [ToolBar Removal](http://wordpress.org/extend/plugins/wp-toolbar-removal/) WordPress PlugIn
  *
