@@ -1,14 +1,16 @@
 === ToolBar Removal - Disable - Admin Bar ===
 Contributors: sLaNGjI
 Donate link: http://slangji.wordpress.com/donate/
-Tags: disable, toolbar, admin, bar, node, hide, frontend, backend, remove, pointer, shadow, code
+Tags: disable,toolbar,admin,bar,node,frontend,backend,remove,pointer,shadow,code,sLaNGjI
 Stable tag: 2012.1121.0343
 Requires at least: 3.3
 Tested up to: 3.5
 License: GPLv2 or later
 Completely Disable WP 3.5+ 3.4+ 3.3+ Admin ToolBar, Frontend, Backend, Node, Pointer, Shadow, Without Loosing Logout, Profile, Network functionality!
 == Description ==
-Website: [slangji.wordpress.com](http://slangji.wordpress.com/)
+Author Website: [slangji.wordpress.com](http://slangji.wordpress.com/) - Author Repositories: [github.com/sLaNGjI](https://github.com/sLaNGjI)
+
+[Find More on sLa Developer Page @ SoftPedia.com](http://webscripts.softpedia.com/author/sLa-1869786722.html)
 
 Completely Disable new WordPress 3.5+ / 3.4+ / 3.3+ (only) Admin ToolBar, Frontend, Backend, Node Groups, Bar Pointer, Menu Shadow, User Profile, Third Party Plugins Node Group Removal, Without Loosing Logout, Profile and Network MultiSite functionality! Completely <code>Remove Code</code> for Minimal Memory Load, and Dasboard SpeedUP, with new approach. Work with Single and Multisite Installation.
 
@@ -27,8 +29,6 @@ Add-On
 
 Linked and reviewed at [softpedia.com](http://webscripts.softpedia.com/script/Modules/WordPress-Plugins/ToolBar-Removal-completely-disable-73548.html)
 
-Work under [GPLv2](http://www.gnu.org/licenses/gpl-2.0.html) License.
-
 * Try also:
  * [WP Overview (lite)](http://wordpress.org/extend/plugins/wp-overview-lite/)
  * [WP Missed Schedule](http://wordpress.org/extend/plugins/wp-missed-schedule/)
@@ -39,6 +39,9 @@ Work under [GPLv2](http://www.gnu.org/licenses/gpl-2.0.html) License.
  * [Noindex (login) WordPress Deindexing](http://wordpress.org/extend/plugins/wp-login-deindexing/)
  * [Noindex (total) WordPress Deindexing](http://wordpress.org/extend/plugins/wp-total-deindexing/)
  * [IE Enhancer and Modernizer](http://wordpress.org/extend/plugins/wp-ie-enhancer-and-modernizer/) Linked and reviewed at [softpedia.com](http://webscripts.softpedia.com/script/Modules/WordPress-Plugins/IE-Enhancer-and-Modernizer-73546.html)
+ * [Memory Load Consumption db size Usage Indicator](http://wordpress.org/extend/plugins/wp-memory-db-indicator/)
+
+Work under [GPLv2](http://www.gnu.org/licenses/gpl-2.0.html) License.
 
 Author URL [sLa](http://wordpress.org/extend/plugins/profile/sla) is moved to [sLaNGjI](http://wordpress.org/extend/plugins/profile/slangji). Please update your bookmarks!
 == Changelog ==
