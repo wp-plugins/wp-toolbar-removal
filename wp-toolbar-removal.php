@@ -71,6 +71,12 @@ License: GPLv2 or later
 			echo '<style type="text/css">html.wp-toolbar,html.wp-toolbar #wpcontent,html.wp-toolbar #adminmenu,html.wp-toolbar #wpadminbar,body.admin-bar,body.admin-bar #wpcontent,body.admin-bar #adminmenu,body.admin-bar #wpadminbar{padding-top:0px !important}</style>';
 		}
 	add_action('admin_print_styles', 'wptbr_rsb', 21);
+//	function wptbr_rsf()
+//		{
+//			echo '<style type="text/css">*{margin-top:0px !important}html{margin-top:0px !important}body{margin-top:0px !important}</style>';
+//		}
+//	add_filter('wp_head', 'wptbr_rsf', 99);
+//	add_filter('admin_head', 'wptbr_rsf', 99);
 	function wptbr_rbcb()
 		{
 			if (has_filter('wp_head', '_admin_bar_bump_cb'))
@@ -293,25 +299,20 @@ License: GPLv2 or later
 	remove_filter('personal_options', '_admin_bar_pref');
 	remove_action('personal_options', '_get_admin_bar_pref');
 	remove_filter('personal_options', '_get_admin_bar_pref');
+	show_admin_bar(false);
 	function wptbr_init()
 		{
 			add_filter('show_admin_bar', '__return_false');
 		}
 	add_filter('init', 'wptbr_init', 9);
-	show_admin_bar(false);
 	function wptbr_spab_init()
 		{
 			add_filter('show_wp_pointer_admin_bar', '__return_false');
 		}
-	add_filter('init', 'wptbr_spab_init');
-	function wptbr_rsf()
-		{
-			echo '<style type="text/css">*{margin-top:0px !important}html{margin-top:0px !important}body{margin-top:0px !important}</style>';
-		}
-	add_filter('admin_head', 'wptbr_rsf', 99);
+	add_filter('init', 'wptbr_spab_init', 9);
 	function wptbr_nfo()
 		{
-			echo "\n<!--Plugin ToolBar Removal 2012.1121.0343 Active-->\n\n";
+			echo "\n<!--Plugin ToolBar Removal 2012.1121.0343 Active - 64Bit Security Tag Key: up1y9OluC5vV4c614GH5tK446l856476ti10613FeGQy8rs9g1g623672y862F21P-->\n\n";
 		}
 	add_action('wp_head', 'wptbr_nfo');
 	add_action('wp_footer', 'wptbr_nfo');
