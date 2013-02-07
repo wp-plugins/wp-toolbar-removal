@@ -1,34 +1,115 @@
 <?php
 /*
-Plugin Name: ToolBar Removal
+Plugin Name: √ ToolBar Removal
 Plugin URI: http://slangji.wordpress.com/wp-toolbar-removal/
-Description: Completely <code>Disable</code> new WordPress 3.5+ / 3.4+ / 3.3+ (only) Admin <code>ToolBar</code> Frontend, Backend, Node, Pointer, Shadow, User Profile, without loosing Logout and Network functionality! Completely <code>Remove Code</code> for Minimal Memory Load, and Dasboard Speedup, with new approach. Work under GPLv2 License. Thanks to olyma! | <a href="http://slangji.wordpress.com/donate/" title="Free Donation">Donate</a> | <a href="http://slangji.wordpress.com/contact/" title="Send Me Bug and Suggestions">Contact</a> | <a href="http://wordpress.org/extend/plugins/wp-overview-lite/" title="Show Dashboard Overview and Footer Memory Load Usage">WP Overview?</a> | <a href="http://wordpress.org/extend/plugins/wp-missed-schedule/" title="Fix Missed Scheduled Future Posts Cron Job">WP Missed Schedule?</a> | <a href="http://wordpress.org/extend/plugins/wp-admin-bar-removal/" title="Remove Admin Bar Frontend Backend User Profile and Code">Admin Bar Removal?</a> | <a href="http://wordpress.org/extend/plugins/wp-admin-bar-node-removal/" title="Remove Admin Bar Frontend and Backend Node">Admin Bar Node Removal?</a> | <a href="http://wordpress.org/extend/plugins/wp-toolbar-removal/" title="Remove ToolBar Frontend Backend User Profile and Code">ToolBar Removal?</a> | <a href="http://wordpress.org/extend/plugins/wp-toolbar-node-removal/" title="Remove ToolBar Frontend and Backend Node">ToolBar Node Removal?</a> | <a href="http://wordpress.org/extend/plugins/wp-login-deindexing/" title="Total DeIndexing WordPress LogIn from all Search Engines">LogIn DeIndexing?</a> | <a href="http://wordpress.org/extend/plugins/wp-total-deindexing/" title="Total DeIndexing WordPress from all Search Engines">WP DeIndexing?</a> | <a href="http://wordpress.org/extend/plugins/wp-ie-enhancer-and-modernizer/" title="Enhancer and Modernizer IE Surfing Expirience">Enhancer IE Surfing?</a>
+Description: &#9733;&#9733;&#9733; Completely <code>Disable</code> new WordPress 3.5+ / 3.4+ / 3.3+ (only) Admin <code>ToolBar</code> Frontend, Backend, Node, Pointer, Shadow, User Profile, without loosing Logout and Network functionality! Completely <code>Remove Code</code> for Minimal Memory Load, and Dasboard Speedup, with new approach. Thanks to olyma! Work under <a href="http://www.gnu.org/licenses/gpl-2.0.html" title"GPLv2 or later License compatible">GPLv2</a> or later License. <a href="http://www.gnu.org/prep/standards/standards.html" title"GNU style indentation coding standard compatible">GNU style</a> indentation coding standard compatible. | <a href="http://slangji.wordpress.com/donate/" title="Free Donation">Donate</a> | <a href="http://slangji.wordpress.com/contact/" title="Send Me Bug and Suggestions">Contact</a> | <a href="http://profiles.wordpress.org/slangji" title="sLaNGjI's Profile @ WordPress.org">My Profile</a> | <a href="http://webscripts.softpedia.com/author/sLa-1869786722.html" title="sLa Developer Page @ SoftPedia.com">My SoftPedia</a> | <a href="http://slangji.wordpress.com/themes/" title="sLaNGjI's Custom Themes">My Themes</a> | <a href="http://wordpress.org/extend/plugins/wp-overview-lite/" title="Show Dashboard Overview and Footer Memory Load Usage">WP Overview?</a> | <a href="http://wordpress.org/extend/plugins/wp-missed-schedule/" title="Fix Missed Scheduled Future Posts Cron Job">WP Missed Schedule?</a> | <a href="http://wordpress.org/extend/plugins/wp-admin-bar-removal/" title="Remove Admin Bar Frontend Backend User Profile and Code">Admin Bar Removal?</a> | <a href="http://wordpress.org/extend/plugins/wp-admin-bar-node-removal/" title="Remove Admin Bar Frontend and Backend Node">Admin Bar Node Removal?</a> | <a href="http://wordpress.org/extend/plugins/wp-toolbar-removal/" title="Remove ToolBar Frontend Backend User Profile and Code">ToolBar Removal?</a> | <a href="http://wordpress.org/extend/plugins/wp-toolbar-node-removal/" title="Remove ToolBar Frontend and Backend Node">ToolBar Node Removal?</a> | <a href="http://wordpress.org/extend/plugins/wp-login-deindexing/" title="Total DeIndexing WordPress LogIn from all Search Engines">LogIn DeIndexing?</a> | <a href="http://wordpress.org/extend/plugins/wp-total-deindexing/" title="Total DeIndexing WordPress from all Search Engines">WP DeIndexing?</a> | <a href="http://wordpress.org/extend/plugins/wp-ie-enhancer-and-modernizer/" title="Enhancer and Modernizer IE Surfing Expirience">Enhancer IE Surfing?</a> | <a href="http://wordpress.org/extend/plugins/wp-wp-memory-db-indicator/" title="Memory Load Consumption db size Usage Indicator">Memory and db Indicator?</a>
 Version: 2012.1121.0343
 Author: sLa
 Author URI: http://slangji.wordpress.com/
 Requires at least: 3.3
 Tested up to: 3.5.2
 License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Indentation: GNU style coding standard
+Indentation URI: http://www.gnu.org/prep/standards/standards.html
  *
- * Development Release: Version 2012 Build 1205-BUGFIX Revision 0350-DEVELOPMENT - DEV
+ * DEVELOPMENT Release: Version 2012 Build 1205-BUGFIX Revision 0350-DEVELOPMENTAL - DEV - Code in Becoming.
  *
  * [ToolBar Removal](http://wordpress.org/extend/plugins/wp-toolbar-removal/) WordPress PlugIn
  *
- *  This program is free software; you can redistribute it and/or
- *  modify it under the terms of the GNU General Public License
- *  as published by the Free Software Foundation; either version 2
- *  of the License, or (at your option) any later version.
+ * 64Bit Security Tag Key: up1y9OluC5vV4c614GH5tK446l856476ti10613FeGQy8rs9g1g623672y862F21P
  *
- *  This program is distributed in the hope that it will be useful,
- *  but WITHOUT ANY WARRANTY; without even the implied warranty of
- *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
- *  GNU General Public License for more details.
+ * √ CONTACT
  *
- *  You should have received a copy of the GNU General Public License
- *  along with this program; if not, write to the Free Software
- *  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
+ * [Contact](http://slangji.wordpress.com/contact/)
  *
- *  The license for this software can be found @ http://www.gnu.org/licenses/gpl-2.0.html
+ * √ DONATIONS
+ *
+ * [Donate](http://slangji.wordpress.com/donate/)
+ *
+ * √ PROJECTS
+ *
+ * [My Plugins](http://slangji.wordpress.com/plugins/)
+ * [My Themes](http://slangji.wordpress.com/themes/)
+ *
+ * √ DEVELOPER
+ *
+ * [phpBB.com](http://phpbb.com/)
+ * [SoftPedia.com](http://webscripts.softpedia.com/author/sLa-1869786722.html)
+ * [WordPress.org](http://profiles.wordpress.org/slangji)
+ *
+ * √ REPOSITORIES
+ *
+ * [GitHub.com](https://github.com/slangji)
+ *
+ * √ WEBSITE
+ *
+ * [WordPress.com](http://slangji.wordpress.com/)
+ *
+ * √ PROFILES
+ *
+ * [bbPress.org](http://bbpress.org/forums/profile/slangji/)
+ * [BuddyPress.org](http://buddypress.org/community/members/slangji/profile/public/)
+ * [Gravatar.com](http://en.gravatar.com/slangji)
+ *
+ * Author URL [sLa](http://wordpress.org/extend/plugins/profile/sla) moved to [sLaNGjI](http://wordpress.org/extend/plugins/profile/slangji) update bookmark!
+ *
+ * √ POLLS
+ *
+ * [PollDaddy.com](http://slangji.polldaddy.com/)
+ *
+ * √ SUPPORT
+ *
+ * [WordPress.org](http://wordpress.org/support/profile/slangji)
+ *
+ * √ FOLLOW
+ *
+ * [LinkedIn](http://www.linkedin.com/in/slangjis)
+ * [Twitter](https://twitter.com/sLanGjIs)
+ * [FaceBook](https://www.facebook.com/sLaNGjI)
+ * [Google+](https://plus.google.com/104369105810975562211)
+ * [FeedBurner](http://feeds.feedburner.com/slangji)
+ * [FriendFeed](http://friendfeed.com/slangjis)
+ *
+ * √ LICENSE
+ *
+ * This program is free software; you can redistribute it and/or
+ * modify it under the terms of the [GNU General Public License](http://wordpress.org/about/gpl/)
+ * as published by the Free Software Foundation; either version 2
+ * of the License, or (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
+ *
+ * √ DISCLAIMER
+ *
+ * The license under which the WordPress software is released is the GPLv2 (or later) from the
+ * Free Software Foundation. A copy of the license is included with every copy of WordPress.
+ *
+ * Part of this license outlines requirements for derivative works, such as plugins or themes.
+ * Derivatives of WordPress code inherit the GPL license.
+ *
+ * There is some legal grey area regarding what is considered a derivative work, but we feel
+ * strongly that plugins and themes are derivative work and thus inherit the GPL license.
+ *
+ * The license for this software can be found on [Free Software Foundation](http://www.gnu.org/licenses/gpl-2.0.html) and as license.txt into this plugin package.
+ *
+ * √ GUIDELINES
+ *
+ * This software meet detailed [Plugin Guidelines](http://wordpress.org/extend/plugins/about/guidelines/) paragraphs 1,4,10,12,13,16,17 quality requirements.
+ * The author of this plugin is available at any time, to make all changes, or corrections, to respect these specifications.
+ *
+ * √ CODING
+ *
+ * This software implement [GNU style](http://www.gnu.org/prep/standards/standards.html) coding standard indentation.
+ *
+ * √ COPYRIGHT
  *
  * This uses code derived from
  * one-click-logout-barless.php by olyma <rackofpower.com>
@@ -38,7 +119,7 @@ License: GPLv2 or later
  * according to the terms of the GNU General Public License version 2 (or later)
  *
  * Copyright © 2011 olyma (rackofpower.com)
- * Copyright © 2010-2012 [sLa](http://wordpress.org/extend/plugins/profile/slangji) (slangji[at]gmail[dot]com)
+ * Part of Copyright © 2010-2012 belongs to [sLaNGjI's](http://en.gravatar.com/slangjis) (slangji[at]gmail[dot]com) and a portion to their respective owners.
  *
  * Thanks to [olyma](http://wordpress.org/extend/plugins/one-click-logout-barless/)
  *
@@ -55,10 +136,15 @@ License: GPLv2 or later
  * @subpackage WordPress PlugIn
  * @since 3.3.0
  * @version 2012.1121.0343
+ * @status STABLE Release
  * @author sLa
  * @license GPLv2 or later
+ * @indentation GNU style coding standard
+ * @security up1y9OluC5vV4c614GH5tK446l856476ti10613FeGQy8rs9g1g623672y862F21P 64Bit Tag Key
  *
  * Completely Disable Admin ToolBar, Frontend, Backend, Node Group, Bar Pointer, Menu Shadow, User Profile, without loosing Logout and Network functionality. Remove Code for Minimal Memory Load, and Dasboard Speedup, with new approach.
+ *
+ * Work under GPLv2 or later License. GNU style indentation coding standard compatible.
  */
 	if (!function_exists('add_action'))
 		{
