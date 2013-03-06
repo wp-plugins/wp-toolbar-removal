@@ -293,6 +293,7 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
 			$wp_toolbar->remove_node('w3tc-empty-caches');
 			$wp_toolbar->remove_node('w3tc-faq');
 			$wp_toolbar->remove_node('w3tc-support');
+			$wp_toolbar->remove_node('languages​​');
 		}
 	add_action('admin_bar_menu', 'wptbr_ngr', 999);
 	function wptbr_ngr_ab()
