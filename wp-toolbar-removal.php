@@ -13,7 +13,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Indentation: GNU style coding standard
 Indentation URI: http://www.gnu.org/prep/standards/standards.html
  *
- * DEVELOPMENT Release: Version 2012 Build 1205-BUGFIX Revision 0350-DEVELOPMENTAL - DEV - Code in Becoming.
+ * DEVELOPMENT Release: Version 2013 Build 0620-BUGFIX Revision 0526-DEVELOPMENTAL - DEV - Code in Becoming.
  *
  * [ToolBar Removal](http://wordpress.org/extend/plugins/wp-toolbar-removal/) WordPress PlugIn
  *
