@@ -1,4 +1,4 @@
-=== √ ToolBar Removal - Admin Bar - Completely Disable! ===
+=== √ ToolBar Removal - Admin - Completely Disable! ===
 Contributors: sLaNGjI
 Donate link: http://slangji.wordpress.com/donate/
 Tags: disable,toolbar,admin,bar,node,frontend,backend,remove,pointer,shadow,code,sLaNGjI
@@ -53,7 +53,7 @@ deprecated, and no longer supported on this project:
 is very suggested upgrade to the latest build always!
 This plugin work under GPLv2 license.`
 = Development Release =
-[Version 2012 Build 1205-BUGFIX Revision 0500-DEVELOPMENT](http://downloads.wordpress.org/plugin/wp-toolbar-removal.zip)
+[Version 2013 Build 0620-BUGFIX Revision 0526-DEVELOPMENT](http://downloads.wordpress.org/plugin/wp-toolbar-removal.zip)
 = 2012.1121.0343 =
 * Release [REVISED] WP 3.4+ / 3.3+ Compatible. Supported on 3.5 RC1
  * Please update as soon possible!
