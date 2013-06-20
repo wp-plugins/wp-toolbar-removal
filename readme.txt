@@ -1,4 +1,4 @@
-=== √ ToolBar Removal - Admin - Completely Disable! ===
+=== √ ToolBar Removal - Admin Completely Disable! ===
 Contributors: sLaNGjI
 Donate link: http://slangji.wordpress.com/donate/
 Tags: disable,toolbar,admin,bar,node,frontend,backend,remove,pointer,shadow,code,sLaNGjI
