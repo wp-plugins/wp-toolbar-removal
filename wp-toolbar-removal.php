@@ -14,7 +14,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Indentation: GNU style
 Indentation URI: http://www.gnu.org/prep/standards/standards.html
  *
- * Development Release: Version 2013 Build 0622-BUGFIX Revision 0000-DEVELOPMENTAL
+ * Stable Release: Version 2013 Build 0621 Revision 0361
  *
  * Please Noted That:
  * For Completely Backend Removal on WordPress 3.1+ (or later) is needed [WP Admin Bar Removal](http://wordpress.org/plugins/wp-admin-bar-removal/)
