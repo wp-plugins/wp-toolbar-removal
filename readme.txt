@@ -9,7 +9,7 @@ License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 &#9733;&#9733;&#9733; Remove WP 3.3+ ToolBar 3.1+ Admin Bar Completely Disable Bump CB, Menu Shaddow Effect, Pointer ToolTips, User Personal Settings.
 == Description ==
-Remove WordPress 3.3+ ToolBar and 3.1+ Admin Bar, Bump CB, Menu Shaddow Effect, Pointer (ToolTips) User Personal Options.
+Remove WordPress 3.3+ ToolBar and 3.1+ Admin Bar, Bump CB, Menu Shaddow Effect, Pointer (ToolTips) User Personal Settings.
 
 Completely Disable frontend Bump CB, Admin Menu Shaddow Effect, Admin Bar and ToolBar Pointer (ToolTips) User Personal Options Settings, without loosing Logout and Network MultiSite functionality!
 
@@ -181,6 +181,9 @@ If you’re running WP 3.1+ or 3.2+ (not 3.3+), then show_admin_bar() will conti
 To be continued..
 
 Without a doubt things will continue to change, and it’ll be fun watching as WordPress continues to evolve, Toolbar and all :)
+
+= Add-On =
+[Toolbar Node Removal](http://wordpress.org/extend/plugins/wp-toolbar-node-removal/), is the first add-on of [Toolbar Removal](http://wordpress.org/extend/plugins/wp-toolbar-removal/), to make easly Node/Group removal, for specific Third Party Plugins Node Group, on future, without modify master code. To Removal of all "Text Links Alone" on DashBoard Backend and User Frontend, for any Plugin that put it on "Admin ToolBar", is simple  necessary, download install and activate only ToolBar Node Removal, and not ToolBar Removal, without loosing cache improvements on complex, and busy, WordPress installations. You can put ToolBar Node Removal, via ftp, to directory /mu-plugins/ and you activate automatically without any action, or needed refresh! Is also possible put ToolBar Removal, to directory /mu-plugins/ since first setup, and removal it is active, by default, before and after first installation of WordPress.
 == Screenshots ==
 = Plugin Screenshots =
 1. The 'old' WP Admin Bar: bigger, clunkier, and redundant ...
@@ -278,8 +281,6 @@ is very suggested upgrade to the latest build always!
  * Derived from [One Click Logout Barless](http://wordpress.org/extend/plugins/one-click-logout-barless/)
  * Work under GPLv2 license
  * Bump Version 2012 Build 0314 Revision 1152
-== Add-On ==
-[Toolbar Node Removal](http://wordpress.org/extend/plugins/wp-toolbar-node-removal/), is the first add-on of [Toolbar Removal](http://wordpress.org/extend/plugins/wp-toolbar-removal/), to make easly Node/Group removal, for specific Third Party Plugins Node Group, on future, without modify master code. To Removal of all "Text Links Alone" on DashBoard Backend and User Frontend, for any Plugin that put it on "Admin ToolBar", is simple  necessary, download install and activate only ToolBar Node Removal, and not ToolBar Removal, without loosing cache improvements on complex, and busy, WordPress installations. You can put ToolBar Node Removal, via ftp, to directory /mu-plugins/ and you activate automatically without any action, or needed refresh! Is also possible put ToolBar Removal, to directory /mu-plugins/ since first setup, and removal it is active, by default, before and after first installation of WordPress.
 == Upgrade Notice ==
 = 2013.0621.0361 =
 * Major Update [CERTIFIED] Remove WordPress 3.1+ to 3.6+ Admin Bar, ToolBar, and more, with new Unified Code Approach, and Disable Code Completely!
