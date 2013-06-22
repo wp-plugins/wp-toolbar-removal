@@ -3,20 +3,24 @@
 /*
 Plugin Name: √ WP ToolBar Removal - DEV
 Plugin URI: http://slangji.wordpress.com/wp-toolbar-removal/
-Description: Completely <code>Disable</code> new WordPress 3.5+ / 3.4+ / 3.3+ (only) Admin <code>ToolBar</code> Frontend, Backend, Node, Pointer, Shadow, User Profile, without loosing Logout and Network functionality! Completely <code>Remove Code</code> for Minimal Memory Load, and Dasboard Speedup, with new approach. Thanks to olyma! | <a href="http://slangji.wordpress.com/donate/" title="Free Donation">Donate</a> | <a href="http://slangji.wordpress.com/contact/" title="Send Me Bug and Suggestions">Contact</a> | <a href="http://wordpress.org/plugins/wp-overview-lite/" title="Show Dashboard Overview and Footer Memory Load Usage">WP Overview?</a> | <a href="http://wordpress.org/plugins/wp-missed-schedule/" title="Fix Missed Scheduled Future Posts Cron Job">WP Missed Schedule?</a> | <a href="http://wordpress.org/plugins/wp-admin-bar-removal/" title="Remove Admin Bar Frontend Backend User Profile and Code">Admin Bar Removal?</a> | <a href="http://wordpress.org/plugins/wp-admin-bar-node-removal/" title="Remove Admin Bar Frontend and Backend Node">Admin Bar Node Removal?</a> | <a href="http://wordpress.org/plugins/wp-toolbar-removal/" title="Remove ToolBar Frontend Backend User Profile and Code">ToolBar Removal?</a> | <a href="http://wordpress.org/plugins/wp-toolbar-node-removal/" title="Remove ToolBar Frontend and Backend Node">ToolBar Node Removal?</a> | <a href="http://wordpress.org/plugins/wp-login-deindexing/" title="Total DeIndexing WordPress LogIn from all Search Engines">LogIn DeIndexing?</a> | <a href="http://wordpress.org/plugins/wp-total-deindexing/" title="Total DeIndexing WordPress from all Search Engines">WP DeIndexing?</a> | <a href="http://wordpress.org/plugins/wp-ie-enhancer-and-modernizer/" title="Enhancer and Modernizer IE Surfing Expirience">Enhancer IE Surfing?</a>
-Version: 2013.0620-BUGFIX.0526-DEVELOPMENTAL
+Description: Remove WordPress 3.3+ ToolBar and 3.1+ Admin Bar (unified code work with WP 3.1+ to 3.8+) Completely! Disable Frontend, Backend, Bump CB, Menu Shaddow Effect, Bar Pointer (ToolTips) User Personal Options, without Loosing Logout and Network Functionality! Also Remove Code for Minimal Memory Load, and DashBoard Speedup, with New Approach. The configuration of this plugin is Automattic! Work under <a href="http://www.gnu.org/licenses/gpl-2.0.html" title"GPLv2 or later License compatible">GPLv2</a> or later License. <a href="http://www.gnu.org/prep/standards/standards.html" title"GNU style indentation coding standard compatible">GNU Style</a> indentation compatible. Meet detailed <a href="http://wordpress.org/plugins/about/guidelines/Plugin" title"This plugin meet detailed guideline quality requirements">Guidelines</a> quality requirements. | <a href="http://wordpress.org/plugins/wp-overview-lite/" title="Show DashBoard Overview and Footer Memory Load Usage">WP Overview?</a> | <a href="http://wordpress.org/plugins/wp-missed-schedule/" title="Fix Missed Scheduled Future Posts Cron Job">WP Missed Schedule?</a> | <a href="http://wordpress.org/plugins/wp-admin-bar-removal/" title="Remove Admin Bar Frontend Backend User Profile and Code">Admin Bar Removal?</a> | <a href="http://wordpress.org/plugins/wp-admin-bar-node-removal/" title="Remove Admin Bar Frontend and Backend Node">Admin Bar Node Removal?</a> | <a href="http://wordpress.org/plugins/wp-toolbar-node-removal/" title="Remove ToolBar Frontend and Backend Node">ToolBar Node Removal?</a> | <a href="http://wordpress.org/plugins/wp-login-deindexing/" title="Total DeIndexing WordPress LogIn from all Search Engines">LogIn DeIndexing?</a> | <a href="http://wordpress.org/plugins/wp-total-deindexing/" title="Total DeIndexing WordPress from all Search Engines">WP DeIndexing?</a> | <a href="http://wordpress.org/plugins/wp-ie-enhancer-and-modernizer/" title="Enhancer and Modernizer IE Surfing Expirience">Enhancer IE Surfing?</a> | <a href="http://wordpress.org/plugins/wp-wp-memory-db-indicator/" title="Memory Load Consumption db size Usage Indicator">Memory and db Indicator?</a> | <a href="http://wordpress.org/plugins/toolbar-removal-completely-disable/" title="Disable Admin Bar and ToolBar and more on Frontend and Backend">Disable Admin Bar and ToolBar?</a> | <a href="http://slangji.wordpress.com/contact/" title="Send Me Bug and Suggestion">Contact</a> | <a href="http://slangji.wordpress.com/donate/" title="Free Donation">Donate</a>
+Version: 2013.0622-BUGFIX.0526-DEVELOPMENTAL
 Author: sLa
 Author URI: http://slangji.wordpress.com/
-Requires at least: 3.3
-Tested up to: 3.6
+Requires at least: 3.1
+Tested up to: 3.8
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Indentation: GNU style
 Indentation URI: http://www.gnu.org/prep/standards/standards.html
  *
- * Development Release: Version 2012 Build 1205-BUGFIX Revision 0350-DEVELOPMENT - DEV
+ * Development Release: Version 2013 Build 0622-BUGFIX Revision 0000-DEVELOPMENTAL
  *
- * [ToolBar Removal](http://wordpress.org/plugins/wp-toolbar-removal/) 
+ * Please Noted That:
+ * For Completely Backend Removal on WordPress 3.1+ (or later) is needed [WP Admin Bar Removal](http://wordpress.org/plugins/wp-admin-bar-removal/)
+ * Try also your Add-On [WP Admin Bar Removal Node](http://wordpress.org/plugins/wp-admin-bar-node-removal/)
+ *
+ * [ToolBar Removal](http://wordpress.org/plugins/wp-toolbar-removal/) Disable WP 3.3+ ToolBar and WP 3.1+ Admin Bar
  *
  * Copyright (C) 2012-2013 [sLaNGjI's](http://slangji.wordpress.com/slangjis/) (email: <slangji[at]gmail[dot]com>)
  *
@@ -34,6 +38,21 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
  * along with this program; if not, see [GNU General Public Licenses](http://www.gnu.org/licenses/),
  * or write to the Free Software Foundation, Inc., 51 Franklin Street,
  * Fifth Floor, Boston, MA 02110-1301, USA.
+ *
+ * √ DISCLAIMER
+ *
+ * The license under which the WordPress software is released is the GPLv2 (or later) from the
+ * Free Software Foundation. A copy of the license is included with every copy of WordPress.
+ *
+ * Part of this license outlines requirements for derivative works, such as plugins or themes.
+ * Derivatives of WordPress code inherit the GPL license.
+ *
+ * There is some legal grey area regarding what is considered a derivative work, but we feel
+ * strongly that plugins and themes are derivative work and thus inherit the GPL license.
+ *
+ * The license for this software can be found on [Free Software Foundation](http://www.gnu.org/licenses/gpl-2.0.html) and as license.txt into this plugin package.
+ *
+ * The author of this plugin is available at any time, to make all changes, or corrections, to respect these specifications.
  *
  * √ THERMS
  *
@@ -74,21 +93,6 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
  * Copyright (C) 2008-2013 [sLaNGjI's](http://slangji.wordpress.com/slangjis/) (email: <slangji[at]gmail[dot]com>)
  * Copyright (C) 2011 [olyma](http://rackofpower.com/) (email: <olyma[at]rackofpower[dot]com>)
  *
- * √ DISCLAIMER
- *
- * The license under which the WordPress software is released is the GPLv2 (or later) from the
- * Free Software Foundation. A copy of the license is included with every copy of WordPress.
- *
- * Part of this license outlines requirements for derivative works, such as plugins or themes.
- * Derivatives of WordPress code inherit the GPL license.
- *
- * There is some legal grey area regarding what is considered a derivative work, but we feel
- * strongly that plugins and themes are derivative work and thus inherit the GPL license.
- *
- * The license for this software can be found on [Free Software Foundation](http://www.gnu.org/licenses/gpl-2.0.html) and as license.txt into this plugin package.
- *
- * The author of this plugin is available at any time, to make all changes, or corrections, to respect these specifications.
- *
  * √ VIOLATIONS
  *
  * [Violations of the GNU Licenses](http://www.gnu.org/licenses/gpl-violation.en.html)
@@ -111,21 +115,17 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
  *
  * √ THANKS
  * To [olyma](http://wordpress.org/plugins/one-click-logout-barless/)
- *
- * Todo List:
- * echo '<style type="text/css" media="print">#wpadminbar{display:none}</style>';
- * Merge styles to minimize HTTP requests
- * Use efficient CSS selectors
+ * To [storkontheroof](http://profiles.wordpress.org/storkontheroof/) for class trick ;)
  */
 
 	/**
-	 * @package ToolBar Removal
+	 * @package ToolBar Removal (State of The Art Plugin ?)
 	 * @subpackage WordPress PlugIn
-	 * @description 
-	 * @since 3.3.0
-	 * @tested 3.6.0
-	 * @version 2013.0620-BUGFIX.0526-DEVELOPMENTAL
-	 * @status STABLE release
+	 * @description Disable WP 3.3+ ToolBar and WP 3.1+ Admin Bar
+	 * @since 3.1.0
+	 * @tested 3.8.0
+	 * @version 2013.0622-BUGFIX.0526-DEVELOPMENTAL
+	 * @status DEVELOPMENT release
 	 * @author sLa
 	 * @license GPLv2 or later
 	 * @indentation GNU style
@@ -148,55 +148,42 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
 
 	if ( $wp_version < 3.1 )
 		{
-			wp_die( __( 'This plugin requires WordPress 3.1+ or greater.' ) );
+			wp_die( __( 'This Plugin Requires WordPress 3.1+ or Greater: Activation Stopped!' ) );
 		}
 
-	//global $wp_version;
-
-	//if ( $wp_version < 3.3 )
-	//	{
-	//		wp_die( __( 'This plugin requires WP 3.3+ or greater: for 3.1+ use <a href="http://wordpress.org/plugins/wp-admin-bar-removal/">Admin Bar Removal</a> or <a href="http://wordpress.org/plugins/toolbar-removal-completely-disable/">Disable Admin Bar and ToolBar</a>' ) );
-	//	}
-
-	function wptbr_ras()
+	function wptbr_rbams()
 		{
-			echo '<style type="text/css">#adminmenushadow,#adminmenuback{background-image:none}</style>';
+			echo "\n\n<!--Start ToolBar Removal Code-->\n\n";
+			echo '<style type="text/css">#adminmenuShaddow,#adminmenuback{background-image:none}</style>';
+			echo "\n\n<!--End ToolBar Removal Code-->\n\n";
 		}
-	add_action( 'admin_head', 'wptbr_ras' );
+	add_action( 'admin_head', 'wptbr_rbams' );
 
-	function wptbr_rsb()
+	function wptbr_rbf28px()
 		{
+			echo "\n\n<!--Start ToolBar Removal Code-->\n\n";
 			echo '<style type="text/css">html.wp-toolbar,html.wp-toolbar #wpcontent,html.wp-toolbar #adminmenu,html.wp-toolbar #wpadminbar,body.admin-bar,body.admin-bar #wpcontent,body.admin-bar #adminmenu,body.admin-bar #wpadminbar{padding-top:0px !important}</style>';
+			echo "\n\n<!--End ToolBar Removal Code-->\n\n";
 		}
-	add_action( 'admin_print_styles', 'wptbr_rsb', 21 );
+	add_action( 'admin_print_styles', 'wptbr_rbf28px', 21 );
 
-	function wptbr_ablhdr()
+	function wptbr_abtlh()
 		{
-
+			echo "\n\n<!--Start ToolBar Removal Code-->\n\n";
 ?>
-<style type="text/css">table#wptbr td#wptbr_ttl a:link,table#wptbr td#wptbr_ttl a:visited{text-decoration:none}table#wptbr td#wptbr_lgt,table#wptbr td#wptbr_lgt a{text-decoration:none}</style>
-<table style="margin-left:6px;float:left;z-index:100;position:relative;left:0px;top:0px;background:none;padding:0px;border:0px;border-bottom:1px solid #DFDFDF" id="wptbr" border="0" cols="4" width="97%" height="33">
+<style type="text/css">table#tbrcss td#tbrcss_ttl a:link,table#tbrcss td#tbrcss_ttl a:visited{text-decoration:none}table#tbrcss td#tbrcss_lgt,table#tbrcss td#tbrcss_lgt a{text-decoration:none}</style>
+<table style="margin-left:6px;float:left;z-index:100;position:relative;left:0px;top:0px;background:none;padding:0px;border:0px;border-bottom:1px solid #DFDFDF" id="tbrcss" border="0" cols="4" width="97%" height="33">
 <tr>
-<td align="left" valign="center" id="wptbr_ttl">
+<td align="left" valign="center" id="tbrcss_ttl">
 <?php
 
 	echo '<a href="' . home_url() . '">' . __( get_bloginfo() ) . '</a>';
 
 ?>
 </td>
-<td align="right" valign="center" id="wptbr_lgt">
+<td align="right" valign="center" id="tbrcss_lgt">
 <div style="padding-top:2px">
 <?php
-
-	if ( function_exists( 'sLa_pml' ) )
-		{
-			echo ( sLa_pml() . 'M - ' );
-		}
-
-	if ( function_exists( 'sLa_pcl' ) )
-		{
-			echo ( sLa_pcl() . ' - ' );
-		}
 
 	echo date( 'l j F Y @ H:i' );
 
@@ -217,7 +204,7 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
 				}
 			else
 				{
-					echo ' | <a href="' . get_Dashboard_url( get_current_user_id() ) . '">' . __( 'Site Admin' ) . '</a>';
+					echo ' | <a href="' . get_DashBoard_url( get_current_user_id() ) . '">' . __( 'Site Admin' ) . '</a>';
 				}
 		}
 
@@ -231,25 +218,46 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
 </tr>
 </table>
 <?php
-
+			echo "\n<!--End ToolBar Removal Code-->\n\n";
 		}
 
-	add_action( 'in_admin_header', 'wptbr_ablhdr' );
+	global $wp_version;
 
-	function wptbr_rbcb()
+	if ( $wp_version >= 3.3 )
+		{
+			add_action( 'in_admin_header', 'wptbr_abtlh' );
+		}
+
+	function wptbr_rfbcb()
 		{
 			if ( has_filter( 'wp_head', '_admin_bar_bump_cb' ) )
 				{
 					remove_filter( 'wp_head', '_admin_bar_bump_cb' );
 				}
 		}
-	add_filter( 'wp_head', 'wptbr_rbcb', 1 );
+	add_filter( 'wp_head', 'wptbr_rfbcb', 1 );
 
-	show_admin_bar( false );
+	function wptbr_rfmp()
+		{
+			echo "\n\n<!--Start ToolBar Removal Code-->\n\n";
+			echo '<style type="text/css" media="print">#wpadminbar{display:none}</style>';
+			echo "\n\n<!--End ToolBar Removal Code-->\n\n";
+		}
+	add_action( 'wp_head', 'wptbr_rfmp', 1  );
 
 	function wp_toolbar_init()
 		{
-			add_filter( 'show_admin_bar', '__return_false' );
+			global $wp_version;
+
+			if ( $wp_version >= 3.1 )
+				{
+					global $wp_version;
+
+					if ( $wp_version < 3.3 )
+						{
+							add_filter( 'show_admin_bar', '__return_false' );
+						}
+				}
 			add_filter( 'wp_admin_bar_class', '__return_false' );
 			add_filter( 'wp_admin_bar_css', '__return_false' );
 			add_filter( 'wp_admin_bar_js', '__return_false' );
@@ -261,7 +269,9 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
 
 	function wptbr_ruppoabpc()
 		{
+			echo "\n\n<!--Start ToolBar Removal Code-->\n\n";
 			echo '<style type="text/css">.show-admin-bar{display:none}</style>';
+			echo "\n\n<!--End ToolBar Removal Code-->\n\n";
 		}
 	add_action( 'admin_print_styles-profile.php', 'wptbr_ruppoabpc' );
 
@@ -271,80 +281,83 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
 	$wp_styles = new WP_Styles();
 	wp_deregister_style( 'admin-bar' );
 
-	remove_action('init', 'wp_admin_bar_init');
-	remove_filter('init', 'wp_admin_bar_init');
+	remove_action( 'init', 'wp_admin_bar_init' );
+	remove_filter( 'init', 'wp_admin_bar_init' );
 
-	remove_action('wp_head', 'wp_admin_bar');
-	remove_filter('wp_head', 'wp_admin_bar');
-	remove_action('wp_footer', 'wp_admin_bar');
-	remove_filter('wp_footer', 'wp_admin_bar');
-	remove_action('admin_head', 'wp_admin_bar');
-	remove_filter('admin_head', 'wp_admin_bar');
-	remove_action('admin_footer', 'wp_admin_bar');
-	remove_filter('admin_footer', 'wp_admin_bar');
+	remove_action( 'wp_head', 'wp_admin_bar' );
+	remove_filter( 'wp_head', 'wp_admin_bar' );
+	remove_action( 'wp_footer', 'wp_admin_bar' );
+	remove_filter( 'wp_footer', 'wp_admin_bar' );
+	remove_action( 'admin_head', 'wp_admin_bar' );
+	remove_filter( 'admin_head', 'wp_admin_bar' );
+	remove_action( 'admin_footer', 'wp_admin_bar' );
+	remove_filter( 'admin_footer', 'wp_admin_bar' );
 
-	remove_action('wp_head', 'wp_admin_bar_class');
-	remove_filter('wp_head', 'wp_admin_bar_class');
-	remove_action('wp_footer', 'wp_admin_bar_class');
-	remove_filter('wp_footer', 'wp_admin_bar_class');
-	remove_action('admin_head', 'wp_admin_bar_class');
-	remove_filter('admin_head', 'wp_admin_bar_class');
-	remove_action('admin_footer', 'wp_admin_bar_class');
-	remove_filter('admin_footer', 'wp_admin_bar_class');
+	remove_action( 'wp_head', 'wp_admin_bar_class' );
+	remove_filter( 'wp_head', 'wp_admin_bar_class' );
+	remove_action( 'wp_footer', 'wp_admin_bar_class' );
+	remove_filter( 'wp_footer', 'wp_admin_bar_class' );
+	remove_action( 'admin_head', 'wp_admin_bar_class' );
+	remove_filter( 'admin_head', 'wp_admin_bar_class' );
+	remove_action( 'admin_footer', 'wp_admin_bar_class' );
+	remove_filter( 'admin_footer', 'wp_admin_bar_class' );
 
-	remove_action('wp_head', 'wp_admin_bar_css');
-	remove_filter('wp_head', 'wp_admin_bar_css');
-	remove_action('wp_head', 'wp_admin_bar_dev_css');
-	remove_filter('wp_head', 'wp_admin_bar_dev_css');
-	remove_action('wp_head', 'wp_admin_bar_rtl_css');
-	remove_filter('wp_head', 'wp_admin_bar_rtl_css');
-	remove_action('wp_head', 'wp_admin_bar_rtl_dev_css');
-	remove_filter('wp_head', 'wp_admin_bar_rtl_dev_css');
-	remove_action('admin_head', 'wp_admin_bar_css');
-	remove_filter('admin_head', 'wp_admin_bar_css');
-	remove_action('admin_head', 'wp_admin_bar_dev_css');
-	remove_filter('admin_head', 'wp_admin_bar_dev_css');
-	remove_action('admin_head', 'wp_admin_bar_rtl_css');
-	remove_filter('admin_head', 'wp_admin_bar_rtl_css');
-	remove_action('admin_head', 'wp_admin_bar_rtl_dev_css');
-	remove_filter('admin_head', 'wp_admin_bar_rtl_dev_css');
+	remove_action( 'wp_head', 'wp_admin_bar_css' );
+	remove_filter( 'wp_head', 'wp_admin_bar_css' );
+	remove_action( 'wp_head', 'wp_admin_bar_dev_css' );
+	remove_filter( 'wp_head', 'wp_admin_bar_dev_css' );
+	remove_action( 'wp_head', 'wp_admin_bar_rtl_css' );
+	remove_filter( 'wp_head', 'wp_admin_bar_rtl_css' );
+	remove_action( 'wp_head', 'wp_admin_bar_rtl_dev_css' );
+	remove_filter( 'wp_head', 'wp_admin_bar_rtl_dev_css' );
+	remove_action( 'admin_head', 'wp_admin_bar_css' );
+	remove_filter( 'admin_head', 'wp_admin_bar_css' );
+	remove_action( 'admin_head', 'wp_admin_bar_dev_css' );
+	remove_filter( 'admin_head', 'wp_admin_bar_dev_css' );
+	remove_action( 'admin_head', 'wp_admin_bar_rtl_css' );
+	remove_filter( 'admin_head', 'wp_admin_bar_rtl_css' );
+	remove_action( 'admin_head', 'wp_admin_bar_rtl_dev_css' );
+	remove_filter( 'admin_head', 'wp_admin_bar_rtl_dev_css' );
 
-	remove_action('wp_footer', 'wp_admin_bar_js');
-	remove_filter('wp_footer', 'wp_admin_bar_js');
-	remove_action('wp_footer', 'wp_admin_bar_dev_js');
-	remove_filter('wp_footer', 'wp_admin_bar_dev_js');
-	remove_action('admin_footer', 'wp_admin_bar_js');
-	remove_filter('admin_footer', 'wp_admin_bar_js');
-	remove_action('admin_footer', 'wp_admin_bar_dev_js');
-	remove_filter('admin_footer', 'wp_admin_bar_dev_js');
+	remove_action( 'wp_footer', 'wp_admin_bar_js' );
+	remove_filter( 'wp_footer', 'wp_admin_bar_js' );
+	remove_action( 'wp_footer', 'wp_admin_bar_dev_js' );
+	remove_filter( 'wp_footer', 'wp_admin_bar_dev_js' );
+	remove_action( 'admin_footer', 'wp_admin_bar_js' );
+	remove_filter( 'admin_footer', 'wp_admin_bar_js' );
+	remove_action( 'admin_footer', 'wp_admin_bar_dev_js' );
+	remove_filter( 'admin_footer', 'wp_admin_bar_dev_js' );
 
-	remove_action('personal_options', '_admin_bar_pref');
-	remove_filter('personal_options', '_admin_bar_pref');
-	remove_action('personal_options', '_get_admin_bar_pref');
-	remove_filter('personal_options', '_get_admin_bar_pref');
+	remove_action( 'personal_options', '_admin_bar_pref' );
+	remove_filter( 'personal_options', '_admin_bar_pref' );
+	remove_action( 'personal_options', '_get_admin_bar_pref' );
+	remove_filter( 'personal_options', '_get_admin_bar_pref' );
 
-	remove_action('locale', 'wp_admin_bar_lang');
-	remove_filter('locale', 'wp_admin_bar_lang');
+	remove_action( 'locale', 'wp_admin_bar_lang' );
+	remove_filter( 'locale', 'wp_admin_bar_lang' );
 
-	remove_action('wp_head', 'wp_admin_bar_render', 1000);
-	remove_filter('wp_head', 'wp_admin_bar_render', 1000);
-	remove_action('wp_footer', 'wp_admin_bar_render', 1000);
-	remove_filter('wp_footer', 'wp_admin_bar_render', 1000);
-	remove_action('admin_head', 'wp_admin_bar_render', 1000);
-	remove_filter('admin_head', 'wp_admin_bar_render', 1000);
-	remove_action('admin_footer', 'wp_admin_bar_render', 1000);
-	remove_filter('admin_footer', 'wp_admin_bar_render', 1000);
+	remove_action( 'wp_head', 'wp_admin_bar_render', 1000 );
+	remove_filter( 'wp_head', 'wp_admin_bar_render', 1000 );
+	remove_action( 'wp_footer', 'wp_admin_bar_render', 1000 );
+	remove_filter( 'wp_footer', 'wp_admin_bar_render', 1000 );
+	remove_action( 'admin_head', 'wp_admin_bar_render', 1000 );
+	remove_filter( 'admin_head', 'wp_admin_bar_render', 1000 );
+	remove_action( 'admin_footer', 'wp_admin_bar_render', 1000 );
+	remove_filter( 'admin_footer', 'wp_admin_bar_render', 1000 );
 
-	remove_action('wp_ajax_adminbar_render', 'wp_admin_bar_ajax_render');
-	remove_filter('wp_ajax_adminbar_render', 'wp_admin_bar_ajax_render');
+	remove_action( 'admin_footer', 'wp_admin_bar_render' );
+	remove_filter( 'admin_footer', 'wp_admin_bar_render' );
 
-	remove_action('admin_footer', 'wp_admin_bar_render');
-	remove_filter('admin_footer', 'wp_admin_bar_render');
+	remove_action( 'wp_ajax_adminbar_render', 'wp_admin_bar_ajax_render', 1000 );
+	remove_filter( 'wp_ajax_adminbar_render', 'wp_admin_bar_ajax_render', 1000 );
 
-	function wptbr_nfo()
+	remove_action( 'wp_ajax_adminbar_render', 'wp_admin_bar_ajax_render' );
+	remove_filter( 'wp_ajax_adminbar_render', 'wp_admin_bar_ajax_render' );
+
+	function wptbr_hfl()
 		{
-			echo "\n<!--Plugin ToolBar Removal 2013.0620-BUGFIX.0526-DEVELOPMENTAL Active - Tag: ".md5(md5("".""))."-->\n";
-			echo "\n<!--This Site is Optimized to Speedup Dashboard and Minimize Memory Load Consumption";
+			echo "\n<!--Plugin ToolBar Removal 2013.0622-BUGFIX.0526-DEVELOPMENTAL Active - Tag: ".md5(md5("".""))."-->\n";
+			echo "\n<!--This Site is Optimized to Speedup DashBoard and Minimize Memory Load Consumption";
 
 			global $wp_version;
 
@@ -353,9 +366,21 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
 					echo " with ToolBar Disabled";
 				}
 
+			global $wp_version;
+
+			if ( $wp_version >= 3.1 )
+				{
+					global $wp_version;
+
+					if ( $wp_version < 3.3 )
+						{
+							echo " with Admin Bar Disabled";
+						}
+				}
+
 			echo "-->\n\n";
 		}
-		add_action( 'wp_head', 'wptbr_nfo' );
-		add_action( 'wp_footer', 'wptbr_nfo' );
+	add_action( 'wp_head', 'wptbr_hfl' );
+	add_action( 'wp_footer', 'wptbr_hfl' );
 
 ?>
