@@ -7,7 +7,7 @@ Requires at least: 3.1
 Tested up to: 3.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-&#9733;&#9733;&#9733; Remove WordPress 3.3+ ToolBar and 3.1+ Admin Bar, Bump CB, Menu Shaddow Effect, Pointer (ToolTips) User Personal Options. Completely Disable!
+&#9733;&#9733;&#9733; Remove WP 3.3+ ToolBar 3.1+ Admin Bar Completely Disable Bump CB, Menu Shaddow Effect, Pointer ToolTips, User Personal Settings.
 == Description ==
 Remove WordPress 3.3+ ToolBar and 3.1+ Admin Bar, Bump CB, Menu Shaddow Effect, Pointer (ToolTips) User Personal Options.
 
@@ -193,8 +193,6 @@ All previous release, prior of latest stable, are
 deprecated, and no longer supported on this project:
 is very suggested upgrade to the latest build always!
 `
-PRO @ $19.99 or $29.99 or $39.99 via PayPal or Google Checkout ?
-
 = Development Release =
 [Version 2013 Build 0622-BUGFIX Revision 0000-DEVELOPMENTAL](http://downloads.wordpress.org/plugin/wp-toolbar-removal.zip) Code in Becoming!
 = 2013.0621.0361 =
@@ -284,7 +282,7 @@ PRO @ $19.99 or $29.99 or $39.99 via PayPal or Google Checkout ?
 [Toolbar Node Removal](http://wordpress.org/extend/plugins/wp-toolbar-node-removal/), is the first add-on of [Toolbar Removal](http://wordpress.org/extend/plugins/wp-toolbar-removal/), to make easly Node/Group removal, for specific Third Party Plugins Node Group, on future, without modify master code. To Removal of all "Text Links Alone" on DashBoard Backend and User Frontend, for any Plugin that put it on "Admin ToolBar", is simple  necessary, download install and activate only ToolBar Node Removal, and not ToolBar Removal, without loosing cache improvements on complex, and busy, WordPress installations. You can put ToolBar Node Removal, via ftp, to directory /mu-plugins/ and you activate automatically without any action, or needed refresh! Is also possible put ToolBar Removal, to directory /mu-plugins/ since first setup, and removal it is active, by default, before and after first installation of WordPress.
 == Upgrade Notice ==
 = 2013.0621.0361 =
-* Major Update [CERTIFIED] Remove WP 3.1+ to 3.6+ Admin Bar and ToolBar with new Unified Code!
+* Major Update [CERTIFIED] Remove WordPress 3.1+ to 3.6+ Admin Bar, ToolBar, and more, with new Unified Code Approach, and Disable Code Completely!
 = 2012.1121.0343 =
 * Release [REVISED] User Profile ToolBar. Supported on WP 3.3+ / 3.4.3 / 3.5 RC1 [Admin Bar Removal](http://wordpress.org/extend/plugins/wp-admin-bar-removal/) Enhancement! Work under GPLv2 license.
 = 2012.0816.0342 =
