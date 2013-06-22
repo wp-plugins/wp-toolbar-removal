@@ -1,15 +1,17 @@
-=== √ ToolBar Removal - Admin Completely Disable! ===
+=== √ ToolBar Removal - Disable Admin Bar ===
 Contributors: sLaNGjI
 Donate link: http://slangji.wordpress.com/donate/
-Tags: disable,toolbar,admin,bar,node,frontend,backend,remove,pointer,shadow,code,sLaNGjI
+Tags: disable,remove,toolbar,adminbar,node,frontend,backend,pointer,shadow,code,sLa,sLaNGjI
 Stable tag: 2012.1121.0343
 Requires at least: 3.3
 Tested up to: 3.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-&#9733;&#9733;&#9733; Completely Disable Admin ToolBar, Frontend, Backend, Node, Pointer, Shadow, Without Loosing Logout, Profile, Network functions!
+&#9733;&#9733;&#9733; Disable Admin ToolBar, Frontend, Backend, Node, Pointer, Shadow, Profile, without loosing Logout and Network functions: completely!
 == Description ==
-Completely Disable new WordPress 3.6+ /3.5+ / 3.4+ / 3.3+ (only) Admin ToolBar, Frontend, Backend, Node Groups, Bar Pointer, Menu Shadow, User Profile, Third Party Plugins Node Group Removal, Without Loosing Logout, Profile and Network MultiSite functionality! Completely <code>Remove Code</code> for Minimal Memory Load, and Dasboard SpeedUP, with new approach. Work with Single and Multisite Installation.
+Disable Admin ToolBar on WordPress 3.1+ to 3.6+, remove code completely, speedup dashboard, and minimize core memory consumption, with new unified approach!
+
+Frontend, Backend, Node Groups, Bar Pointer Tooltips, Menu Shadow Effect, User Profile Options, Third Party Plugins Node Group Removal, Without Loosing Logout, Profile and Network MultiSite functionality completely! Completely <code>Remove Code</code> for Minimal Memory Load, and Dasboard SpeedUP. Work with Single and Multisite Installation.
 
 Author Website: [slangji.wordpress.com](http://slangji.wordpress.com/) - Author Repositories: [github.com/sLaNGjI](https://github.com/sLaNGjI)
 
