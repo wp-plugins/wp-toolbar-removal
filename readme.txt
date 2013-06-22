@@ -1,4 +1,4 @@
-=== √ ToolBar Removal - Disable Admin Bar ===
+=== ToolBar Removal - Disable Admin Bar ===
 Contributors: sLaNGjI
 Donate link: http://slangji.wordpress.com/donate/
 Tags: adminbar,backend,bumpcb,DashBoard,disable,frontend,pointer,remove,Shaddow,sLa,sLaNGjI,toolbar
@@ -7,7 +7,7 @@ Requires at least: 3.1
 Tested up to: 3.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-&#9733;&#9733;&#9733; Remove WP 3.3+ ToolBar 3.1+ Admin Bar Completely Disable Bump CB, Menu Shaddow Effect, Pointer ToolTips, User Personal Settings.
+Remove WP 3.3+ ToolBar 3.1+ Admin Bar Completely Disable Bump CB, Menu Shaddow Effect, Pointer ToolTips, User Personal Settings.
 == Description ==
 Remove WordPress 3.3+ ToolBar and 3.1+ Admin Bar, Bump CB, Menu Shaddow Effect, Pointer (ToolTips) User Personal Settings.
 
