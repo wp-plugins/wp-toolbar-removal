@@ -193,7 +193,6 @@ All previous release, prior of latest stable, are
 deprecated, and no longer supported on this project:
 is very suggested upgrade to the latest build always!
 `
-
 PRO @ $19.99 or $29.99 or $39.99 via PayPal or Google Checkout ?
 
 = Development Release =
