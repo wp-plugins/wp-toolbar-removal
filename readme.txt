@@ -2,7 +2,7 @@
 Contributors: sLaNGjI
 Donate link: http://slangji.wordpress.com/donate/
 Tags: disable,remove,toolbar,adminbar,node,frontend,backend,pointer,shadow,code,sLa,sLaNGjI
-Stable tag: 2013.0622.0361
+Stable tag: 2012.1121.0343
 Requires at least: 3.3
 Tested up to: 3.6
 License: GPLv2 or later
