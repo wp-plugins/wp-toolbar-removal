@@ -11,7 +11,7 @@ Requires at least: 3.1
 Tested up to: 3.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Indentation: GNU style
+Indentation: GNU style coding standard
 Indentation URI: http://www.gnu.org/prep/standards/standards.html
  *
  * DEVELOPMENT release: Version 2013 Build 0622-BUGFIX Revision 0526-DEVELOPMENTAL
@@ -124,7 +124,7 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
 	 * @status STABLE release
 	 * @author sLa
 	 * @license GPLv2 or later
-	 * @indentation GNU style
+	 * @indentation GNU style coding standard
 	 * @keybit 
 	 * @keysum 
 	 * @keytag 74be16979710d4c4e7c6647856088456
