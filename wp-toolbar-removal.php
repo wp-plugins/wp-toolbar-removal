@@ -1,9 +1,9 @@
-<?php
+<?php 
 
 /*
 Plugin Name: WP ToolBar Removal
 Plugin URI: http://slangji.wordpress.com/wp-toolbar-removal/
-Description: Remove WordPress 3.3+ ToolBar and 3.1+ Admin Bar (unified code work with WP 3.1+ to 3.6+) Completely! Disable Frontend, Backend, Bump CB, Menu Shaddow Effect, Bar Pointer (ToolTips) User Personal Options, without Loosing Logout and Network Functionality! Also Remove Code for Minimal Memory Load, and DashBoard Speedup, with New Approach. The configuration of this plugin is Automattic! Work under <a href="http://www.gnu.org/licenses/gpl-2.0.html" title"GPLv2 or later License compatible">GPLv2</a> or later License. <a href="http://www.gnu.org/prep/standards/standards.html" title"GNU style indentation coding standard compatible">GNU Style</a> indentation compatible. Meet detailed <a href="http://wordpress.org/plugins/about/guidelines/Plugin" title"This plugin meet detailed guideline quality requirements">Guidelines</a> quality requirements. | <a href="http://wordpress.org/plugins/wp-overview-lite/" title="Show DashBoard Overview and Footer Memory Load Usage">WP Overview?</a> | <a href="http://wordpress.org/plugins/wp-missed-schedule/" title="Fix Missed Scheduled Future Posts Cron Job">WP Missed Schedule?</a> | <a href="http://wordpress.org/plugins/wp-admin-bar-removal/" title="Remove Admin Bar Frontend Backend User Profile and Code">Admin Bar Removal?</a> | <a href="http://wordpress.org/plugins/wp-admin-bar-node-removal/" title="Remove Admin Bar Frontend and Backend Node">Admin Bar Node Removal?</a> | <a href="http://wordpress.org/plugins/wp-toolbar-node-removal/" title="Remove ToolBar Frontend and Backend Node">ToolBar Node Removal?</a> | <a href="http://wordpress.org/plugins/wp-login-deindexing/" title="Total DeIndexing WordPress LogIn from all Search Engines">LogIn DeIndexing?</a> | <a href="http://wordpress.org/plugins/wp-total-deindexing/" title="Total DeIndexing WordPress from all Search Engines">WP DeIndexing?</a> | <a href="http://wordpress.org/plugins/wp-ie-enhancer-and-modernizer/" title="Enhancer and Modernizer IE Surfing Expirience">Enhancer IE Surfing?</a> | <a href="http://wordpress.org/plugins/wp-wp-memory-db-indicator/" title="Memory Load Consumption db size Usage Indicator">Memory and db Indicator?</a> | <a href="http://wordpress.org/plugins/toolbar-removal-completely-disable/" title="Disable Admin Bar and ToolBar and more on Frontend and Backend">Disable Admin Bar and ToolBar?</a> | <a href="http://slangji.wordpress.com/contact/" title="Send Me Bug and Suggestion">Contact</a> | <a href="http://slangji.wordpress.com/donate/" title="Free Donation">Donate</a>
+Description: Disable and Remove ToolBar and Admin Bar Code on WordPress 3.1+ to 3.6+ Completely, for Minimal Memory Load, and DashBoard Speedup, All in One Disabler and Remover, Hide on Frontend 28px, Bump CB, Node, and on Backend 28px, Node, Menu Shaddow Effect, Pointer ToolTips, User Personal Settings, without Loosing Logout and Network Functionality with New Unified Coding and Approach. The configuration of this Plugin is Automattic! Work under <a href="http://www.gnu.org/licenses/gpl-2.0.html" title"GPLv2 or later License compatible">GPLv2</a> or later License. <a href="http://www.gnu.org/prep/standards/standards.html" title"GNU style indentation coding standard compatible">GNU Style</a> indentation compatible. Meet detailed <a href="http://wordpress.org/plugins/about/guidelines/Plugin" title"This plugin meet detailed guideline quality requirements">Guidelines</a> quality requirements. | <a href="http://wordpress.org/plugins/wp-overview-lite/" title="Show DashBoard Overview and Footer Memory Load Usage">WP Overview?</a> | <a href="http://wordpress.org/plugins/wp-missed-schedule/" title="Fix Missed Scheduled Future Posts Cron Job">WP Missed Schedule?</a> | <a href="http://wordpress.org/plugins/wp-admin-bar-removal/" title="Remove Admin Bar Frontend Backend User Profile and Code">Admin Bar Removal?</a> | <a href="http://wordpress.org/plugins/wp-admin-bar-node-removal/" title="Remove Admin Bar Frontend and Backend Node">Admin Bar Node Removal?</a> | <a href="http://wordpress.org/plugins/wp-toolbar-node-removal/" title="Remove ToolBar Frontend and Backend Node">ToolBar Node Removal?</a> | <a href="http://wordpress.org/plugins/wp-login-deindexing/" title="Total DeIndexing WordPress LogIn from all Search Engines">LogIn DeIndexing?</a> | <a href="http://wordpress.org/plugins/wp-total-deindexing/" title="Total DeIndexing WordPress from all Search Engines">WP DeIndexing?</a> | <a href="http://wordpress.org/plugins/wp-ie-enhancer-and-modernizer/" title="Enhancer and Modernizer IE Surfing Expirience">Enhancer IE Surfing?</a> | <a href="http://wordpress.org/plugins/wp-wp-memory-db-indicator/" title="Memory Load Consumption db size Usage Indicator">Memory and db Indicator?</a> | <a href="http://wordpress.org/plugins/toolbar-removal-completely-disable/" title="Disable Admin Bar and ToolBar and more on Frontend and Backend">Disable Admin Bar and ToolBar?</a> | <a href="http://slangji.wordpress.com/contact/" title="Send Me Bug and Suggestion">Contact</a> | <a href="http://slangji.wordpress.com/donate/" title="Free Donation">Donate</a>
 Version: 2013.0621.0361
 Author: sLa
 Author URI: http://slangji.wordpress.com/
@@ -14,13 +14,9 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Indentation: GNU style
 Indentation URI: http://www.gnu.org/prep/standards/standards.html
  *
- * Development Release: Version 2013 Build 0622-BUGFIX Revision 0526-DEVELOPMENTAL
+ * DEVELOPMENT release: Version 2013 Build 0622-BUGFIX Revision 0526-DEVELOPMENTAL
  *
- * Please Noted That:
- * For Completely Backend Removal on WordPress 3.1+ (or later) is needed [WP Admin Bar Removal](http://wordpress.org/plugins/wp-admin-bar-removal/)
- * Try also your Add-On [WP Admin Bar Removal Node](http://wordpress.org/plugins/wp-admin-bar-node-removal/)
- *
- * [ToolBar Removal](http://wordpress.org/plugins/wp-toolbar-removal/) Disable WP 3.3+ ToolBar and WP 3.1+ Admin Bar
+ * [WP ToolBar Removal](http://wordpress.org/plugins/wp-toolbar-removal/) Disable and Remove WordPress ToolBar and Admin Bar Code Completely
  *
  * Copyright (C) 2012-2013 [sLaNGjI's](http://slangji.wordpress.com/slangjis/) (email: <slangji[at]gmail[dot]com>)
  *
@@ -119,9 +115,9 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
  */
 
 	/**
-	 * @package ToolBar Removal (State of The Art Plugin ?)
+	 * @package WP ToolBar Removal (State of The Art Plugin?)
 	 * @subpackage WordPress PlugIn
-	 * @description Disable WP 3.3+ ToolBar and WP 3.1+ Admin Bar
+	 * @description Disable and Remove WordPress ToolBar and Admin Bar Code Completely
 	 * @since 3.1.0
 	 * @tested 3.6.0
 	 * @version 2013.0621.0361
