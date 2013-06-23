@@ -16,10 +16,6 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
  *
  * Stable Release: Version 2013 Build 0621 Revision 0361
  *
- * Please Noted That:
- * For Completely Backend Removal on WordPress 3.1+ (or later) is needed [WP Admin Bar Removal](http://wordpress.org/plugins/wp-admin-bar-removal/)
- * Try also your Add-On [WP Admin Bar Removal Node](http://wordpress.org/plugins/wp-admin-bar-node-removal/)
- *
  * [ToolBar Removal](http://wordpress.org/plugins/wp-toolbar-removal/) Disable WP 3.3+ ToolBar and WP 3.1+ Admin Bar
  *
  * Copyright (C) 2012-2013 [sLaNGjI's](http://slangji.wordpress.com/slangjis/) (email: <slangji[at]gmail[dot]com>)
