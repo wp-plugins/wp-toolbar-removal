@@ -11,12 +11,12 @@ Requires at least: 3.1
 Tested up to: 3.8
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Indentation: GNU style
+Indentation: GNU style coding standard
 Indentation URI: http://www.gnu.org/prep/standards/standards.html
  *
- * Stable Release: Version 2013 Build 0621 Revision 0361
+ * STABLE release: Version 2013 Build 0621 Revision 0361
  *
- * [ToolBar Removal](http://wordpress.org/plugins/wp-toolbar-removal/) Disable WP 3.3+ ToolBar and WP 3.1+ Admin Bar
+ * [WP ToolBar Removal](http://wordpress.org/plugins/wp-toolbar-removal/) Disable and Remove WordPress ToolBar and Admin Bar Code Completely
  *
  * Copyright (C) 2012-2013 [sLaNGjI's](http://slangji.wordpress.com/slangjis/) (email: <slangji[at]gmail[dot]com>)
  *
@@ -124,7 +124,7 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
 	 * @status DEVELOPMENT release
 	 * @author sLa
 	 * @license GPLv2 or later
-	 * @indentation GNU style
+	 * @indentation GNU style coding standard
 	 * @keybit 
 	 * @keysum 
 	 * @keytag 74be16979710d4c4e7c6647856088456
