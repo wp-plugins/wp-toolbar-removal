@@ -116,8 +116,6 @@ This plugin work under GPLv2 license.`
  * Derived from [One Click Logout Barless](http://wordpress.org/extend/plugins/one-click-logout-barless/)
  * Work under GPLv2 license
  * Bump Version 2012 Build 0314 Revision 1152
-== Add-On ==
-[Toolbar Node Removal](http://wordpress.org/extend/plugins/wp-toolbar-node-removal/), is the first add-on of [Toolbar Removal](http://wordpress.org/extend/plugins/wp-toolbar-removal/), to make easly Node/Group removal, for specific Third Party Plugins Node Group, on future, without modify master code. To Removal of all "Text Links Alone" on Dasboard Backend and User Frontend, for any Plugin that put it on "Admin ToolBar", is simple  necessary, download install and activate only ToolBar Node Removal, and not ToolBar Removal, without loosing cache improvements on complex, and busy, WordPress installations. You can put ToolBar Node Removal, via ftp, to directory /mu-plugins/ and you activate automatically without any action, or needed refresh! Is also possible put ToolBar Removal, to directory /mu-plugins/ since first setup, and removal it is active, by default, before and after first installation of WordPress.
 == Upgrade Notice ==
 = 2012.1121.0343 =
 * Release [REVISED] User Profile ToolBar. Supported on WP 3.3+ / 3.4.3 / 3.5 RC1 [Admin Bar Removal](http://wordpress.org/extend/plugins/wp-admin-bar-removal/) Enhancement! Work under GPLv2 license.
@@ -129,3 +127,5 @@ This plugin work under GPLv2 license.`
 * Release Beta 2 [STABLE] Full WP 3.3+ Compatible. Supported on WP 3.4-beta [Admin Bar Removal](http://wordpress.org/extend/plugins/wp-admin-bar-removal/) Enhancement! Work under GPLv2 license.
 = 2012.0314.1152 =
 * Release Beta 1 [STABLE] Full WP 3.3+ Compatible. Supported on WP 3.4-alpha [Admin Bar Removal](http://wordpress.org/extend/plugins/wp-admin-bar-removal/) Enhancement! Work under GPLv2 license.
+== Add-On ==
+[Toolbar Node Removal](http://wordpress.org/extend/plugins/wp-toolbar-node-removal/), is the first add-on of [Toolbar Removal](http://wordpress.org/extend/plugins/wp-toolbar-removal/), to make easly Node/Group removal, for specific Third Party Plugins Node Group, on future, without modify master code. To Removal of all "Text Links Alone" on Dasboard Backend and User Frontend, for any Plugin that put it on "Admin ToolBar", is simple  necessary, download install and activate only ToolBar Node Removal, and not ToolBar Removal, without loosing cache improvements on complex, and busy, WordPress installations. You can put ToolBar Node Removal, via ftp, to directory /mu-plugins/ and you activate automatically without any action, or needed refresh! Is also possible put ToolBar Removal, to directory /mu-plugins/ since first setup, and removal it is active, by default, before and after first installation of WordPress.
