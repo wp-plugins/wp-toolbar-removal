@@ -49,6 +49,35 @@ Linked and reviewed at [softpedia.com](http://webscripts.softpedia.com/script/Mo
 Work under [GPLv2](http://www.gnu.org/licenses/gpl-2.0.html) License.
 
 Author URL [sLa](http://wordpress.org/extend/plugins/profile/sla) is moved to [sLaNGjI](http://wordpress.org/extend/plugins/profile/slangji). Please update your bookmarks!
+== Installation ==
+= How to install ToolBar Removal (manual) =
+1. Download ToolBar Removal.
+2. Upload it into your plugins directory from Plugin Add Feature or FTP.
+3. It will create a directory /wp-content/plugins`/wp-toolbar-removal/`
+4. Active ToolBar Removal.
+= How to install ToolBar Removal (auto) =
+1. Search ToolBar Removal from Plugin Add Feature.
+2. Install it live directly from wordpress.org repository.
+3. It will create a directory /wp-content/plugins`/wp-toolbar-removal/`
+4. Active ToolBar Removal.
+= How to uninstall ToolBar Removal =
+1. Disable ToolBar Removal from Menu Plugins of Control Panel.
+2. Delete ToolBar Removal from Menu Plugins of Control Panel.
+= Troubleshooting =
+If all else fails and your site is broken remove directly via ftp on your host space /home/your-wp-install-dir/wp-content/plugins/wp-toolbar-removal/
+= Before Installation =
+Before install this plugin, on WordPress 3.1+ (or later) is reccomended, but is not needed, to unflag all User -> Personal Options -> Show Admin Bar -> when viewing site -> in DashBoard
+
+Before install this plugin, on WordPress 3.3+ (or later) is reccomended, but is not needed, to unflag all User -> Personal Options -> Toolbar -> Show Toolbar when viewing site
+= Installation Trick =
+A neat trick is to put this single file (not its parent directory) in the wp-content/mu-plugins directory (create it if not exists) so you won't even have to enable it, it will be loaded by default.
+== Add-On ==
+[Toolbar Node Removal](http://wordpress.org/extend/plugins/wp-toolbar-node-removal/), is the first add-on of [Toolbar Removal](http://wordpress.org/extend/plugins/wp-toolbar-removal/), to make easly Node/Group removal, for specific Third Party Plugins Node Group, on future, without modify master code. To Removal of all "Text Links Alone" on Dasboard Backend and User Frontend, for any Plugin that put it on "Admin ToolBar", is simple  necessary, download install and activate only ToolBar Node Removal, and not ToolBar Removal, without loosing cache improvements on complex, and busy, WordPress installations. You can put ToolBar Node Removal, via ftp, to directory /mu-plugins/ and you activate automatically without any action, or needed refresh! Is also possible put ToolBar Removal, to directory /mu-plugins/ since first setup, and removal it is active, by default, before and after first installation of WordPress.
+== Screenshots ==
+1. The 'old' WP Admin Bar: bigger, clunkier, and redundant ...
+2. The 'new' WP ToolBar: smaller, simpler, and bamboozled! No option to disable for back-end!
+3. The 'old' WP Admin Bar User Profile Settings: full control ...
+4. The 'new' WP ToolBar User Profile Settings: bamboozled! No option to disable for back-end!
 == Changelog ==
 `All previous release, prior of latest stable, are on fact
 deprecated, and no longer supported on this project:
@@ -116,8 +145,6 @@ This plugin work under GPLv2 license.`
  * Derived from [One Click Logout Barless](http://wordpress.org/extend/plugins/one-click-logout-barless/)
  * Work under GPLv2 license
  * Bump Version 2012 Build 0314 Revision 1152
-== Add-On ==
-[Toolbar Node Removal](http://wordpress.org/extend/plugins/wp-toolbar-node-removal/), is the first add-on of [Toolbar Removal](http://wordpress.org/extend/plugins/wp-toolbar-removal/), to make easly Node/Group removal, for specific Third Party Plugins Node Group, on future, without modify master code. To Removal of all "Text Links Alone" on Dasboard Backend and User Frontend, for any Plugin that put it on "Admin ToolBar", is simple  necessary, download install and activate only ToolBar Node Removal, and not ToolBar Removal, without loosing cache improvements on complex, and busy, WordPress installations. You can put ToolBar Node Removal, via ftp, to directory /mu-plugins/ and you activate automatically without any action, or needed refresh! Is also possible put ToolBar Removal, to directory /mu-plugins/ since first setup, and removal it is active, by default, before and after first installation of WordPress.
 == Upgrade Notice ==
 = 2012.1121.0343 =
 * Release [REVISED] User Profile ToolBar. Supported on WP 3.3+ / 3.4.3 / 3.5 RC1 [Admin Bar Removal](http://wordpress.org/extend/plugins/wp-admin-bar-removal/) Enhancement! Work under GPLv2 license.
