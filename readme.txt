@@ -1,13 +1,13 @@
-=== √ ToolBar Removal - Disable Admin Bar ===
+=== ToolBar Removal - Disable Admin Bar ===
 Contributors: sLaNGjI
 Donate link: http://slangji.wordpress.com/donate/
-Tags: disable,remove,toolbar,adminbar,node,frontend,backend,pointer,shadow,code,sLa,sLaNGjI
+Tags: adminbar, backend, bumpcb, dashboard, disable, frontend, pointer, remove, shaddow, sla, slangji, toolbar
 Stable tag: 2012.1121.0343
 Requires at least: 3.3
 Tested up to: 3.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-&#9733;&#9733;&#9733; Disable Admin ToolBar, Frontend, Backend, Node, Pointer, Shadow, Profile, without loosing Logout and Network functions: completely!
+Disable Admin ToolBar, Frontend, Backend, Node, Pointer, Shadow, Profile, without loosing Logout and Network functions: completely!
 == Description ==
 Disable Admin ToolBar on WordPress 3.1+ to 3.6+, remove code completely, speedup dashboard, and minimize core memory consumption, with new unified approach!
 
