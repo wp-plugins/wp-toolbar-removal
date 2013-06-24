@@ -1,14 +1,17 @@
 <?php
 /*
-Plugin Name: ToolBar Removal - RC2
+Plugin Name: WP ToolBar Removal
 Plugin URI: http://slangji.wordpress.com/wp-toolbar-removal/
 Description: Completely <code>Disable</code> new WordPress 3.3+ and 3.4+ (only) <code>ToolBar</code> Frontend, Backend, related User Profile Settings, without loosing logout functionality! Completely <code>Remove Code</code> for minimal memory load, with new approach. Work under GPLv2 License. (RELEASE CANDIDATE 2 VERSION) Thanks to olyma! | <a href="http://slangji.wordpress.com/donate/" title="Free Donation">Donate</a> | <a href="http://wordpress.org/extend/plugins/wp-overview-lite/" title="Show Dashboard Overview and Footer Memory Load Usage">WP Overview?</a> | <a href="http://wordpress.org/extend/plugins/wp-missed-schedule/" title="Fix Missed Scheduled Future Posts Cron Job">WP Missed Schedule?</a> | <a href="http://wordpress.org/extend/plugins/wp-admin-bar-removal/" title="Remove Admin Bar Frontend Backend User Profile and Code">Admin Bar Removal?</a> | <a href="http://wordpress.org/extend/plugins/wp-admin-bar-node-removal/" title="Remove Admin Bar Frontend and Backend Node">Admin Bar Node Removal?</a> | <a href="http://wordpress.org/extend/plugins/wp-toolbar-removal/" title="Remove ToolBar Frontend Backend User Profile and Code">ToolBar Removal?</a> | <a href="http://wordpress.org/extend/plugins/wp-toolbar-node-removal/" title="Remove ToolBar Frontend and Backend Node">ToolBar Node Removal?</a> | <a href="http://wordpress.org/extend/plugins/wp-login-deindexing/" title="Total DeIndexing WordPress LogIn from all Search Engines">LogIn DeIndexing?</a> | <a href="http://wordpress.org/extend/plugins/wp-total-deindexing/" title="Total DeIndexing WordPress from all Search Engines">WP DeIndexing?</a> | <a href="http://wordpress.org/extend/plugins/wp-ie-enhancer-and-modernizer/" title="Enhancer and Modernizer IE Surfing Expirience">Enhancer IE Surfing?</a>
 Version: 2012.0319.2012
-Author: sLa
+Author: sLa NGjI's
 Author URI: http://slangji.wordpress.com/
 Requires at least: 3.3
 Tested up to: 3.3.3
 License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Indentation: GNU style coding standard
+Indentation URI: http://www.gnu.org/prep/standards/standards.html
  *
  * Development Release: Version 2012 Build 0621-BUGFIX Revision 0433-DEVELOPMENT - DEV
  *
@@ -43,11 +46,11 @@ License: GPLv2 or later
  * Thanks to [olyma](http://wordpress.org/extend/plugins/one-click-logout-barless/)
  */
 /**
- * @package ToolBar Removal
+ * @package WP ToolBar Removal
  * @subpackage WordPress PlugIn
  * @since 3.3.0
  * @version 2012.0314.1152
- * @author sLa
+ * @author sLa NGjI's
  * @license GPLv2 or later
  *
  * Completely Disable ToolBar Frontend, Backend, related User Profile Settings, without loosing logout functionality, and Remove Code for minimal memory load with new approach.
