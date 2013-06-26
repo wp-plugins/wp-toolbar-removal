@@ -3,7 +3,7 @@
 /*
 Plugin Name: WP ToolBar Removal
 Plugin URI: http://slangji.wordpress.com/wp-toolbar-removal/
-Description: Disable and Remove ToolBar and Admin Bar Code on WordPress 3.1+ to 3.6+ Frontend and Backend, Completely, for Minimal Memory Load, and DashBoard Speedup, with New Unified Coding Approach! Also Hide: Frontend 28px and Bump CB; Backend 28px and Node/Group/Links on Top of DashBoard, Admin Menu Shadow Effect, Admin Bar and ToolBar Pointer ToolTips, Admin Bar and ToolBar related User Personal Options Settings, without loosing Logout and Network MultiSite functionality! The first and only Plugin (for now) that really work on WordPress 3.1+ to 3.6+ The configuration of this Plugin is Automattic!Work under GPLv2 or later License. GNU style indentation coding standard compatible. Meet detailed guidelines quality requirements.
+Description: Disable and Remove ToolBar and Admin Bar Code on WordPress 3.1+ to 3.6+ Frontend and Backend, Completely, for Minimal Memory Load, and DashBoard Speedup, with New Unified Coding Approach! Also Hide: Frontend 28px and Bump CB; Backend 28px and Node/Group/Links on Top of DashBoard, Admin Menu Shadow Effect, Admin Bar and ToolBar Pointer ToolTips, Admin Bar and ToolBar related User Personal Options Settings, without loosing Logout and Network MultiSite functionality! The first and only Plugin (for now) that really work on WordPress 3.1+ to 3.6+ The configuration of this Plugin is Automattic! Work under GPLv2 or later License. GNU style indentation coding standard compatible. Meet detailed guidelines quality requirements.
 Version: 2013.0624.0361
 Author: sLaNGjI
 Author URI: http://slangji.wordpress.com/
