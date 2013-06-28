@@ -1,7 +1,7 @@
 === ToolBar Removal - Disable Admin Bar Remove ===
 Contributors: sLaNGjI
 Donate link: http://slangji.wordpress.com/donate/
-Tags: adminbar, backend, bumpcb, dashboard, disable, frontend, pointer, remove, shaddow, sla, slangji, toolbar
+Tags: adminbar, admin-bar, backend, disable, frontend, pointer, remove, shadow, sla, slangji, toolbar, tool-bar
 Stable tag: 2013.0624.0361
 Requires at least: 3.1
 Tested up to: 3.6
@@ -11,7 +11,7 @@ disable and remove wordpress toolbar and admin bar for all users and subscribers
 == Description ==
 disable and remove wordpress toolbar and admin bar for all users and subscribers frontend backend code free mem completely with new unified coding !
 
-Disable and Remove ToolBar and Admin Bar Code on WordPress 3.1+ to 3.6+ Frontend and Backend, Completely, for Minimal Memory Load, and DashBoard Speedup, with New Unified Coding Approach! Also Hide: Frontend 28px and Bump CB, Backend 28px, Node, Admin Menu Shaddow Effect, Pointer ToolTips, User Personal Options Settings, without loosing Logout and Network MultiSite functionality! The configuration of this Plugin is Automattic! The first and only Plugin (for now) that really work on WordPress 3.1+ to 3.6+
+Disable and Remove ToolBar and Admin Bar Code on WordPress 3.1+ to 3.6+ Frontend and Backend, Completely, for Minimal Memory Load, and DashBoard Speedup, with New Unified Coding Approach! Also Hide: Frontend 28px and Bump CB, Backend 28px, Node, Admin Menu Shadow Effect, Pointer ToolTips, User Personal Options Settings, without loosing Logout and Network MultiSite functionality! The configuration of this Plugin is Automattic! The first and only Plugin (for now) that really work on WordPress 3.1+ to 3.6+
 
 Rules:
 
@@ -186,7 +186,7 @@ Developmental Code in Becoming.
  * NEW Add logout functionality on top of Admin DashBoard for WP 3.3+ or later
  * NEW Disable Frontend Bump CB
  * NEW Disable Frontend "28px gap" on top of Site Home Page
- * NEW Disable Backend DashBoard Admin Menu Shaddow Effect
+ * NEW Disable Backend DashBoard Admin Menu Shadow Effect
  * NEW Disable Backend DashBoard Admin Bar/ToolBar Pointer (ToolTips)
  * NEW Disable Backend "28px gap" on top of Admin DashBoard
  * NEW Add Header and Footer Log
@@ -263,7 +263,7 @@ Developmental Code in Becoming.
  * Bump Version 2012 Build 0314 Revision 1152
 == Upgrade Notice ==
 = 2013.0624.0361 =
-Major Update [CERTIFIED] Disable and Remove Admin Bar and ToolBar Code Completely on WordPress 3.1+ to 3.6+ for Minimal Memory Load, and DashBoard Speedup, with new Unified Coding Approach! Also Hide: Frontend 28px and Bump CB, Backend 28px, Node, Admin Menu Shaddow Effect, Pointer ToolTips, User Personal Options Settings, without loosing Logout and Network MultiSite functionality! The configuration of this Plugin is Automattic! The first and only Plugin (for now) that really work on WordPress 3.1+ to 3.6+
+Major Update [CERTIFIED] Disable and Remove Admin Bar and ToolBar Code Completely on WordPress 3.1+ to 3.6+ for Minimal Memory Load, and DashBoard Speedup, with new Unified Coding Approach! Also Hide: Frontend 28px and Bump CB, Backend 28px, Node, Admin Menu Shadow Effect, Pointer ToolTips, User Personal Options Settings, without loosing Logout and Network MultiSite functionality! The configuration of this Plugin is Automattic! The first and only Plugin (for now) that really work on WordPress 3.1+ to 3.6+
 = 2012.1121.0343 =
 Release [REVISED] User Profile ToolBar. Supported on WP 3.3+ / 3.4.3 / 3.5 RC1 [Admin Bar Removal](http://wordpress.org/plugins/wp-admin-bar-removal/) Enhancement! Work under GPLv2 license.
 = 2012.0816.0342 =
