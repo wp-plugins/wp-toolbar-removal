@@ -14,11 +14,9 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Indentation: GNU style coding standard
 Indentation URI: http://www.gnu.org/prep/standards/standards.html
  *
- * DEVELOPMENT release: Version 2013 Build 0624-BUGFIX Revision 0956-DEVELOPMENTAL
+ * [WP ToolBar Removal](http://wordpress.org/plugins/wp-toolbar-removal/) Disable and Remove WordPress ToolBar and Admin Bar Code
  *
- * [WP ToolBar Removal](http://wordpress.org/plugins/wp-toolbar-removal/) Disable and Remove WordPress ToolBar and Admin Bar Code Completely
- *
- * Copyright (C) 2012-2013 [sLa NGjI's](http://slangji.wordpress.com/slangjis) (email: <slangjis[at]gmail[dot]com>)
+ * Copyright (C) 2012-2013 [sLa NGjI's](http://slangji.wordpress.com/slangjis/) (email: <slangjis[at]gmail[dot]com>)
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the [GNU General Public License](http://wordpress.org/about/gpl/)
@@ -117,11 +115,12 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
 /**
  * @package WP ToolBar Removal
  * @subpackage WordPress PlugIn
- * @description Disable and Remove WordPress ToolBar and Admin Bar Code Completely
+ * @description Disable and Remove WordPress ToolBar and Admin Bar Code
  * @since 3.1.0
  * @tested 3.6.0
  * @version 2013.0624.0361
- * @status STABLE release
+ * @status STABLE (trunk) release
+ * @development Code in Becoming!
  * @author sLaNGjI
  * @license GPLv2 or later
  * @indentation GNU style coding standard
