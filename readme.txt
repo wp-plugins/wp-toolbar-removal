@@ -1,15 +1,15 @@
 === ToolBar Removal - Disable Admin Bar Remove ===
 Contributors: sLaNGjI
 Donate link: http://slangji.wordpress.com/donate/
-Tags: adminbar, admin-bar, backend, disable, frontend, pointer, remove, shadow, sla, slangji, toolbar, tool-bar
-Stable tag: 2013.0624.0361
+Tags: adminbar, admin-bar, backend, disable, frontend, pointer, remove, shadow, sla, slangji, tool-bar, toolbar
+Stable tag: trunk
 Requires at least: 3.1
 Tested up to: 3.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-disable and remove wordpress toolbar and admin bar for all users and subscribers frontend backend code free mem completely with new unified coding !
+disable and remove wordpress toolbar admin bar for all users subscribers frontend backend code free mem completely unified coding by sLa
 == Description ==
-disable and remove wordpress toolbar and admin bar for all users and subscribers frontend backend code free mem completely with new unified coding !
+disable and remove wordpress toolbar admin bar for all users subscribers frontend backend code free mem completely unified coding by sLa
 
 Disable and Remove ToolBar and Admin Bar Code on WordPress 3.1+ to 3.6+ Frontend and Backend, Completely, for Minimal Memory Load, and DashBoard Speedup, with New Unified Coding Approach! Also Hide: Frontend 28px and Bump CB, Backend 28px, Node, Admin Menu Shadow Effect, Pointer ToolTips, User Personal Options Settings, without loosing Logout and Network MultiSite functionality! The configuration of this Plugin is Automattic! The first and only Plugin (for now) that really work on WordPress 3.1+ to 3.6+
 
@@ -177,7 +177,7 @@ Without a doubt things will continue to change, and it’ll be fun watching as W
 and no longer supported on this project: is very 
 suggested upgrade to the latest build, always!`
 = Development Status =
-Developmental Code in Becoming.
+Developmental Code in Becoming!
 = 2013.0624.0361 =
 * Major Update [CERTIFIED] Remove Admin Bar and ToolBar with New Unified Coding!
  * Please update as soon as possible!
