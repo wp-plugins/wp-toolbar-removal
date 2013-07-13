@@ -1,15 +1,15 @@
-=== ToolBar Removal - Disable Admin Bar Remove ===
-Contributors: sLaNGjI
+=== ToolBar Removal - Disable Remove Admin Bar ===
+Contributors: slangjis
 Donate link: http://slangji.wordpress.com/donate/
-Tags: adminbar, admin-bar, backend, disable, frontend, pointer, remove, shadow, sla, slangji, tool-bar, toolbar
+Tags: adminbar, admin-bar, backend, disable, frontend, pointer, remove, shadow, sla, slangjis, tool-bar, toolbar
 Stable tag: trunk
 Requires at least: 3.1
 Tested up to: 3.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-disable and remove wordpress toolbar admin bar for all users subscribers frontend backend code free mem completely unified coding by sLa
+disable and remove wordpress toolbar admin bar for all users subscribers frontend backend code free mem completely unified coding
 == Description ==
-disable and remove wordpress toolbar admin bar for all users subscribers frontend backend code free mem completely unified coding by sLa
+disable and remove wordpress toolbar admin bar for all users subscribers frontend backend code free mem completely unified coding
 
 Disable and Remove ToolBar and Admin Bar Code on WordPress 3.1+ to 3.6+ Frontend and Backend, Completely, for Minimal Memory Load, and DashBoard Speedup, with New Unified Coding Approach! Also Hide: Frontend 28px and Bump CB, Backend 28px, Node, Admin Menu Shadow Effect, Pointer ToolTips, User Personal Options Settings, without loosing Logout and Network MultiSite functionality! The configuration of this Plugin is Automattic! The first and only Plugin (for now) that really work on WordPress 3.1+ to 3.6+
 
@@ -64,10 +64,7 @@ No need to delete anything from the wp_option when deactivate!
 No need to delete anything from the wp_option when deleted!
 Not need other actions except installing or uninstall it!
 `
-Thanks to:
-
-1. [olyma]()
-1. [storkontheroof]()
+Thanks to: olyma, storkontheroof, focus3d
 
 * [My Others WordPress Plugins](http://slangji.wordpress.com/plugins/)
  * [WP Overview (lite)](http://wordpress.org/plugins/wp-overview-lite/)
@@ -81,6 +78,7 @@ Thanks to:
  * [IE Enhancer and Modernizer](http://wordpress.org/plugins/wp-ie-enhancer-and-modernizer/) Linked and reviewed at [softpedia.com](http://webscripts.softpedia.com/script/Modules/WordPress-Plugins/IE-Enhancer-and-Modernizer-73546.html)
  * [Memory Load Consumption db size Usage Indicator](http://wordpress.org/plugins/wp-memory-db-indicator/) (new)
  * [Header and Footer Log](http://wordpress.org/plugins/wp-header-footer-log/) Only For Developers (and advanced users)
+
 == Installation ==
 = Before Installation =
 Before install this plugin, on WordPress 3.1+ (or later) is reccomended, but is not needed, to unflag all User -> Personal Options -> Show Admin Bar -> when viewing site -> in DashBoard
