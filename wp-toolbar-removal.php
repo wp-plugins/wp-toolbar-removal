@@ -2,18 +2,18 @@
 /*
 Plugin Name: WP ToolBar Removal
 Plugin URI: http://slangji.wordpress.com/wp-toolbar-removal/
-Description: disable and remove toolbar, admin bar code, on wordpress 3.1+ to 3.6+ frontend, backend, related user personal options settings, free mem, completely! for Minimal Memory Load, and DashBoard Speedup, with New Unified Coding approach, without loosing Logout and Network MultiSite functionality! Hide: Frontend 28px and Bump CB; Backend 28px and Node/Group/Links, on Top of Site and DashBoard, Admin Menu Shadow Effect and Pointer ToolTips. The configuration of this Plugin is Automattic! Work under GPLv2 or later License. GNU style indentation coding standard compatible. Meet detailed guidelines quality requirements.
+Description: disable and remove toolbar, admin bar code, on wordpress 3.1+ to 3.7+ frontend, backend, related user personal options settings, free mem, completely! for Minimal Memory Load, and DashBoard Speedup, with New Unified Coding approach, without loosing Logout and Network MultiSite functionality! Hide: Frontend 28px and Bump CB; Backend 28px and Node/Group/Links, on Top of Site and DashBoard, Admin Menu Shadow Effect and Pointer ToolTips. The configuration of this Plugin is Automattic!
 Version: 2013.0624.0361
-Author: slangjis
+Author: sLa NGjI's
 Author URI: http://slangji.wordpress.com/
 Requires at least: 3.1
-Tested up to: 3.6
+Tested up to: 3.7.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Indentation: GNU style coding standard
 Indentation URI: http://www.gnu.org/prep/standards/standards.html
  *
- * [WP ToolBar Removal](http://wordpress.org/plugins/wp-toolbar-removal/) Disable and Remove WordPress ToolBar and Admin Bar Code
+ * [WP ToolBar Removal](http://wordpress.org/plugins/wp-toolbar-removal/) Disable WordPress ToolBar and Admin Bar and Remove Code
  *
  * Copyright (C) 2012-2013 [slangjis](http://slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
  *
@@ -108,25 +108,23 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
  *
  * THANKS
  *
- * To: olyma, storkontheroof, focus3d
+ * To: olyma, storkontheroof, focus3d, and all others that send me bugfix, suggestions or triks :)
  */
 
-/**
- * @package WP ToolBar Removal
- * @subpackage WordPress PlugIn
- * @description Disable and Remove WordPress ToolBar and Admin Bar Code
- * @since 3.1.0
- * @tested 3.6.0
- * @version 2013.0624.0361
- * @status STABLE (trunk) release
- * @development Code in Becoming!
- * @author slangjis
- * @license GPLv2 or later
- * @indentation GNU style coding standard
- * @keybit 
- * @keysum 
- * @keytag 74be16979710d4c4e7c6647856088456
- */
+	/**
+	 * @package WP ToolBar Removal
+	 * @subpackage WordPress PlugIn
+	 * @description Disable WordPress ToolBar and Admin Bar and Remove Code
+	 * @since 3.1.0
+	 * @tested 3.7.2
+	 * @version 2013.0624.0361
+	 * @status STABLE (trunk) release
+	 * @development Code in Becoming!
+	 * @author slangjis
+	 * @license GPLv2 or later
+	 * @indentation GNU style coding standard
+	 * @keytag 74be16979710d4c4e7c6647856088456
+	 */
 
 	if ( !function_exists( 'add_action' ) )
 		{
@@ -260,7 +258,6 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
 
 	remove_action( 'init', 'wp_admin_bar_init' );
 	remove_filter( 'init', 'wp_admin_bar_init' );
-
 	remove_action( 'wp_head', 'wp_admin_bar' );
 	remove_filter( 'wp_head', 'wp_admin_bar' );
 	remove_action( 'wp_footer', 'wp_admin_bar' );
@@ -269,7 +266,6 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
 	remove_filter( 'admin_head', 'wp_admin_bar' );
 	remove_action( 'admin_footer', 'wp_admin_bar' );
 	remove_filter( 'admin_footer', 'wp_admin_bar' );
-
 	remove_action( 'wp_head', 'wp_admin_bar_class' );
 	remove_filter( 'wp_head', 'wp_admin_bar_class' );
 	remove_action( 'wp_footer', 'wp_admin_bar_class' );
@@ -278,7 +274,6 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
 	remove_filter( 'admin_head', 'wp_admin_bar_class' );
 	remove_action( 'admin_footer', 'wp_admin_bar_class' );
 	remove_filter( 'admin_footer', 'wp_admin_bar_class' );
-
 	remove_action( 'wp_head', 'wp_admin_bar_css' );
 	remove_filter( 'wp_head', 'wp_admin_bar_css' );
 	remove_action( 'wp_head', 'wp_admin_bar_dev_css' );
@@ -295,7 +290,6 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
 	remove_filter( 'admin_head', 'wp_admin_bar_rtl_css' );
 	remove_action( 'admin_head', 'wp_admin_bar_rtl_dev_css' );
 	remove_filter( 'admin_head', 'wp_admin_bar_rtl_dev_css' );
-
 	remove_action( 'wp_footer', 'wp_admin_bar_js' );
 	remove_filter( 'wp_footer', 'wp_admin_bar_js' );
 	remove_action( 'wp_footer', 'wp_admin_bar_dev_js' );
@@ -304,10 +298,8 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
 	remove_filter( 'admin_footer', 'wp_admin_bar_js' );
 	remove_action( 'admin_footer', 'wp_admin_bar_dev_js' );
 	remove_filter( 'admin_footer', 'wp_admin_bar_dev_js' );
-
 	remove_action( 'locale', 'wp_admin_bar_lang' );
 	remove_filter( 'locale', 'wp_admin_bar_lang' );
-
 	remove_action( 'wp_head', 'wp_admin_bar_render', 1000 );
 	remove_filter( 'wp_head', 'wp_admin_bar_render', 1000 );
 	remove_action( 'wp_footer', 'wp_admin_bar_render', 1000 );
@@ -316,20 +308,17 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
 	remove_filter( 'admin_head', 'wp_admin_bar_render', 1000 );
 	remove_action( 'admin_footer', 'wp_admin_bar_render', 1000 );
 	remove_filter( 'admin_footer', 'wp_admin_bar_render', 1000 );
-
 	remove_action( 'admin_footer', 'wp_admin_bar_render' );
 	remove_filter( 'admin_footer', 'wp_admin_bar_render' );
-
 	remove_action( 'wp_ajax_adminbar_render', 'wp_admin_bar_ajax_render', 1000 );
 	remove_filter( 'wp_ajax_adminbar_render', 'wp_admin_bar_ajax_render', 1000 );
-
 	remove_action( 'wp_ajax_adminbar_render', 'wp_admin_bar_ajax_render' );
 	remove_filter( 'wp_ajax_adminbar_render', 'wp_admin_bar_ajax_render' );
 
 	function wptbr_hfl()
 		{
-			echo "\n<!--Plugin ToolBar Removal 2013.0624.0361 Active - Tag: ".md5(md5("".""))."-->\n";
-			echo "\n<!--This Site is Optimized to Speedup DashBoard and Minimize Memory Load Consumption with Disabled";
+			echo "\n<!--Plugin ToolBar Removal 2013.0624.0361 Active - Tag ".md5(md5("".""))."-->\n";
+			echo "\n<!--Site Optimized to Speedup Control Panel Minimize Memory Consumption with Disabled";
 
 			global $wp_version;
 
