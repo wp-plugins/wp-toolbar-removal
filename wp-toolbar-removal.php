@@ -4,7 +4,6 @@ Plugin Name: WP Toolbar Removal
 Plugin URI: //slangji.wordpress.com/wp-toolbar-removal/
 Description: disable toolbar and admin bar on wordpress 3.1+ to 4.1+ for all users and completely remove code on frontend, backend, user personal options settings, for minimize memory consumption, and speed up loading of the admin control panel, with new unified coding approach and without loosing logout and network multisite functionality! Hide: Frontend 28px GAP and Bump CB, Backend 28px GAP and Node/Group/Links, on Top of Site and DashBoard, Admin Menu Shadow Effect and Pointer ToolTips. The configuration of this Plugin is Automattic!
 Version: 2014.0507.0391
-Stable tag: trunk
 Author: sLa NGjI's
 Author URI: //slangji.wordpress.com/
 Requires at least: 3.1
@@ -182,6 +181,13 @@ Network: true
 				exit();
 		}
 
+	global $wp_version;
+
+	if ( $wp_version < 3.1 )
+		{
+			wp_die( __( 'This Plugin Requires WordPress 3.1+ or Greater: Activation Stopped!' ) );
+		}
+
 	function wptbr_1st()
 		{
 			$path = str_replace( WP_PLUGIN_DIR . '/', '', __FILE__ );
@@ -197,13 +203,6 @@ Network: true
 				}
 		}
 	add_action( "activated_plugin", "wptbr_1st" );
-
-	global $wp_version;
-
-	if ( $wp_version < 3.1 )
-		{
-			wp_die( __( 'This Plugin Requires WordPress 3.1+ or Greater: Activation Stopped!' ) );
-		}
 
 	function wptbr_rbams()
 		{
@@ -383,7 +382,7 @@ Network: true
 				{
 					$links[] = '<a href="//slangji.wordpress.com/donate/">Donate</a>';
 					$links[] = '<a href="//slangji.wordpress.com/contact/">Contact</a>';
-					$links[] = '<a href="//slangji.wordpress.com/plugins/">Others plugins</a>';
+					$links[] = '<a href="//slangji.wordpress.com/plugins/">Other</a>';
 				}
 			return $links;
 		}
