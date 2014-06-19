@@ -2,12 +2,12 @@
 Contributors: slangjis
 Donate link: http://slangji.wordpress.com/donate/
 Tags: admin-bar, adminbar, disable-admin-bar, disable-toolbar, disable-wordpress-admin-bar, disable-wordpress-toolbar, remove-admin-bar, remove-toolbar, remove-wordpress-admin-bar, remove-wordpress-toolbar, slangjis, toolbar
-Stable tag: 2014.0508.0391
+Stable tag: trunk
 Requires at least: 3.1
 Tested up to: 3.9.1
 disable wordpress toolbar for all user roles remove frontend backend code reduce memory consumption speedup loading control panel removal wp plugin
 == description ==
-disable wordpress toolbar for all user roles remove frontend backend code reduce memory consumption speedup loading control panel removal wp plugin clean dashboard menu for all subscribers. Is planned update for WordPress 3.8+ / 3.9+ / 4.0+ / 4.1+ compatibility? YES! The plugin that is updated, for now, is [WP Toolbar Removal](//wordpress.org/plugins/wp-Toolbar-removal/) Migrate to it A.S.A.P.
+disable wordpress toolbar for all user roles remove frontend backend code reduce memory consumption speedup loading control panel removal wp plugin clean dashboard menu for all subscribers. Is planned update for WordPress 3.8+ / 3.9+ / 4.0+ / 4.1+ compatibility? YES! The plugin that is updated, for now, is [WP Toolbar Removal](//wordpress.org/plugins/wp-toolbar-removal/)
 
 Rules:
 
