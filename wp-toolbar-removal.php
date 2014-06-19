@@ -8,11 +8,11 @@ Author: slangjis
 Author URI: http://slangji.wordpress.com/
 Requires at least: 3.1
 Tested up to: 3.9.1
-License: GPLv2 or later (license.txt)
+License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Indentation: GNU style coding standard
 Indentation URI: http://www.gnu.org/prep/standards/standards.html
-Humans: We are the Humans behind (humans.txt)
+Humans: We are the humans behind
 Humans URI: http://humanstxt.org/Standard.html
  *
 Donate link: http://slangji.wordpress.com/donate/
