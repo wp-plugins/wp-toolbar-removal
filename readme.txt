@@ -11,16 +11,16 @@ disable wordpress toolbar for all user roles remove frontend backend code reduce
 
 Rules:
 
-1. Compatible with: WordPress, bbPress, Buddypress.
+1. Compatible with: WordPress, bbPress, Buddypress
 1. Unified Coding to run with WordPress 3.1+ to 4.1+
-1. Ready to Single and Network Multisite Environment.
-1. All in One Disabler Remover 28px, Bump CB, Node, Shadow, Pointer, Profile, Code.
+1. Ready to Single and Network Multisite Environment
+1. All in One Disabler Remover 28px, Bump CB, Node, Shadow, Pointer, Profile, Code
 1. The configuration of this plugin is Automattic!
-1. Compatible with Shared, Dedicated, Cloud and VPS Hosting.
-1. Run on Hosting with high and low resources.
-1. Work under [GPLv2](//www.gnu.org/licenses/gpl-2.0.html) or later License.
-1. Implement [GNU style](//www.gnu.org/prep/standards/standards.html) coding standard indentation.
-1. Meet detailed [Plugin Guidelines](//wordpress.org/plugins/about/guidelines/) quality requirements.
+1. Compatible with Shared, Dedicated, Cloud and VPS Hosting
+1. Run on Hosting with high and low resources
+1. Work under [GPLv2](//www.gnu.org/licenses/gpl-2.0.html) or later License
+1. Implement [GNU style](//www.gnu.org/prep/standards/standards.html) coding standard indentation
+1. Meet detailed [Plugin Guidelines](//wordpress.org/plugins/about/guidelines/) quality requirements
 
 Features:
 
@@ -45,13 +45,13 @@ Features:
 * Reduce Core Memory Consumption
 * Reduce WordPress Memory Usage
 * Free Unused Memory Load
-* Less Plugin Memory Consumption.
-* Full Strict Security Rules Applied.
-* Handy Syntax Improvement.
-* Reduce Code Bloat.
-* Code Cleanup for faster loading.
-* Only one unique PHP file.
-* Supports PHP 4 and PHP 5.
+* Less Plugin Memory Consumption
+* Full Strict Security Rules Applied
+* Handy Syntax Improvement
+* Reduce Code Bloat
+* Code Cleanup for faster loading
+* Only one unique PHP file
+* Supports PHP 4 and PHP 5
 `
 Nothing is written into space disk!
 Nothing is written into wp_option database table!
