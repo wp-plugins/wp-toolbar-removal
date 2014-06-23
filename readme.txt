@@ -144,7 +144,7 @@ and no longer supported on this project: is very
 suggested upgrade to the latest build, always!`
 = Development Status =
 Developmental Code in Becoming!
-= 2014.0508.0391 =
+= 2014.0531.0373 =
 * Major Update [CERTIFIED] Remove Admin Bar and Toolbar with New Unified Coding!
  * Please update as soon as possible!
  * Planned Target Version: 2014.1210.0410
@@ -183,5 +183,5 @@ Developmental Code in Becoming!
  * UPDATED removed unnecessary complex code
  * BUMP Version 2014 Build 0507 Revision 0391
 == Upgrade Notice ==
-= 2014.0508.0391 =
+= 2014.0531.0373 =
 Major Update [CERTIFIED] Disable WordPress Admin Bar and Toolbar and Remove Code Completely on WP 3.1+ to 3.7+ for Minimal Memory Load, and DashBoard Speedup, with new Unified Coding Approach! Also Hide: Frontend 28px and Bump CB, Backend 28px, Node, Admin Menu Shadow Effect, Pointer ToolTips, User Personal Options Settings, without loosing Logout and Network MultiSite functionality!
