@@ -3,7 +3,7 @@
 Plugin Name: WP Toolbar Removal
 Plugin URI: http://slangji.wordpress.com/wp-toolbar-removal/
 Description: disable toolbar and admin bar on wordpress 3.1+ to 3.7+ for all users and completely remove code on frontend, backend, user personal options settings, for minimize memory consumption, and speed up loading of the admin control panel, with new unified coding approach and without loosing logout and network multisite functionality! Hide: Frontend 28px GAP and Bump CB, Backend 28px GAP and Node/Group/Links, on Top of Site and DashBoard, Admin Menu Shadow Effect and Pointer ToolTips. The configuration of this Plugin is Automattic!
-Version: 2012.1121.0343
+Version: 2014.0531.0373
 Author: slangjis
 Author URI: http://slangji.wordpress.com/
 Requires at least: 3.1
@@ -22,7 +22,7 @@ Humans URI: http://humanstxt.org/Standard.html
  *
  * Disable WordPress Toolbar and Admin Bar and Remove Code
  *
- * Copyright (C) 2010-2014 [slangjis](//slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
+ * Copyright (C) 2010-2014 [sLaNGjIs](//slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the [GNU General Public License](//wordpress.org/about/gpl/)
@@ -64,54 +64,54 @@ Humans URI: http://humanstxt.org/Standard.html
  * This uses (or it parts) code derived from
  *
  * wp-header-footer-log.php by slangjis <slangjis [at] googlemail [dot] com>
- * Copyright (C) 2009-2014 [slangjis](//slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
+ * Copyright (C) 2009-2014 [sLaNGjIs](//slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
  *
  * wp-admin-bar-removal.php by slangjis <slangjis [at] googlemail [dot] com>
- * Copyright (C) 2010-2014 [slangjis](//slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
+ * Copyright (C) 2010-2014 [sLaNGjIs](//slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
  *
  * wp-admin-bar-removal-node-addon.php by slangjis <slangjis [at] googlemail [dot] com>
- * Copyright (C) 2010-2014 [slangjis](//slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
+ * Copyright (C) 2010-2014 [sLaNGjIs](//slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
  *
  * global-admin-bar-hide-or-remove.php by Donald J. Fischer (email: <dfischer [at] fischercreativemedia [dot] com>)
- * Copyright (C) 2010-2014 [slangjis](//slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
+ * Copyright (C) 2010-2014 [sLaNGjIs](//slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
  * Copyright (C) 2011-2014 [prophecy2040](//www.fischercreativemedia.com/) (email: <dfischer [at] fischercreativemedia [dot] com>
  *
  * global-hide-admin-tool-bar.php by slangjis <slangjis [at] googlemail [dot] com>
- * Copyright (C) 2010-2014 [slangjis](//slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
+ * Copyright (C) 2010-2014 [sLaNGjIs](//slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
  * Copyright (C) 2011-2014 [prophecy2040](//www.fischercreativemedia.com/) (email: <dfischer [at] fischercreativemedia [dot] com>
  *
  * one-click-logout.php by olyma <olyma [at] rackofpower [dot] com>)
- * Copyright (C) 2010-2014 [slangjis](//slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
+ * Copyright (C) 2010-2014 [sLaNGjIs](//slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
  * Copyright (C) 2011-2014 [olyma](//rackofpower.com/) (email: <olyma [at] rackofpower [dot] com>)
  *
  * one-click-logout-barless.php by olyma <olyma [at] rackofpower [dot] com>)
- * Copyright (C) 2010-2014 [slangjis](//slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
+ * Copyright (C) 2010-2014 [sLaNGjIs](//slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
  * Copyright (C) 2011-2014 [olyma](//rackofpower.com/) (email: <olyma [at] rackofpower [dot] com>))
  *
  * toolbar-removal-completely-disable.php by slangjis <slangjis [at] googlemail [dot] com>
- * Copyright (C) 2011-2014 [slangjis](//slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
+ * Copyright (C) 2011-2014 [sLaNGjIs](//slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
  *
  * wp-toolbar-removal.php by slangjis <slangjis [at] googlemail [dot] com>
- * Copyright (C) 2012-2014 [slangjis](//slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
+ * Copyright (C) 2012-2014 [sLaNGjIs](//slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
  *
  * wp-toolbar-removal-node-addon.php by slangjis <slangjis [at] googlemail [dot] com>
- * Copyright (C) 2012-2014 [slangjis](//slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
+ * Copyright (C) 2012-2014 [sLaNGjIs](//slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
  *
  * according to the terms of the GNU General Public License version 2 (or later)
  *
  * This wp-header-footer-log.php uses (or it parts) code derived from
  *
  * wp-footer-log.php by slangjis <slangjis [at] googlemail [dot] com>
- * Copyright (C) 2008-2014 [slangjis](//slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
+ * Copyright (C) 2008-2014 [sLaNGjIs](//slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
  *
  * sLa2sLaNGjIs.php by slangjis <slangjis [at] googlemail [dot] com>
- * Copyright (C) 2009-2014 [slangjis](//slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
+ * Copyright (C) 2009-2014 [sLaNGjIs](//slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
  *
  * according to the terms of the GNU General Public License version 2 (or later)
  *
  * According to the Terms of the GNU General Public License version 2 (or later) part of Copyright belongs to your own author and part belongs to their respective other authors:
  *
- * Copyright (C) 2008-2014 [slangjis](//slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
+ * Copyright (C) 2008-2014 [sLaNGjIs](//slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
  * Copyright (C) 2011-2014 [olyma](//rackofpower.com/) (email: <olyma [at] rackofpower [dot] com>)
  * Copyright (C) 2011-2014 [prophecy2040](//www.fischercreativemedia.com/) (email: <dfischer [at] fischercreativemedia [dot] com>
  *
@@ -163,7 +163,7 @@ Humans URI: http://humanstxt.org/Standard.html
 	 * @build   2014-05-31
 	 * @since   3.1.0
 	 * @tested  3.7.3
-	 * @version 2012.1121.0343
+	 * @version 2014.0531.0373
 	 * @status STABLE (trunk) release
 	 * @development Code in Becoming!
 	 * @author slangjis
@@ -391,7 +391,7 @@ Humans URI: http://humanstxt.org/Standard.html
 
 	function wptbr_hfl()
 		{
-			echo "\n<!--Plugin WP Toolbar Removal 2012.1121.0343 Active - Tag ".md5(md5("".""))."-->\n";
+			echo "\n<!--Plugin WP Toolbar Removal 2014.0531.0373 Active - Tag ".md5(md5("".""))."-->\n";
 			echo "\n<!--Site Optimized to Speedup Control Panel Minimize Memory Consumption with Disabled";
 
 			global $wp_version;
@@ -413,5 +413,37 @@ Humans URI: http://humanstxt.org/Standard.html
 		}
 	add_action( 'wp_head', 'wptbr_hfl' );
 	add_action( 'wp_footer', 'wptbr_hfl' );
+
+	if( file_exists( plugin_dir_path( __FILE__ ) . 'wp-toolbar-removal.js' ) )
+
+		{
+
+			add_action( 'admin_enqueue_scripts' , 'wp_toolbar_removal_js' );
+
+		}
+
+	function wp_toolbar_removal_js()
+
+		{
+
+			wp_enqueue_script( 'wp-toolbar-removal-js' , plugins_url( 'wp-toolbar-removal.js' , __FILE__ ) , array( 'admin-bar' , 'common' ) );
+
+		}
+
+	if( file_exists( plugin_dir_path( __FILE__ ) . 'wp-toolbar-removal.css' ) )
+
+		{
+
+			add_action( 'admin_enqueue_scripts' , 'wp_toolbar_removal_css' );
+
+		}
+
+	function wp_toolbar_removal_css()
+
+		{
+
+			wp_enqueue_style( 'wp-toolbar-removal-css' , plugins_url( 'wp-toolbar-removal.css' , __FILE__ ) );
+
+		}
 
 ?>
