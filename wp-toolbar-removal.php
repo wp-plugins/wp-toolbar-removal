@@ -1,27 +1,31 @@
 <?php
-
 /*
-Plugin Name: WP ToolBar Removal
+Plugin Name: WP Toolbar Removal
 Plugin URI: http://slangji.wordpress.com/wp-toolbar-removal/
-Description: Disable and Remove ToolBar and Admin Bar Code on WordPress 3.3+ to 3.4+ Frontend and Backend, Completely, for Minimal Memory Load, and DashBoard Speedup, with New Unified Coding Approach! Also Hide: Frontend 28px and Bump CB; Backend 28px and Node/Group/Links on Top of DashBoard, Admin Menu Shadow Effect, Admin Bar and ToolBar Pointer ToolTips, Admin Bar and ToolBar related User Personal Options Settings, without loosing Logout and Network MultiSite functionality! The configuration of this Plugin is Automattic! Work under GPLv2 or later License. GNU style indentation coding standard compatible. Meet detailed guidelines quality requirements.
+Description: disable toolbar and admin bar on wordpress 3.1+ to 3.7+ for all users and completely remove code on frontend, backend, user personal options settings, for minimize memory consumption, and speed up loading of the admin control panel, with new unified coding approach and without loosing logout and network multisite functionality! Hide: Frontend 28px GAP and Bump CB, Backend 28px GAP and Node/Group/Links, on Top of Site and DashBoard, Admin Menu Shadow Effect and Pointer ToolTips. The configuration of this Plugin is Automattic!
 Version: 2012.1121.0343
-Author: sLaNGjI
+Author: slangjis
 Author URI: http://slangji.wordpress.com/
-Requires at least: 3.3
-Tested up to: 3.4.3
+Requires at least: 3.1
+Tested up to: 3.7.3
+Network: true
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Indentation: GNU style coding standard
 Indentation URI: http://www.gnu.org/prep/standards/standards.html
+Humans: We are the humans behind
+Humans URI: http://humanstxt.org/Standard.html
  *
- * DEVELOPMENT release: Version 2013 Build 0624-BUGFIX Revision 0956-DEVELOPMENTAL
+ * LICENSING (license.txt)
  *
- * [WP ToolBar Removal](http://wordpress.org/plugins/wp-toolbar-removal/) Disable and Remove WordPress ToolBar and Admin Bar Code Completely
+ * [WP Toolbar Removal](//wordpress.org/plugins/wp-toolbar-removal/)
  *
- * Copyright (C) 2012-2013 [sLa NGjI's](http://slangji.wordpress.com/) (email: <slangji[at]gmail[dot]com>)
+ * Disable WordPress Toolbar and Admin Bar and Remove Code
+ *
+ * Copyright (C) 2010-2014 [slangjis](//slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
  *
  * This program is free software; you can redistribute it and/or
- * modify it under the terms of the [GNU General Public License](http://wordpress.org/about/gpl/)
+ * modify it under the terms of the [GNU General Public License](//wordpress.org/about/gpl/)
  * as published by the Free Software Foundation; either version 2
  * of the License, or (at your option) any later version.
  *
@@ -31,11 +35,16 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with this program; if not, see [GNU General Public Licenses](http://www.gnu.org/licenses/),
+ * along with this program; if not, see [GNU General Public Licenses](//www.gnu.org/licenses/),
  * or write to the Free Software Foundation, Inc., 51 Franklin Street,
  * Fifth Floor, Boston, MA 02110-1301, USA.
  *
  * DISCLAIMER
+ *
+ * This program is distributed "AS IS" in the hope that it will be useful, but:
+ * without any warranty of function, without any warranty of merchantability,
+ * without any fitness for a particular or specific purpose, without any type
+ * of future assistance from your own author or other authors.
  *
  * The license under which the WordPress software is released is the GPLv2 (or later) from the
  * Free Software Foundation. A copy of the license is included with every copy of WordPress.
@@ -46,7 +55,7 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
  * There is some legal grey area regarding what is considered a derivative work, but we feel
  * strongly that plugins and themes are derivative work and thus inherit the GPL license.
  *
- * The license for this software can be found on [Free Software Foundation](http://www.gnu.org/licenses/gpl-2.0.html) and as license.txt into this plugin package.
+ * The license for this software can be found on [Free Software Foundation](//www.gnu.org/licenses/gpl-2.0.html) and as license.txt into this plugin package.
  *
  * The author of this plugin is available at any time, to make all changes, or corrections, to respect these specifications.
  *
@@ -54,81 +63,114 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
  *
  * This uses (or it parts) code derived from
  *
- * wp-header-footer-log.php by sLa <slangji[at]gmail[dot]com>
- * Copyright (C) 2009-2013 [sLa NGjI's](http://slangji.wordpress.com/) (email: <slangji[at]gmail[dot]com>)
+ * wp-header-footer-log.php by slangjis <slangjis [at] googlemail [dot] com>
+ * Copyright (C) 2009-2014 [slangjis](//slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
  *
- * wp-admin-bar-removal.php by sLa <slangji[at]gmail[dot]com>
- * Copyright (C) 2010-2013 [sLa NGjI's](http://slangji.wordpress.com/) (email: <slangji[at]gmail[dot]com>)
+ * wp-admin-bar-removal.php by slangjis <slangjis [at] googlemail [dot] com>
+ * Copyright (C) 2010-2014 [slangjis](//slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
  *
- * wp-admin-bar-removal-node-addon.php by sLa <slangji[at]gmail[dot]com>
- * Copyright (C) 2010-2013 [sLa NGjI's](http://slangji.wordpress.com/) (email: <slangji[at]gmail[dot]com>)
+ * wp-admin-bar-removal-node-addon.php by slangjis <slangjis [at] googlemail [dot] com>
+ * Copyright (C) 2010-2014 [slangjis](//slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
  *
- * one-click-logout-barless.php by olyma <rackofpower.com>
- * Copyright (C) 2011-2012 [olyma](http://rackofpower.com/) (email: <olyma[at]rackofpower[dot]com>)
+ * global-admin-bar-hide-or-remove.php by Donald J. Fischer (email: <dfischer [at] fischercreativemedia [dot] com>)
+ * Copyright (C) 2010-2014 [slangjis](//slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
+ * Copyright (C) 2011-2014 [prophecy2040](//www.fischercreativemedia.com/) (email: <dfischer [at] fischercreativemedia [dot] com>
  *
- * toolbar-removal-completely-disable.php by sLa <slangji[at]gmail[dot]com>
- * Copyright (C) 2011-2013 [sLa NGjI's](http://slangji.wordpress.com/) (email: <slangji[at]gmail[dot]com>)
+ * global-hide-admin-tool-bar.php by slangjis <slangjis [at] googlemail [dot] com>
+ * Copyright (C) 2010-2014 [slangjis](//slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
+ * Copyright (C) 2011-2014 [prophecy2040](//www.fischercreativemedia.com/) (email: <dfischer [at] fischercreativemedia [dot] com>
  *
- * wp-toolbar-removal-node-addon.php by sLa <slangji[at]gmail[dot]com>
- * Copyright (C) 2012-2013 [sLa NGjI's](http://slangji.wordpress.com/) (email: <slangji[at]gmail[dot]com>)
+ * one-click-logout.php by olyma <olyma [at] rackofpower [dot] com>)
+ * Copyright (C) 2010-2014 [slangjis](//slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
+ * Copyright (C) 2011-2014 [olyma](//rackofpower.com/) (email: <olyma [at] rackofpower [dot] com>)
+ *
+ * one-click-logout-barless.php by olyma <olyma [at] rackofpower [dot] com>)
+ * Copyright (C) 2010-2014 [slangjis](//slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
+ * Copyright (C) 2011-2014 [olyma](//rackofpower.com/) (email: <olyma [at] rackofpower [dot] com>))
+ *
+ * toolbar-removal-completely-disable.php by slangjis <slangjis [at] googlemail [dot] com>
+ * Copyright (C) 2011-2014 [slangjis](//slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
+ *
+ * wp-toolbar-removal.php by slangjis <slangjis [at] googlemail [dot] com>
+ * Copyright (C) 2012-2014 [slangjis](//slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
+ *
+ * wp-toolbar-removal-node-addon.php by slangjis <slangjis [at] googlemail [dot] com>
+ * Copyright (C) 2012-2014 [slangjis](//slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
  *
  * according to the terms of the GNU General Public License version 2 (or later)
  *
  * This wp-header-footer-log.php uses (or it parts) code derived from
  *
- * wp-footer-log.php by sLa <slangji[at]gmail[dot]com>
- * Copyright (C) 2008-2013 [sLa NGjI's](http://slangji.wordpress.com/) (email: <slangji[at]gmail[dot]com>)
+ * wp-footer-log.php by slangjis <slangjis [at] googlemail [dot] com>
+ * Copyright (C) 2008-2014 [slangjis](//slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
  *
- * sLa2sLaNGjIs.php by sLa <slangji[at]gmail[dot]com>
- * Copyright (C) 2009-2013 [sLa NGjI's](http://slangji.wordpress.com/) (email: <slangji[at]gmail[dot]com>)
+ * sLa2sLaNGjIs.php by slangjis <slangjis [at] googlemail [dot] com>
+ * Copyright (C) 2009-2014 [slangjis](//slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
  *
  * according to the terms of the GNU General Public License version 2 (or later)
  *
- * According to the Terms of the GNU General Public License version 2 (or later) part of Copyright belongs to your own author and part belongs to their respective others authors:
+ * According to the Terms of the GNU General Public License version 2 (or later) part of Copyright belongs to your own author and part belongs to their respective other authors:
  *
- * Copyright (C) 2008-2013 [sLa NGjI's](http://slangji.wordpress.com/) (email: <slangji[at]gmail[dot]com>)
- * Copyright (C) 2011-2012 [olyma](http://rackofpower.com/) (email: <olyma[at]rackofpower[dot]com>)
+ * Copyright (C) 2008-2014 [slangjis](//slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
+ * Copyright (C) 2011-2014 [olyma](//rackofpower.com/) (email: <olyma [at] rackofpower [dot] com>)
+ * Copyright (C) 2011-2014 [prophecy2040](//www.fischercreativemedia.com/) (email: <dfischer [at] fischercreativemedia [dot] com>
  *
  * VIOLATIONS
  *
- * [Violations of the GNU Licenses](http://www.gnu.org/licenses/gpl-violation.en.html)
+ * [Violations of the GNU Licenses](//www.gnu.org/licenses/gpl-violation.en.html)
  * The author of this plugin is available at any time, to make all changes, or corrections, to respect these specifications.
  *
  * GUIDELINES
  *
- * This software meet [Detailed Plugin Guidelines](http://wordpress.org/plugins/about/guidelines/) paragraphs 1,4,10,12,13,16,17 quality requirements.
+ * This software meet [Detailed Plugin Guidelines](//wordpress.org/plugins/about/guidelines/) paragraphs 1,4,10,12,13,16,17 quality requirements.
  * The author of this plugin is available at any time, to make all changes, or corrections, to respect these specifications.
  *
  * CODING
  *
- * This software implement [GNU style](http://www.gnu.org/prep/standards/standards.html) coding standard indentation.
+ * This software implement [GNU style](//www.gnu.org/prep/standards/standards.html) coding standard indentation.
  * The author of this plugin is available at any time, to make all changes, or corrections, to respect these specifications.
  *
  * VALIDATION
  *
- * This readme.txt rocks. Seriously. Flying colors. It meet the specifications according to WordPress [Readme Validator](http://wordpress.org/plugins/about/validator/) directives.
+ * This readme.txt rocks. Seriously. Flying colors. It meet the specifications according to WordPress [Readme Validator](//wordpress.org/plugins/about/validator/) directives.
+ * The author of this plugin is available at any time, to make all changes, or corrections, to respect these specifications.
+ *
+ * HUMANS (humans.txt)
+ *
+ * We are the Humans behind this project [humanstxt.org](//humanstxt.org/Standard.html)
+ *
+ * This software meet detailed humans rights belongs to your own author and to their respective other authors.
  * The author of this plugin is available at any time, to make all changes, or corrections, to respect these specifications.
  *
  * THANKS
- * To [olyma](http://wordpress.org/plugins/one-click-logout-barless/)
  *
- * TODO LIST
- * <style type="text/css" media="print">#wpadminbar{display:none}</style>
+ * [storkontheroof](//wordpress.org/support/topic/not-working-for-me-14#post-3990523)
+ * [focus3d](//wordpress.org/support/topic/date-in-french#post-4380604)
+ *
+ * and all other that send me bugfix, suggestions or triks :)
+ *
+ * TODOLIST
+ *
+ * [to-do list and changelog](//wordpress.org/plugins/wp-toolbar-removal/changelog/)
+ *
  */
 
-/**
- * @package WP ToolBar Removal
- * @subpackage WordPress PlugIn
- * @description Disable and Remove WordPress ToolBar and Admin Bar Code Completely
- * @since 3.3.0
- * @tested 3.4.3
- * @version 2012.1121.0343
- * @status STABLE release
- * @author sLaNGjI
- * @license GPLv2 or later
- * @indentation GNU style coding standard
- * @keytag 74be16979710d4c4e7c6647856088456
- */
+	/**
+	 * @package WP Toolbar Removal
+	 * @subpackage WordPress PlugIn
+	 * @description Disable WordPress Toolbar and Admin Bar and Remove Code
+	 * @branche 2013
+	 * @build   2014-05-31
+	 * @since   3.1.0
+	 * @tested  3.7.3
+	 * @version 2012.1121.0343
+	 * @status STABLE (trunk) release
+	 * @development Code in Becoming!
+	 * @author slangjis
+	 * @license GPLv2 or later
+	 * @indentation GNU style coding standard
+	 * @keytag 74be16979710d4c4e7c6647856088456
+	 */
 
 	if ( !function_exists( 'add_action' ) )
 		{
@@ -140,189 +182,135 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
 				exit();
 		}
 
-	function wptbr_rsb()
-		{
-			echo '<style type="text/css">html.wp-toolbar,html.wp-toolbar #wpcontent,html.wp-toolbar #adminmenu,html.wp-toolbar #wpadminbar,body.admin-bar,body.admin-bar #wpcontent,body.admin-bar #adminmenu,body.admin-bar #wpadminbar{padding-top:0px !important}</style>';
-		}
-	add_action('admin_print_styles', 'wptbr_rsb', 21);
+	global $wp_version;
 
-	function wptbr_ngr($wp_toolbar)
+	if ( $wp_version < 3.1 )
 		{
-			$wp_toolbar->remove_node('root-default');
-			$wp_toolbar->remove_node('wp-logo');
-			$wp_toolbar->remove_node('wp-logo-default');
-			$wp_toolbar->remove_node('about');
-			$wp_toolbar->remove_node('wp-logo-external');
-			$wp_toolbar->remove_node('wporg');
-			$wp_toolbar->remove_node('documentation');
-			$wp_toolbar->remove_node('support-forums');
-			$wp_toolbar->remove_node('feedback');
-			$wp_toolbar->remove_node('site-name');
-			$wp_toolbar->remove_node('site-name-default');
-			$wp_toolbar->remove_node('view-site');
-			$wp_toolbar->remove_node('comments');
-			$wp_toolbar->remove_node('updates');
-			$wp_toolbar->remove_node('view');
-			$wp_toolbar->remove_node('new-content');
-			$wp_toolbar->remove_node('new-content-default');
-			$wp_toolbar->remove_node('new-post');
-			$wp_toolbar->remove_node('new-media');
-			$wp_toolbar->remove_node('new-link');
-			$wp_toolbar->remove_node('new-page');
-			$wp_toolbar->remove_node('new-user');
-			$wp_toolbar->remove_node('top-secondary');
-			$wp_toolbar->remove_node('my-account');
-			$wp_toolbar->remove_node('user-actions');
-			$wp_toolbar->remove_node('user-info');
-			$wp_toolbar->remove_node('edit-profile');
-			$wp_toolbar->remove_node('logout');
-			$wp_toolbar->remove_node('search');
-			$wp_toolbar->remove_node('my-sites');
-			$wp_toolbar->remove_node('my-sites-list');
-			$wp_toolbar->remove_node('blog-1');
-			$wp_toolbar->remove_node('blog-1-default');
-			$wp_toolbar->remove_node('blog-1-d');
-			$wp_toolbar->remove_node('blog-1-n');
-			$wp_toolbar->remove_node('blog-1-c');
-			$wp_toolbar->remove_node('blog-1-v');
-			$wp_toolbar->remove_node('blog-2');
-			$wp_toolbar->remove_node('blog-2-default');
-			$wp_toolbar->remove_node('blog-2-d');
-			$wp_toolbar->remove_node('blog-2-n');
-			$wp_toolbar->remove_node('blog-2-c');
-			$wp_toolbar->remove_node('blog-2-v');
-			$wp_toolbar->remove_node('blog-3');
-			$wp_toolbar->remove_node('blog-3-default');
-			$wp_toolbar->remove_node('blog-3-d');
-			$wp_toolbar->remove_node('blog-3-n');
-			$wp_toolbar->remove_node('blog-3-c');
-			$wp_toolbar->remove_node('blog-3-v');
-			$wp_toolbar->remove_node('blog-4');
-			$wp_toolbar->remove_node('blog-4-default');
-			$wp_toolbar->remove_node('blog-4-d');
-			$wp_toolbar->remove_node('blog-4-n');
-			$wp_toolbar->remove_node('blog-4-c');
-			$wp_toolbar->remove_node('blog-4-v');
-			$wp_toolbar->remove_node('blog-5');
-			$wp_toolbar->remove_node('blog-5-default');
-			$wp_toolbar->remove_node('blog-5-d');
-			$wp_toolbar->remove_node('blog-5-n');
-			$wp_toolbar->remove_node('blog-5-c');
-			$wp_toolbar->remove_node('blog-5-v');
-			$wp_toolbar->remove_node('blog-6');
-			$wp_toolbar->remove_node('blog-6-default');
-			$wp_toolbar->remove_node('blog-6-d');
-			$wp_toolbar->remove_node('blog-6-n');
-			$wp_toolbar->remove_node('blog-6-c');
-			$wp_toolbar->remove_node('blog-6-v');
-			$wp_toolbar->remove_node('blog-7');
-			$wp_toolbar->remove_node('blog-7-default');
-			$wp_toolbar->remove_node('blog-7-d');
-			$wp_toolbar->remove_node('blog-7-n');
-			$wp_toolbar->remove_node('blog-7-c');
-			$wp_toolbar->remove_node('blog-7-v');
-			$wp_toolbar->remove_node('blog-8');
-			$wp_toolbar->remove_node('blog-8-default');
-			$wp_toolbar->remove_node('blog-8-d');
-			$wp_toolbar->remove_node('blog-8-n');
-			$wp_toolbar->remove_node('blog-8-c');
-			$wp_toolbar->remove_node('blog-8-v');
-			$wp_toolbar->remove_node('blog-9');
-			$wp_toolbar->remove_node('blog-9-default');
-			$wp_toolbar->remove_node('blog-9-d');
-			$wp_toolbar->remove_node('blog-9-n');
-			$wp_toolbar->remove_node('blog-9-c');
-			$wp_toolbar->remove_node('blog-9-v');
-			$wp_toolbar->remove_node('wpseo-menu');
-			$wp_toolbar->remove_node('wpseo-menu-default');
-			$wp_toolbar->remove_node('wpseo-kwresearch');
-			$wp_toolbar->remove_node('wpseo-kwresearch-default');
-			$wp_toolbar->remove_node('wpseo-adwordsexternal');
-			$wp_toolbar->remove_node('wpseo-googleinsights');
-			$wp_toolbar->remove_node('wpseo-wordtracker');
-			$wp_toolbar->remove_node('wpseo-settings');
-			$wp_toolbar->remove_node('wpseo-settings-default');
-			$wp_toolbar->remove_node('wpseo-titles');
-			$wp_toolbar->remove_node('wpseo-social');
-			$wp_toolbar->remove_node('wpseo-xml');
-			$wp_toolbar->remove_node('wpseo-permalinks');
-			$wp_toolbar->remove_node('wpseo-internal-links');
-			$wp_toolbar->remove_node('wpseo-rss');
-			$wp_toolbar->remove_node('ngg-menu');
-			$wp_toolbar->remove_node('ngg-menu-default');
-			$wp_toolbar->remove_node('ngg-menu-overview');
-			$wp_toolbar->remove_node('ngg-menu-add-gallery');
-			$wp_toolbar->remove_node('ngg-menu-manage-gallery');
-			$wp_toolbar->remove_node('ngg-menu-manage-album');
-			$wp_toolbar->remove_node('ngg-menu-tags');
-			$wp_toolbar->remove_node('ngg-menu-options');
-			$wp_toolbar->remove_node('ngg-menu-style');
-			$wp_toolbar->remove_node('ngg-menu-about');
-			$wp_toolbar->remove_node('cloudflare');
-			$wp_toolbar->remove_node('cloudflare-default');
-			$wp_toolbar->remove_node('cloudflare-my-websites');
-			$wp_toolbar->remove_node('cloudflare-analytics');
-			$wp_toolbar->remove_node('cloudflare-account');
-			$wp_toolbar->remove_node('w3tc');
-			$wp_toolbar->remove_node('w3tc-default');
-			$wp_toolbar->remove_node('w3tc-empty-caches');
-			$wp_toolbar->remove_node('w3tc-faq');
-			$wp_toolbar->remove_node('w3tc-support');
-			$wp_toolbar->remove_node('languages​​');
+			wp_die( __( 'This Plugin Requires WordPress 3.1+ or Greater: Activation Stopped!' ) );
 		}
-	add_action('admin_bar_menu', 'wptbr_ngr', 999);
 
-	function wptbr_ngr_ab()
+	function wptbr_1st()
 		{
-			global $wp_admin_bar;
-			$wp_admin_bar->remove_menu('root-default');
-			$wp_admin_bar->remove_menu('delete-cache');
-			$wp_admin_bar->remove_menu('network-admin');
-		}
-	add_action('wp_before_admin_bar_render', 'wptbr_ngr_ab', 999);
+			$path = str_replace( WP_PLUGIN_DIR . '/', '', __FILE__ );
 
-	function wptbr_ras()
-		{
-			echo '<style type="text/css">#adminmenushadow,#adminmenuback{background-image:none}</style>';
-		}
-	add_action('admin_head', 'wptbr_ras');
-
-	function wptbr_hdr()
-		{
-?>
-<style type="text/css">table#wptbr td#wptbr_ttl a:link,table#wptbr td#wptbr_ttl a:visited{text-decoration:none}table#wptbr td#wptbr_lgt,table#wptbr td#wptbr_lgt a{text-decoration:none}</style><table style="margin-left:6px;float:left;z-index:100;position:relative;left:0px;top:0px;background:none;padding:0px;border:0px;border-bottom:1px solid #DFDFDF" id="wptbr" border=0 cols=4 width="97%" height="33"><tr><td align=left valign=center id="wptbr_ttl">
-<?php
-			echo '<a href="' . home_url() . '">' . __(get_bloginfo()) . '</a>';
-?>
-</td><td align=right valign=center id="wptbr_lgt"><div style="padding-top:2px">
-<?php
-			wp_get_current_user();
-			$current_user = wp_get_current_user();
-			if (!($current_user instanceof WP_User))
-					return;
-			echo '' . $current_user->display_name . '';
-?>
-<?php
-			if (is_multisite() && is_super_admin())
+			if ( $plugins = get_option( 'active_plugins' ) )
 				{
-					if (!is_network_admin())
+					if ( $key = array_search( $path, $plugins ) )
 						{
-							echo ' | <a href="' . network_admin_url() . '">' . __('Network Admin') . '</a>';
-						}
-					else
-						{
-							echo ' | <a href="' . get_dashboard_url(get_current_user_id()) . '">' . __('Site Admin') . '</a>';
+							array_splice( $plugins, $key, 1 );
+							array_unshift( $plugins, $path );
+							update_option( 'active_plugins', $plugins );
 						}
 				}
-?>
- | 
-<?php
-			echo '<a href="' . wp_logout_url(home_url()) . '">' . __('Log Out') . '</a>';
-?>
-</div></td><td width="8"></td></tr></table>
-<?php
 		}
-	add_action('in_admin_header', 'wptbr_hdr');
+	add_action( "activated_plugin", "wptbr_1st" );
+
+	function wptbr_rbams()
+		{
+			echo "\n\n<!--Start Toolbar Removal Code-->\n\n";
+			echo '<style type="text/css">#adminmenushadow,#adminmenuback{background-image:none}</style>';
+			echo "\n\n<!--End Toolbar Removal Code-->\n\n";
+		}
+
+	if ( $wp_version >= 3.2 )
+		{
+			add_action( 'admin_head', 'wptbr_rbams' );
+		}
+
+	function wptbr_rbf28px()
+		{
+			echo "\n\n<!--Start Toolbar Removal Code-->\n\n";
+			echo '<style type="text/css">html.wp-toolbar,html.wp-toolbar #wpcontent,html.wp-toolbar #adminmenu,html.wp-toolbar #wpadminbar,body.admin-bar,body.admin-bar #wpcontent,body.admin-bar #adminmenu,body.admin-bar #wpadminbar{padding-top:0px !important}</style>';
+			echo "\n\n<!--End Toolbar Removal Code-->\n\n";
+		}
+	add_action( 'admin_print_styles', 'wptbr_rbf28px', 21 );
+
+	function wptbr_abtlh()
+		{
+			echo "\n\n<!--Start Toolbar Removal Code-->\n\n";
+?>
+<style type="text/css">table#tbrcss td#tbrcss_ttl a:link,table#tbrcss td#tbrcss_ttl a:visited{text-decoration:none}table#tbrcss td#tbrcss_lgt,table#tbrcss td#tbrcss_lgt a{text-decoration:none}</style>
+<table style="margin-left:6px;float:left;z-index:100;position:relative;left:0px;top:0px;background:none;padding:0px;border:0px;border-bottom:1px solid #DFDFDF" id="tbrcss" border="0" cols="4" width="97%" height="33">
+<tr>
+<td align="left" valign="center" id="tbrcss_ttl">
+<?php
+
+	echo '<a href="' . home_url() . '">' . __( get_bloginfo() ) . '</a>';
+
+?>
+</td>
+<td align="right" valign="center" id="tbrcss_lgt">
+<div style="padding-top:2px">
+<?php
+
+	echo date_i18n( get_option( 'date_format' ) );
+
+?>
+
+ @ 
+
+<?php
+
+	echo date_i18n( get_option( 'time_format' ) );
+
+?>
+
+<?php
+
+	wp_get_current_user();
+
+	$current_user = wp_get_current_user();
+
+	if ( !( $current_user instanceof WP_User ) )
+		return;
+
+	echo ' | ' . $current_user->display_name . '';
+
+	if ( is_multisite() && is_super_admin() )
+		{
+			if ( !is_network_admin() )
+				{
+					echo ' | <a href="' . network_admin_url() . '">' . __( 'Network Admin' ) . '</a>';
+				}
+			else
+				{
+					echo ' | <a href="' . get_DashBoard_url( get_current_user_id() ) . '">' . __( 'Site Admin' ) . '</a>';
+				}
+		}
+
+	echo ' | <a href="' . wp_logout_url( home_url() ) . '">' . __( 'Log Out' ) . '</a>';
+
+?>
+</div>
+</td>
+<td width="8">
+</td>
+</tr>
+</table>
+<?php
+			echo "\n<!--End Toolbar Removal Code-->\n\n";
+		}
+
+	if ( $wp_version >= 3.3 )
+		{
+			add_action( 'in_admin_header', 'wptbr_abtlh' );
+			add_filter( 'show_wp_pointer_admin_bar', '__return_false' );
+		}
+
+	function wp_toolbar_init()
+		{
+			add_filter( 'show_admin_bar', '__return_false' );
+			add_filter( 'wp_admin_bar_class', '__return_false' );
+		}
+	add_filter( 'init', 'wp_toolbar_init', 9 );
+
+	function wptbr_ruppoabpc()
+		{
+			echo "\n\n<!--Start Toolbar Removal Code-->\n\n";
+			echo '<style type="text/css">.show-admin-bar{display:none}</style>';
+			echo "\n\n<!--End Toolbar Removal Code-->\n\n";
+		}
+	add_action( 'admin_print_styles-profile.php', 'wptbr_ruppoabpc' );
 
 	$wp_scripts = new WP_Scripts();
 	wp_deregister_script( 'admin-bar' );
@@ -332,7 +320,6 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
 
 	remove_action( 'init', 'wp_admin_bar_init' );
 	remove_filter( 'init', 'wp_admin_bar_init' );
-
 	remove_action( 'wp_head', 'wp_admin_bar' );
 	remove_filter( 'wp_head', 'wp_admin_bar' );
 	remove_action( 'wp_footer', 'wp_admin_bar' );
@@ -341,7 +328,6 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
 	remove_filter( 'admin_head', 'wp_admin_bar' );
 	remove_action( 'admin_footer', 'wp_admin_bar' );
 	remove_filter( 'admin_footer', 'wp_admin_bar' );
-
 	remove_action( 'wp_head', 'wp_admin_bar_class' );
 	remove_filter( 'wp_head', 'wp_admin_bar_class' );
 	remove_action( 'wp_footer', 'wp_admin_bar_class' );
@@ -350,7 +336,6 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
 	remove_filter( 'admin_head', 'wp_admin_bar_class' );
 	remove_action( 'admin_footer', 'wp_admin_bar_class' );
 	remove_filter( 'admin_footer', 'wp_admin_bar_class' );
-
 	remove_action( 'wp_head', 'wp_admin_bar_css' );
 	remove_filter( 'wp_head', 'wp_admin_bar_css' );
 	remove_action( 'wp_head', 'wp_admin_bar_dev_css' );
@@ -367,7 +352,6 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
 	remove_filter( 'admin_head', 'wp_admin_bar_rtl_css' );
 	remove_action( 'admin_head', 'wp_admin_bar_rtl_dev_css' );
 	remove_filter( 'admin_head', 'wp_admin_bar_rtl_dev_css' );
-
 	remove_action( 'wp_footer', 'wp_admin_bar_js' );
 	remove_filter( 'wp_footer', 'wp_admin_bar_js' );
 	remove_action( 'wp_footer', 'wp_admin_bar_dev_js' );
@@ -376,10 +360,8 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
 	remove_filter( 'admin_footer', 'wp_admin_bar_js' );
 	remove_action( 'admin_footer', 'wp_admin_bar_dev_js' );
 	remove_filter( 'admin_footer', 'wp_admin_bar_dev_js' );
-
 	remove_action( 'locale', 'wp_admin_bar_lang' );
 	remove_filter( 'locale', 'wp_admin_bar_lang' );
-
 	remove_action( 'wp_head', 'wp_admin_bar_render', 1000 );
 	remove_filter( 'wp_head', 'wp_admin_bar_render', 1000 );
 	remove_action( 'wp_footer', 'wp_admin_bar_render', 1000 );
@@ -388,33 +370,48 @@ Indentation URI: http://www.gnu.org/prep/standards/standards.html
 	remove_filter( 'admin_head', 'wp_admin_bar_render', 1000 );
 	remove_action( 'admin_footer', 'wp_admin_bar_render', 1000 );
 	remove_filter( 'admin_footer', 'wp_admin_bar_render', 1000 );
-
 	remove_action( 'admin_footer', 'wp_admin_bar_render' );
 	remove_filter( 'admin_footer', 'wp_admin_bar_render' );
-
 	remove_action( 'wp_ajax_adminbar_render', 'wp_admin_bar_ajax_render', 1000 );
 	remove_filter( 'wp_ajax_adminbar_render', 'wp_admin_bar_ajax_render', 1000 );
-
 	remove_action( 'wp_ajax_adminbar_render', 'wp_admin_bar_ajax_render' );
 	remove_filter( 'wp_ajax_adminbar_render', 'wp_admin_bar_ajax_render' );
 
-	function wptbr_init()
+	function wptbr_rml( $links, $file )
 		{
-			add_filter('show_admin_bar', '__return_false');
+			if ( $file == plugin_basename( __FILE__ ) )
+				{
+					$links[] = '<a title="Bugfix and Suggestions" href="//slangji.wordpress.com/contact/">Contact</a>';
+					$links[] = '<a title="Offer a Beer to sLa" href="//slangji.wordpress.com/donate/">Donate</a>';
+					$links[] = '<a title="Visit other author plugins site" href="//slangji.wordpress.com/plugins/">Other</a>';
+				}
+			return $links;
 		}
-	add_filter('init', 'wptbr_init', 9);
+	add_filter( 'plugin_row_meta', 'wptbr_rml', 10, 2 );
 
-	function wptbr_spab_init()
+	function wptbr_hfl()
 		{
-			add_filter('show_wp_pointer_admin_bar', '__return_false');
-		}
-	add_filter('init', 'wptbr_spab_init', 9);
+			echo "\n<!--Plugin WP Toolbar Removal 2012.1121.0343 Active - Tag ".md5(md5("".""))."-->\n";
+			echo "\n<!--Site Optimized to Speedup Control Panel Minimize Memory Consumption with Disabled";
 
-	function wptbr_nfo()
-		{
-			echo "\n<!--Plugin ToolBar Removal 2012.1121.0343 Active - Tag: ".md5(md5("".""))."-->\n";
+			global $wp_version;
+
+			if ( $wp_version >= 3.3 )
+				{
+					echo " Toolbar";
+				}
+
+			if ( $wp_version >= 3.1 )
+				{
+					if ( $wp_version < 3.3 )
+						{
+							echo " Admin Bar";
+						}
+				}
+
+			echo "-->\n\n";
 		}
-	add_action('wp_head', 'wptbr_nfo');
-	add_action('wp_footer', 'wptbr_nfo');
+	add_action( 'wp_head', 'wptbr_hfl' );
+	add_action( 'wp_footer', 'wptbr_hfl' );
 
 ?>
