@@ -438,7 +438,7 @@ Humans URI: http://humanstxt.org/Standard.html
 
 		{
 
-			wp_enqueue_script( 'wp-toolbar-removal-js' , plugins_url( 'wp-toolbar-removal.js' , __FILE__ ) , array( 'admin-bar' , 'common' ) );
+			wp_enqueue_script( 'wp-toolbar-removal' , plugins_url( 'wp-toolbar-removal.js' , __FILE__ ) , array( 'admin-bar' , 'common' ) );
 
 		}
 
@@ -454,7 +454,7 @@ Humans URI: http://humanstxt.org/Standard.html
 
 		{
 
-			wp_enqueue_style( 'wp-toolbar-removal-css' , plugins_url( 'wp-toolbar-removal.css' , __FILE__ ) );
+			wp_enqueue_style( 'wp-toolbar-removal' , plugins_url( 'wp-toolbar-removal.css' , __FILE__ ) );
 
 		}
 
