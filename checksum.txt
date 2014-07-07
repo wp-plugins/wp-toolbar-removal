@@ -1,4 +1,4 @@
-WP Toolbar Removal - DEV - Build 2014-07-07 (Version 2014.0707.0392) MD5 Checksum:
+WP Toolbar Removal - TAG - Build 2014-07-07 (Version 2014.0707.0392) MD5 Checksum:
 
 index.htm                                         13BC1724EF97F0619C894AD7C5699F17
 index.html                                        13BC1724EF97F0619C894AD7C5699F17
@@ -9,11 +9,11 @@ gpl-2.0.txt                                       B234EE4D69F5FCE4486A80FDAF4A42
 humans.txt                                        C1509896B9059CDB6BA0A74F6F78CE74
 index.php                                         D9AB6DDE2263F42ADFB40F2932D40742
 license.txt                                       B234EE4D69F5FCE4486A80FDAF4A4263
-readme.txt                                        FA0C01BDAF3488C5549C81DC17C40459
+readme.txt                                        8AA5D0CE315CE77BF52653A3E86338F1
 
-wp-toolbar-removal.css                            5489405CE540EF37B8E7C699A87636B9
-wp-toolbar-removal.js                             A43A20DECD9B516378519AD921631591
-wp-toolbar-removal.php                            F9DFDC4FC52A325D8ECBFAB8E262271F
+wp-toolbar-removal.css                            A339858AFC756662F51678EBEEA0B482
+wp-toolbar-removal.js                             A81F81A23D915FE15431FF0D35DC4DE1
+wp-toolbar-removal.php                            F20018C01C4BAB8F93782BC98079254A
 
 WP Toolbar Removal - DEV - Build 2014-07-07 (Version 2014.0827.0400) MD5 Checksum:
 
