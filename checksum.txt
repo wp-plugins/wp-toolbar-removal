@@ -1,14 +1,24 @@
-WP Toolar Removal - Build 2014-05-31 (Version 2014.0531.0373) MD5 Checksum:
+WP Toolbar Removal - DEV - Build 2014-07-07 (Version 2014.0707.0392) MD5 Checksum:
 
-index.html                                    556AA5A2798B4B257C532348EE074AD0
-.htaccess                                     57F0ADD4CCE6E5ABF409839D8F903878
-gpl-2.0.txt                                   B234EE4D69F5FCE4486A80FDAF4A4263
-humans.txt                                    C1509896B9059CDB6BA0A74F6F78CE74
-index.php                                     C2B09AC774912FDD720502BCCE3D5B8B
-license.txt                                   B234EE4D69F5FCE4486A80FDAF4A4263
-readme.txt                                    19DFAA165713392B6BD32D8DB64B4AD5
-wp-toolbar-removal.css                        5489405CE540EF37B8E7C699A87636B9
-wp-toolbar-removal.js                         A43A20DECD9B516378519AD921631591
-wp-toolbar-removal.php                        5D13F187E50BD173A23AF5BDEAA190AB
+index.htm                                         13BC1724EF97F0619C894AD7C5699F17
+index.html                                        13BC1724EF97F0619C894AD7C5699F17
+
+.htaccess                                         57F0ADD4CCE6E5ABF409839D8F903878
+
+gpl-2.0.txt                                       B234EE4D69F5FCE4486A80FDAF4A4263
+humans.txt                                        C1509896B9059CDB6BA0A74F6F78CE74
+index.php                                         D9AB6DDE2263F42ADFB40F2932D40742
+license.txt                                       B234EE4D69F5FCE4486A80FDAF4A4263
+readme.txt                                        FA0C01BDAF3488C5549C81DC17C40459
+
+wp-toolbar-removal.css                            5489405CE540EF37B8E7C699A87636B9
+wp-toolbar-removal.js                             A43A20DECD9B516378519AD921631591
+wp-toolbar-removal.php                            F9DFDC4FC52A325D8ECBFAB8E262271F
+
+WP Toolbar Removal - DEV - Build 2014-07-07 (Version 2014.0827.0400) MD5 Checksum:
+
+wp-toolbar-removal-dev.css                        ED1ADFE54D41A3164FA1DA8ADE744E70
+wp-toolbar-removal-dev.js                         0B7341B76E41E02D34C2030086D5DCA7
+wp-toolbar-removal-dev.php                        1E73AC8377DAF22CB76B0D84D5F3EABD
 
 

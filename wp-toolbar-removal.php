@@ -1,16 +1,18 @@
-<?php
+<?php 
 /*
 Plugin Name: WP Toolbar Removal
 Plugin URI: http://slangji.wordpress.com/wp-toolbar-removal/
-Description: disable toolbar and admin bar on wordpress 3.1+ to 3.7+ for all users and completely remove code on frontend, backend, user personal options settings, for minimize memory consumption, and speed up loading of the admin control panel, with new unified coding approach and without loosing logout and network multisite functionality! Hide: Frontend 28px GAP and Bump CB, Backend 28px GAP and Node/Group/Links, on Top of Site and DashBoard, Admin Menu Shadow Effect and Pointer ToolTips. The configuration of this Plugin is Automattic!
-Version: 2014.0531.0373
+Description: disable toolbar or admin bar on WordPress 3.1+ to 3.9+ for all admin and user roles, completely remove code on front and back end with related user personal options settings, for minimize memory consumption and speed up loading of the admin control panel with new unified coding approach, without loosing logout and network multisite functionality: the configuration of this plugin is Automatic!
+Version: 2014.0707.0392
 Author: slangjis
 Author URI: http://slangji.wordpress.com/
 Requires at least: 3.1
-Tested up to: 3.7.3
-Network: true
+Tested up to: 3.9.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+/**
 Indentation: GNU style coding standard
 Indentation URI: http://www.gnu.org/prep/standards/standards.html
 Humans: We are the humans behind
@@ -20,7 +22,7 @@ Humans URI: http://humanstxt.org/Standard.html
  *
  * [WP Toolbar Removal](//wordpress.org/plugins/wp-toolbar-removal/)
  *
- * Disable WordPress Toolbar and Admin Bar and Remove Code
+ * Disable WordPress Toolbar or Admin Bar and Remove Code
  *
  * Copyright (C) 2010-2014 [sLaNGjIs](//slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
  *
@@ -55,7 +57,8 @@ Humans URI: http://humanstxt.org/Standard.html
  * There is some legal grey area regarding what is considered a derivative work, but we feel
  * strongly that plugins and themes are derivative work and thus inherit the GPL license.
  *
- * The license for this software can be found on [Free Software Foundation](//www.gnu.org/licenses/gpl-2.0.html) and as license.txt into this plugin package.
+ * The license for this software can be found on [Free Software Foundation](//www.gnu.org/licenses/gpl-2.0.html) and
+ * as license.txt into this plugin package.
  *
  * The author of this plugin is available at any time, to make all changes, or corrections, to respect these specifications.
  *
@@ -109,7 +112,8 @@ Humans URI: http://humanstxt.org/Standard.html
  *
  * according to the terms of the GNU General Public License version 2 (or later)
  *
- * According to the Terms of the GNU General Public License version 2 (or later) part of Copyright belongs to your own author and part belongs to their respective other authors:
+ * According to the Terms of the GNU General Public License version 2 (or later) part of Copyright belongs to your
+ * own author and part belongs to their respective other authors:
  *
  * Copyright (C) 2008-2014 [sLaNGjIs](//slangji.wordpress.com/) (email: <slangjis [at] googlemail [dot] com>)
  * Copyright (C) 2011-2014 [olyma](//rackofpower.com/) (email: <olyma [at] rackofpower [dot] com>)
@@ -118,21 +122,27 @@ Humans URI: http://humanstxt.org/Standard.html
  * VIOLATIONS
  *
  * [Violations of the GNU Licenses](//www.gnu.org/licenses/gpl-violation.en.html)
+ *
  * The author of this plugin is available at any time, to make all changes, or corrections, to respect these specifications.
  *
  * GUIDELINES
  *
- * This software meet [Detailed Plugin Guidelines](//wordpress.org/plugins/about/guidelines/) paragraphs 1,4,10,12,13,16,17 quality requirements.
+ * This software meet [Detailed Plugin Guidelines](//wordpress.org/plugins/about/guidelines/) paragraphs
+ * 1,4,10,12,13,16,17 quality requirements.
+ *
  * The author of this plugin is available at any time, to make all changes, or corrections, to respect these specifications.
  *
  * CODING
  *
  * This software implement [GNU style](//www.gnu.org/prep/standards/standards.html) coding standard indentation.
+ *
  * The author of this plugin is available at any time, to make all changes, or corrections, to respect these specifications.
  *
  * VALIDATION
  *
- * This readme.txt rocks. Seriously. Flying colors. It meet the specifications according to WordPress [Readme Validator](//wordpress.org/plugins/about/validator/) directives.
+ * This readme.txt rocks. Seriously. Flying colors. It meet the specifications according to WordPress
+ * [Readme Validator](//wordpress.org/plugins/about/validator/) directives.
+ *
  * The author of this plugin is available at any time, to make all changes, or corrections, to respect these specifications.
  *
  * HUMANS (humans.txt)
@@ -140,6 +150,7 @@ Humans URI: http://humanstxt.org/Standard.html
  * We are the Humans behind this project [humanstxt.org](//humanstxt.org/Standard.html)
  *
  * This software meet detailed humans rights belongs to your own author and to their respective other authors.
+ *
  * The author of this plugin is available at any time, to make all changes, or corrections, to respect these specifications.
  *
  * THANKS
@@ -157,13 +168,13 @@ Humans URI: http://humanstxt.org/Standard.html
 
 	/**
 	 * @package WP Toolbar Removal
-	 * @subpackage WordPress PlugIn
-	 * @description Disable WordPress Toolbar and Admin Bar and Remove Code
-	 * @branche 2013
-	 * @build   2014-05-31
+	 * @subpackage WordPress Plugin
+	 * @description Disable WordPress Toolbar or Admin Bar and Remove Code
+	 * @branche 2014
+	 * @build   2014-07-07
 	 * @since   3.1.0
-	 * @tested  3.7.3
-	 * @version 2014.0531.0373
+	 * @tested  3.9.2
+	 * @version 2014.0707.0392
 	 * @status STABLE (trunk) release
 	 * @development Code in Becoming!
 	 * @author slangjis
@@ -391,7 +402,7 @@ Humans URI: http://humanstxt.org/Standard.html
 
 	function wptbr_hfl()
 		{
-			echo "\n<!--Plugin WP Toolbar Removal 2014.0531.0373 Active - Tag ".md5(md5("".""))."-->\n";
+			echo "\n<!--Plugin WP Toolbar Removal 2014.0707.0392 Active - Tag ".md5(md5("".""))."-->\n";
 			echo "\n<!--Site Optimized to Speedup Control Panel Minimize Memory Consumption with Disabled";
 
 			global $wp_version;
