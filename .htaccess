@@ -22,7 +22,15 @@ Deny From All
 Order Allow,Deny
 Deny From All
 </Files>
+<Files wp-toolbar-removal-dev.css>
+Order Allow,Deny
+Deny From All
+</Files>
 <Files wp-toolbar-removal.js>
+Order Allow,Deny
+Deny From All
+</Files>
+<Files wp-toolbar-removal-dev.js>
 Order Allow,Deny
 Deny From All
 </Files>
