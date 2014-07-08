@@ -1,0 +1,15 @@
+WP Toolbar Removal - TAG - Version 2014.0708.0383 (Build 2014-07-08) MD5 Checksum:
+
+index.htm                                         89A986ADE5F2DE5E82A862BFB9F8668B
+index.html                                        89A986ADE5F2DE5E82A862BFB9F8668B
+
+.htaccess                                         D30948069EEF28F27E34693C5E6E86FC
+
+gpl-2.0.txt                                       B234EE4D69F5FCE4486A80FDAF4A4263
+humans.txt                                        C1509896B9059CDB6BA0A74F6F78CE74
+index.php                                         91CF7C943D4B47004CCE5098C63E28A5
+license.txt                                       B234EE4D69F5FCE4486A80FDAF4A4263
+
+wp-toolbar-removal.css                            8EDD0D3D4DC6D0080B1217A5D04A7DCA
+wp-toolbar-removal.js                             432F592AE1A731C11456E1AEA305E15D
+wp-toolbar-removal.php                            8EDD0D3D4DC6D0080B1217A5D04A7DCA
