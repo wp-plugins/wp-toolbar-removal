@@ -9,7 +9,7 @@ gpl-2.0.txt                                         B234EE4D69F5FCE4486A80FDAF4A
 humans.txt                                          C1509896B9059CDB6BA0A74F6F78CE74
 index.php                                           91CF7C943D4B47004CCE5098C63E28A5
 license.txt                                         B234EE4D69F5FCE4486A80FDAF4A4263
-readme.txt                                          E08C9CD39EF7F8EA2E3FC5760E0C5369
+readme.txt                                          758B6BB9F5D67CD2FE363766CA3939A2
 
 wp-toolbar-removal.css                              A03DAA8530A07D051424B0FA67489310
 wp-toolbar-removal.js                               0CFF524B3FCE96D0BEEBBD8FF3B3BA3E
