@@ -4,8 +4,8 @@
  * @subpackage External JS Enqueue Script
  * @branche 2014
  * @build   2014-07-07
- * @since   3.8.3
- * @tested  4.0.0
+ * @since   3.8+
+ * @tested  4.0+
  * @version 2014.0707.0392
  * @target  2014.1210.0410
  * @status STABLE (trunk) release

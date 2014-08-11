@@ -11,6 +11,6 @@ index.php                                             B1DDE13C7371150BB5C1553A7E
 license.txt                                           B234EE4D69F5FCE4486A80FDAF4A4263
 readme.txt                                            55A3FF4EDF8D9C252BF93D2725111359
 
-wp-toolbar-removal.css                                A03DAA8530A07D051424B0FA67489310
-wp-toolbar-removal.js                                 0CFF524B3FCE96D0BEEBBD8FF3B3BA3E
+wp-toolbar-removal.css                                041997E96CC24BD36D3091953EAA7398
+wp-toolbar-removal.js                                 6DAC7DA1602272670FA398FA391BFB07
 wp-toolbar-removal.php                                5B7D1FDA106704755267B174A9AEB2A4
