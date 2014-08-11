@@ -1,16 +1,16 @@
-WP Toolbar Removal - TRUNK - Version 2014.0707.0392 (Build 2014-07-07) MD5 Checksum:
+WP Toolbar Removal   - TRUNK - Version 2014.0707.0392 (Build 2014-07-07) MD5 Checksum:
 
-index.htm                                           89A986ADE5F2DE5E82A862BFB9F8668B
-index.html                                          89A986ADE5F2DE5E82A862BFB9F8668B
+index.htm                                             A179F0896DE6744B2F841DBF25177B91
+index.html                                            A179F0896DE6744B2F841DBF25177B91
 
-.htaccess                                           D30948069EEF28F27E34693C5E6E86FC
+.htaccess                                             BAA275ECC66264345C640E5B44C4AD47
 
-gpl-2.0.txt                                         B234EE4D69F5FCE4486A80FDAF4A4263
-humans.txt                                          C1509896B9059CDB6BA0A74F6F78CE74
-index.php                                           91CF7C943D4B47004CCE5098C63E28A5
-license.txt                                         B234EE4D69F5FCE4486A80FDAF4A4263
-readme.txt                                          758B6BB9F5D67CD2FE363766CA3939A2
+gpl-2.0.txt                                           B234EE4D69F5FCE4486A80FDAF4A4263
+humans.txt                                            38FE8DAD2203948BF9034587C5FC6455
+index.php                                             B1DDE13C7371150BB5C1553A7E48E40C
+license.txt                                           B234EE4D69F5FCE4486A80FDAF4A4263
+readme.txt                                            55A3FF4EDF8D9C252BF93D2725111359
 
-wp-toolbar-removal.css                              A03DAA8530A07D051424B0FA67489310
-wp-toolbar-removal.js                               0CFF524B3FCE96D0BEEBBD8FF3B3BA3E
-wp-toolbar-removal.php                              87C45D11CE1369031FC1B55D0BF1EE3D
+wp-toolbar-removal.css                                A03DAA8530A07D051424B0FA67489310
+wp-toolbar-removal.js                                 0CFF524B3FCE96D0BEEBBD8FF3B3BA3E
+wp-toolbar-removal.php                                5B7D1FDA106704755267B174A9AEB2A4
