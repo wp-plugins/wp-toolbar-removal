@@ -3,11 +3,11 @@
 Plugin Name: WP Toolbar Removal
 Plugin URI: http://slangji.wordpress.com/wp-toolbar-removal/
 Description: disable toolbar or admin bar on WordPress 3.1+ to 3.7+ for all admin and user roles, completely remove code on front and back end with related user personal options settings, for minimize memory consumption and speed up loading of the admin control panel with new unified coding approach, without loosing logout and network multisite functionality: the configuration of this plugin is Automatic!
-Version: 2014.0531.0373
+Version: 2014.0531.0374
 Author: slangjis
 Author URI: http://slangji.wordpress.com/
 Requires at least: 3.1
-Tested up to: 3.7.3
+Tested up to: 3.7.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
@@ -174,8 +174,8 @@ Humans URI: http://humanstxt.org/Standard.html
 	 * @branche 2014
 	 * @build   2014-05-31
 	 * @since   3.1.0
-	 * @tested  3.7.3
-	 * @version 2014.0531.0373
+	 * @tested  3.7.4
+	 * @version 2014.0531.0374
 	 * @status STABLE (trunk) release
 	 * @development Code in Becoming!
 	 * @author slangjis
@@ -403,7 +403,7 @@ Humans URI: http://humanstxt.org/Standard.html
 
 	function wptbr_hfl()
 		{
-			echo "\n<!--Plugin WP Toolbar Removal 2014.0531.0373 Active - Tag ".md5(md5("".""))."-->\n";
+			echo "\n<!--Plugin WP Toolbar Removal 2014.0531.0374 Active - Tag ".md5(md5("".""))."-->\n";
 			echo "\n<!--Site Optimized to Speedup Control Panel Minimize Memory Consumption with Disabled";
 
 			global $wp_version;
